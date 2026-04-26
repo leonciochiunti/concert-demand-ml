@@ -1,451 +1,1201 @@
 artist,genre,city,venue_type,capacity,month,event_day,days_until_event,marketing_budget,ticket_price,artist_popularity,occupancy_pct,tickets_sold,demand_class
-Peso Pluma,regional,Guadalajara,festival_ground,3000,2,domingo,144,20000,3345,86,59.5,1785,media
-Feid,urbano,CDMX,arena,40000,7,lunes,68,20000,3827,82,47.2,18880,baja
-Taylor Swift,pop,Veracruz,arena,12000,11,sabado,156,20000,3599,98,80.3,9636,alta
-Dua Lipa,pop,Guadalajara,theater,40000,3,viernes,37,120000,2877,87,69.6,27840,media
-Dua Lipa,pop,Guadalajara,arena,12000,6,lunes,147,160000,864,87,72.2,8664,media
-Julión Álvarez,regional,Toluca,festival_ground,25000,8,viernes,123,50000,2805,79,60.2,15050,media
-Coldplay,rock,Guadalajara,stadium,5000,10,miercoles,141,80000,3163,92,70.1,3505,media
-The Weeknd,pop,Monterrey,festival_ground,8000,6,martes,132,80000,671,90,73.8,5904,media
-The Weeknd,pop,Toluca,theater,25000,12,miercoles,159,80000,4087,90,58.9,14725,media
-Imagine Dragons,rock,Querétaro,arena,3000,12,sabado,86,160000,4000,84,80.1,2402,alta
-Shakira,pop,León,theater,3000,8,miercoles,50,120000,1309,91,67.5,2025,media
-Shakira,pop,Guadalajara,stadium,40000,7,domingo,134,20000,1712,91,76.2,30480,alta
-Mora,urbano,León,theater,8000,7,domingo,147,50000,3752,78,77.5,6200,alta
-Adele,pop,Puebla,stadium,5000,3,martes,66,160000,2261,90,75.4,3770,alta
-Bad Bunny,urbano,Querétaro,stadium,18000,5,lunes,44,80000,3374,95,57.5,10350,media
-Karol G,urbano,Toluca,arena,55000,11,domingo,150,80000,3610,89,62.2,34210,media
-Adele,pop,León,arena,55000,11,jueves,22,35000,901,90,72.0,39600,media
-Metallica,rock,Tijuana,arena,5000,1,viernes,45,120000,1181,88,84.1,4205,alta
-Maná,rock,Veracruz,arena,5000,4,viernes,103,35000,2416,80,82.7,4135,alta
-Julión Álvarez,regional,Monterrey,arena,55000,8,jueves,130,50000,1053,79,57.8,31790,media
-Karol G,urbano,Monterrey,theater,18000,8,domingo,48,120000,539,89,87.5,15750,alta
-Maná,rock,Guadalajara,arena,18000,11,domingo,30,160000,2489,80,96.5,17370,alta
-Zoé,rock,Tijuana,stadium,25000,4,viernes,145,220000,4468,76,71.4,17850,media
-Feid,urbano,Puebla,festival_ground,12000,4,viernes,133,50000,587,82,89.6,10752,alta
-Bad Bunny,urbano,Mérida,festival_ground,18000,4,sabado,161,50000,4013,95,74.8,13464,media
-Maná,rock,Tijuana,arena,12000,2,martes,127,35000,3116,80,47.9,5748,baja
-Feid,urbano,Querétaro,arena,55000,11,miercoles,171,20000,1332,82,69.2,38060,media
-Feid,urbano,Querétaro,stadium,40000,11,miercoles,29,220000,3592,82,58.7,23480,media
-Mora,urbano,León,arena,8000,3,martes,14,35000,4162,78,54.3,4344,media
-Julión Álvarez,regional,Tijuana,stadium,8000,1,lunes,173,20000,1490,79,61.3,4904,media
-Arctic Monkeys,rock,Puebla,stadium,3000,5,martes,81,120000,2320,81,70.2,2106,media
-Dua Lipa,pop,León,stadium,3000,12,miercoles,124,160000,3795,87,66.1,1982,media
-Zoé,rock,Guadalajara,stadium,3000,8,domingo,53,120000,382,76,88.2,2646,alta
-Karol G,urbano,Querétaro,arena,3000,6,sabado,139,120000,4302,89,69.1,2072,media
-Metallica,rock,Toluca,arena,12000,4,miercoles,17,220000,1150,88,75.5,9060,alta
-The Weeknd,pop,Querétaro,theater,12000,12,miercoles,122,120000,4266,90,64.5,7740,media
-Zoé,rock,Puebla,theater,12000,8,martes,113,20000,3564,76,49.1,5892,baja
-Coldplay,rock,León,arena,12000,11,miercoles,38,220000,1615,92,85.9,10308,alta
-Maná,rock,Guadalajara,theater,8000,8,martes,31,80000,4341,80,62.3,4984,media
-Coldplay,rock,Guadalajara,festival_ground,40000,6,jueves,57,50000,2959,92,67.7,27080,media
-The Weeknd,pop,Tijuana,arena,25000,9,jueves,119,160000,498,90,68.6,17149,media
-Shakira,pop,Toluca,arena,5000,4,lunes,28,50000,2577,91,74.6,3730,media
-Taylor Swift,pop,Guadalajara,theater,8000,7,domingo,180,220000,2468,98,87.8,7024,alta
-Zoé,rock,Veracruz,festival_ground,25000,2,miercoles,21,220000,1851,76,72.2,18050,media
-Arctic Monkeys,rock,Monterrey,theater,3000,11,lunes,73,20000,2171,81,79.1,2372,alta
-Mora,urbano,CDMX,theater,40000,5,viernes,40,20000,2303,78,68.1,27240,media
-Metallica,rock,Guadalajara,theater,3000,3,martes,86,160000,2848,88,66.7,2001,media
-Mora,urbano,Toluca,stadium,18000,6,domingo,11,50000,652,78,71.8,12924,media
-Bad Bunny,urbano,CDMX,stadium,55000,4,jueves,34,160000,3890,95,66.3,36465,media
-Adele,pop,Toluca,theater,12000,4,miercoles,57,220000,1494,90,74.1,8891,media
-Adele,pop,Tijuana,arena,8000,1,lunes,167,160000,2443,90,71.3,5704,media
-Adele,pop,Toluca,theater,12000,12,miercoles,18,80000,1868,90,71.6,8591,media
-Luis Miguel,pop,Mérida,festival_ground,3000,5,miercoles,91,120000,3000,85,67.8,2034,media
-Shakira,pop,Puebla,theater,8000,1,miercoles,104,20000,4238,91,73.5,5880,media
-Imagine Dragons,rock,Toluca,stadium,12000,9,domingo,8,20000,2514,84,73.7,8844,media
-Taylor Swift,pop,León,arena,18000,5,sabado,66,20000,1621,98,70.6,12708,media
-Adele,pop,Tijuana,festival_ground,8000,5,sabado,165,160000,1535,90,99,7920,alta
-Zoé,rock,León,stadium,3000,11,viernes,171,35000,1047,76,83.5,2505,alta
-Bad Bunny,urbano,CDMX,stadium,25000,2,jueves,122,120000,765,95,73.7,18425,media
-Coldplay,rock,Querétaro,theater,3000,8,domingo,24,160000,4470,92,66.8,2004,media
-Dua Lipa,pop,Monterrey,arena,55000,5,domingo,26,220000,2525,87,80.6,44330,alta
-Coldplay,rock,Querétaro,festival_ground,40000,2,jueves,80,220000,732,92,87.4,34960,alta
-Feid,urbano,Monterrey,stadium,25000,5,sabado,84,120000,1443,82,83.2,20800,alta
-Imagine Dragons,rock,Monterrey,stadium,55000,5,sabado,139,50000,4156,84,62.6,34430,media
-Mora,urbano,Querétaro,arena,12000,5,lunes,128,20000,2722,78,45.3,5436,baja
-Mora,urbano,Mérida,festival_ground,12000,4,lunes,155,20000,1511,78,70.6,8471,media
-Zoé,rock,Mérida,theater,8000,10,domingo,168,120000,2640,76,79.4,6352,alta
-Coldplay,rock,Querétaro,festival_ground,40000,1,martes,7,80000,4042,92,46.5,18600,baja
-Adele,pop,Mérida,stadium,40000,6,jueves,87,20000,3064,90,64.9,25960,media
-Adele,pop,Monterrey,stadium,3000,12,miercoles,71,50000,882,90,81.7,2451,alta
-Adele,pop,León,arena,25000,7,domingo,77,220000,745,90,91.0,22750,alta
-Shakira,pop,Guadalajara,stadium,18000,7,viernes,87,35000,3408,91,76.8,13824,alta
-Arctic Monkeys,rock,CDMX,festival_ground,12000,12,lunes,19,160000,3715,81,64.0,7680,media
-Shakira,pop,Querétaro,arena,8000,3,jueves,113,50000,2658,91,69.1,5528,media
-Shakira,pop,Mérida,theater,40000,11,martes,84,80000,3580,91,62.5,25000,media
-The Weeknd,pop,Puebla,festival_ground,12000,8,miercoles,122,80000,1493,90,80.0,9600,alta
-Dua Lipa,pop,Puebla,stadium,5000,3,miercoles,149,20000,2965,87,63.4,3170,media
-Feid,urbano,CDMX,festival_ground,40000,7,sabado,141,35000,3437,82,73.7,29480,media
-Imagine Dragons,rock,Tijuana,arena,55000,5,viernes,99,35000,4473,84,42.8,23540,baja
-Feid,urbano,Monterrey,theater,12000,7,jueves,172,80000,3887,82,61.9,7428,media
-Shakira,pop,CDMX,stadium,3000,7,sabado,128,120000,4362,91,92.0,2760,alta
-Zoé,rock,Querétaro,festival_ground,12000,2,martes,46,35000,1242,76,64.7,7764,media
-Mora,urbano,Monterrey,arena,3000,3,martes,152,20000,2838,78,70.7,2121,media
-Zoé,rock,León,arena,5000,2,miercoles,141,120000,1920,76,64.1,3205,media
-Adele,pop,Mérida,stadium,3000,1,viernes,84,80000,2632,90,88.6,2658,alta
-Coldplay,rock,Querétaro,stadium,12000,1,jueves,173,50000,803,92,72.3,8676,media
-Bad Bunny,urbano,Puebla,festival_ground,40000,2,miercoles,65,160000,3826,95,66.0,26400,media
-Taylor Swift,pop,Tijuana,festival_ground,25000,11,jueves,57,20000,2742,98,63.0,15750,media
-Zoé,rock,Monterrey,stadium,55000,4,miercoles,56,35000,4160,76,54.2,29810,media
-Shakira,pop,Monterrey,festival_ground,8000,4,jueves,113,160000,812,91,99,7920,alta
-Karol G,urbano,León,arena,12000,1,viernes,43,80000,774,89,82.5,9900,alta
-Mora,urbano,Tijuana,arena,5000,3,miercoles,55,35000,4180,78,49.1,2455,baja
-Taylor Swift,pop,Mérida,festival_ground,25000,6,jueves,50,20000,373,98,72.6,18149,media
-Arctic Monkeys,rock,Monterrey,stadium,40000,6,domingo,86,220000,3892,81,74.9,29960,media
-The Weeknd,pop,CDMX,festival_ground,12000,6,viernes,121,35000,2998,90,69.5,8340,media
-Bad Bunny,urbano,León,stadium,40000,1,jueves,15,80000,862,95,78.8,31520,alta
-Taylor Swift,pop,Mérida,stadium,5000,10,miercoles,99,50000,3094,98,77.8,3890,alta
-Imagine Dragons,rock,Tijuana,theater,18000,1,sabado,159,220000,885,84,79.8,14364,alta
-Bad Bunny,urbano,Puebla,arena,55000,12,jueves,105,220000,2406,95,85.1,46805,alta
-Karol G,urbano,Querétaro,stadium,3000,12,miercoles,45,120000,2284,89,70.0,2100,media
-Peso Pluma,regional,Tijuana,festival_ground,25000,10,lunes,138,35000,3558,86,54.2,13550,media
-The Weeknd,pop,CDMX,festival_ground,25000,3,jueves,33,20000,2519,90,58.9,14725,media
-The Weeknd,pop,Puebla,arena,40000,8,sabado,121,35000,2268,90,71.4,28560,media
-Coldplay,rock,Toluca,arena,18000,5,miercoles,152,50000,3405,92,62.0,11160,media
-Imagine Dragons,rock,Mérida,stadium,55000,4,martes,69,35000,1606,84,58.3,32065,media
-Feid,urbano,Tijuana,arena,40000,5,martes,136,120000,2245,82,73.2,29280,media
-Metallica,rock,Querétaro,arena,5000,1,jueves,66,220000,4022,88,72.1,3605,media
-Shakira,pop,Puebla,arena,3000,4,viernes,156,35000,965,91,84.6,2537,alta
-Maná,rock,Toluca,stadium,55000,10,miercoles,177,20000,1216,80,48.2,26510,baja
-Maná,rock,Puebla,arena,25000,6,martes,18,35000,2438,80,46.9,11725,baja
-Taylor Swift,pop,Veracruz,stadium,3000,6,jueves,180,50000,1866,98,70.0,2100,media
-Taylor Swift,pop,Querétaro,festival_ground,5000,7,lunes,108,160000,1616,98,82.8,4140,alta
-Dua Lipa,pop,Monterrey,stadium,40000,12,miercoles,111,50000,2869,87,60.7,24280,media
-Maná,rock,León,festival_ground,3000,6,sabado,57,80000,3667,80,70.8,2124,media
-Feid,urbano,CDMX,festival_ground,8000,7,lunes,30,80000,3337,82,67.7,5416,media
-Bad Bunny,urbano,CDMX,stadium,40000,2,viernes,166,50000,4482,95,68.8,27520,media
-Luis Miguel,pop,Guadalajara,theater,18000,3,viernes,50,20000,1241,85,62.2,11196,media
-Feid,urbano,Mérida,stadium,3000,8,miercoles,20,120000,3527,82,72.5,2175,media
-The Weeknd,pop,Veracruz,stadium,12000,10,jueves,164,220000,1956,90,81.8,9816,alta
-Feid,urbano,CDMX,festival_ground,8000,7,miercoles,38,35000,2373,82,68.5,5480,media
-Feid,urbano,CDMX,arena,25000,2,jueves,160,80000,2858,82,59.0,14750,media
-Coldplay,rock,León,festival_ground,25000,8,viernes,119,35000,541,92,72.9,18225,media
-Bad Bunny,urbano,Veracruz,festival_ground,55000,4,jueves,165,220000,4104,95,73.3,40315,media
-Adele,pop,Monterrey,arena,8000,6,jueves,100,20000,3970,90,50.9,4072,media
-Zoé,rock,Toluca,arena,3000,11,martes,28,160000,2920,76,70.1,2102,media
-Taylor Swift,pop,Toluca,festival_ground,8000,1,domingo,23,120000,1247,98,80.4,6432,alta
-Feid,urbano,Guadalajara,festival_ground,18000,3,sabado,63,20000,3224,82,61.5,11070,media
-Peso Pluma,regional,Veracruz,theater,55000,3,miercoles,135,80000,2056,86,50.5,27775,media
-Imagine Dragons,rock,Veracruz,stadium,25000,6,lunes,57,35000,3655,84,61.0,15250,media
-Peso Pluma,regional,León,stadium,18000,2,domingo,142,20000,3297,86,78.4,14112,alta
-Mora,urbano,Toluca,arena,18000,9,sabado,107,160000,3393,78,65.7,11826,media
-Karol G,urbano,Tijuana,theater,5000,8,martes,52,120000,745,89,95.5,4775,alta
-Shakira,pop,Toluca,theater,18000,11,domingo,156,160000,2911,91,75.1,13518,alta
-Coldplay,rock,Guadalajara,theater,40000,7,viernes,100,20000,1431,92,61.6,24640,media
-Julión Álvarez,regional,Puebla,arena,3000,1,lunes,152,50000,2838,79,65.5,1965,media
-Coldplay,rock,León,theater,8000,4,miercoles,166,220000,4240,92,76.3,6104,alta
-Luis Miguel,pop,Guadalajara,arena,12000,12,martes,122,20000,871,85,65.8,7896,media
-Imagine Dragons,rock,León,theater,3000,1,sabado,150,50000,3985,84,53.7,1611,media
-Zoé,rock,Querétaro,stadium,8000,1,lunes,22,120000,556,76,69.5,5560,media
-Taylor Swift,pop,Monterrey,arena,12000,3,jueves,58,120000,3751,98,75.6,9071,alta
-Luis Miguel,pop,Toluca,theater,5000,5,sabado,19,160000,4265,85,70.5,3525,media
-Arctic Monkeys,rock,Querétaro,arena,55000,3,martes,33,50000,2252,81,52.1,28655,media
-Taylor Swift,pop,Monterrey,theater,18000,12,lunes,75,160000,3922,98,64.0,11520,media
-Imagine Dragons,rock,Mérida,stadium,5000,9,lunes,50,50000,2284,84,51.3,2565,media
-Feid,urbano,Guadalajara,theater,12000,7,miercoles,160,35000,3458,82,70.4,8448,media
-Dua Lipa,pop,Querétaro,festival_ground,3000,1,jueves,66,120000,2871,87,63.3,1899,media
-Feid,urbano,León,arena,8000,3,lunes,13,20000,1223,82,61.9,4952,media
-Karol G,urbano,CDMX,arena,3000,3,sabado,171,160000,699,89,92.3,2769,alta
-The Weeknd,pop,CDMX,arena,25000,4,domingo,143,160000,890,90,99,24750,alta
-Adele,pop,Monterrey,stadium,12000,4,lunes,15,20000,1066,90,70.8,8496,media
-Shakira,pop,Querétaro,arena,8000,2,domingo,172,35000,2762,91,71.1,5688,media
-Bad Bunny,urbano,Tijuana,theater,18000,1,sabado,101,50000,4476,95,68.7,12366,media
-Julión Álvarez,regional,Mérida,arena,40000,1,jueves,139,220000,1155,79,61.2,24480,media
-Dua Lipa,pop,Veracruz,stadium,5000,10,domingo,80,35000,3922,87,77.5,3875,alta
-Bad Bunny,urbano,Toluca,stadium,18000,1,lunes,96,80000,1133,95,57.5,10350,media
-Luis Miguel,pop,Querétaro,theater,18000,10,martes,79,220000,2108,85,68.5,12330,media
-Coldplay,rock,Querétaro,stadium,5000,11,domingo,27,80000,1206,92,84.8,4240,alta
-Adele,pop,León,arena,40000,11,lunes,102,35000,2833,90,52.4,20960,media
-Imagine Dragons,rock,León,stadium,40000,11,martes,124,35000,627,84,61.3,24520,media
-Karol G,urbano,Querétaro,theater,8000,8,jueves,72,120000,2242,89,73.4,5872,media
-Karol G,urbano,Tijuana,festival_ground,12000,9,martes,75,50000,1616,89,66.7,8004,media
-Peso Pluma,regional,Veracruz,theater,8000,4,miercoles,55,50000,1183,86,50.5,4040,media
-Luis Miguel,pop,Monterrey,stadium,40000,3,martes,84,160000,2786,85,61.2,24480,media
-Metallica,rock,Mérida,stadium,40000,8,lunes,10,80000,3926,88,54.9,21960,media
-Coldplay,rock,Toluca,theater,55000,1,martes,72,120000,3665,92,58.4,32120,media
-Arctic Monkeys,rock,Veracruz,festival_ground,12000,11,sabado,174,220000,2222,81,88.2,10584,alta
-Luis Miguel,pop,Monterrey,festival_ground,40000,6,miercoles,167,160000,1151,85,75.0,30000,alta
-Adele,pop,Guadalajara,theater,40000,8,jueves,12,120000,3703,90,53.0,21200,media
-Zoé,rock,Guadalajara,theater,3000,7,domingo,132,20000,662,76,79.3,2379,alta
-Feid,urbano,Toluca,theater,5000,10,jueves,145,35000,4247,82,56.0,2800,media
-Zoé,rock,CDMX,theater,25000,7,sabado,123,35000,1855,76,63.0,15750,media
-Metallica,rock,Veracruz,theater,3000,5,miercoles,104,80000,853,88,76.8,2304,alta
-Bad Bunny,urbano,Monterrey,festival_ground,40000,11,sabado,179,50000,2522,95,81.1,32440,alta
-Adele,pop,Toluca,stadium,40000,8,martes,49,35000,914,90,65.5,26200,media
-Feid,urbano,Querétaro,stadium,8000,6,sabado,170,220000,3735,82,75.0,6000,alta
-Dua Lipa,pop,Guadalajara,festival_ground,25000,4,miercoles,103,160000,2427,87,75.3,18825,alta
-Arctic Monkeys,rock,Guadalajara,festival_ground,3000,12,domingo,78,50000,2356,81,77.1,2312,alta
-Julión Álvarez,regional,León,arena,25000,3,miercoles,105,20000,1048,79,53.3,13325,media
-Peso Pluma,regional,Guadalajara,theater,3000,11,lunes,60,20000,2750,86,65.5,1965,media
-Karol G,urbano,Puebla,stadium,55000,6,domingo,46,35000,3647,89,65.5,36025,media
-Dua Lipa,pop,Guadalajara,arena,18000,4,jueves,61,120000,994,87,75.6,13608,alta
-Metallica,rock,Toluca,arena,18000,7,martes,42,80000,4389,88,49.2,8856,baja
-Dua Lipa,pop,CDMX,festival_ground,55000,3,sabado,132,35000,4431,87,67.5,37125,media
-Bad Bunny,urbano,Guadalajara,theater,55000,12,viernes,134,160000,2781,95,86.7,47685,alta
-Mora,urbano,Tijuana,festival_ground,40000,11,lunes,53,160000,3302,78,59.0,23600,media
-Taylor Swift,pop,Tijuana,arena,55000,8,domingo,43,20000,2097,98,67.6,37179,media
-Arctic Monkeys,rock,Guadalajara,theater,5000,11,miercoles,94,80000,2076,81,68.6,3430,media
-Imagine Dragons,rock,Toluca,arena,18000,5,miercoles,133,80000,3083,84,62.3,11214,media
-Zoé,rock,Mérida,theater,12000,11,jueves,37,50000,1925,76,60.8,7296,media
-The Weeknd,pop,CDMX,festival_ground,40000,9,viernes,19,80000,2810,90,78.5,31400,alta
-Metallica,rock,CDMX,arena,12000,8,viernes,175,20000,4452,88,79.2,9504,alta
-Karol G,urbano,Veracruz,arena,12000,1,sabado,169,80000,1774,89,73.7,8844,media
-Metallica,rock,Guadalajara,arena,40000,2,sabado,10,50000,1486,88,73.9,29560,media
-Imagine Dragons,rock,Mérida,stadium,40000,1,miercoles,12,80000,797,84,54.6,21840,media
-Julión Álvarez,regional,Veracruz,arena,5000,7,viernes,110,80000,900,79,88.9,4445,alta
-Karol G,urbano,Querétaro,festival_ground,5000,2,sabado,127,35000,1593,89,79.4,3970,alta
-Bad Bunny,urbano,León,arena,3000,11,sabado,38,220000,1072,95,99,2970,alta
-Julión Álvarez,regional,CDMX,theater,12000,8,sabado,54,20000,3347,79,72.3,8676,media
-Karol G,urbano,Monterrey,theater,55000,8,sabado,72,20000,611,89,72.9,40095,media
-The Weeknd,pop,León,theater,18000,12,viernes,49,220000,4334,90,75.1,13518,alta
-Taylor Swift,pop,Tijuana,theater,55000,8,sabado,49,35000,1306,98,63.7,35035,media
-Arctic Monkeys,rock,Querétaro,festival_ground,55000,5,domingo,152,50000,2745,81,69.6,38279,media
-Imagine Dragons,rock,CDMX,theater,3000,3,viernes,86,120000,3860,84,80.8,2424,alta
-Adele,pop,León,stadium,55000,5,sabado,7,50000,2504,90,66.4,36520,media
-Imagine Dragons,rock,León,stadium,3000,5,domingo,43,220000,1554,84,87.6,2628,alta
-Dua Lipa,pop,Querétaro,theater,5000,9,viernes,131,220000,3477,87,92.9,4645,alta
-Feid,urbano,Puebla,theater,3000,11,jueves,126,160000,2042,82,81.7,2451,alta
-Bad Bunny,urbano,León,festival_ground,5000,9,domingo,97,220000,863,95,91.9,4595,alta
-Coldplay,rock,León,theater,25000,8,viernes,157,35000,1899,92,69.6,17399,media
-Shakira,pop,Tijuana,theater,40000,9,domingo,45,35000,715,91,72.6,29040,media
-Julión Álvarez,regional,Tijuana,arena,25000,11,jueves,27,35000,2936,79,51.3,12825,media
-Zoé,rock,Veracruz,arena,5000,1,martes,151,80000,2099,76,58.4,2920,media
-Imagine Dragons,rock,Mérida,festival_ground,5000,8,domingo,158,220000,1422,84,89.4,4470,alta
-Feid,urbano,Guadalajara,festival_ground,5000,1,lunes,15,120000,3378,82,69.6,3480,media
-Mora,urbano,Querétaro,arena,40000,2,sabado,30,50000,2960,78,49.7,19880,baja
-Zoé,rock,León,stadium,55000,3,miercoles,67,160000,2166,76,56.0,30800,media
-Luis Miguel,pop,CDMX,theater,25000,1,viernes,14,220000,735,85,88.3,22075,alta
-Julión Álvarez,regional,CDMX,arena,8000,6,domingo,8,35000,2797,79,82.9,6632,alta
-Mora,urbano,Monterrey,festival_ground,25000,6,miercoles,106,20000,3421,78,49.7,12425,baja
-Coldplay,rock,Guadalajara,arena,55000,12,martes,16,35000,2156,92,64.5,35475,media
-The Weeknd,pop,Veracruz,theater,8000,8,lunes,105,220000,528,90,75.4,6032,alta
-Peso Pluma,regional,Tijuana,stadium,55000,2,sabado,100,35000,3069,86,57.3,31515,media
-Coldplay,rock,CDMX,stadium,55000,9,martes,119,220000,1573,92,78.1,42955,alta
-Karol G,urbano,CDMX,theater,18000,6,domingo,49,50000,4372,89,72.2,12996,media
-Metallica,rock,Tijuana,festival_ground,55000,2,martes,138,20000,2079,88,43.3,23815,baja
-Metallica,rock,Mérida,stadium,25000,7,miercoles,68,35000,1149,88,63.8,15950,media
-Adele,pop,Mérida,festival_ground,8000,1,domingo,82,35000,481,90,75.5,6040,alta
-Zoé,rock,Guadalajara,festival_ground,3000,9,miercoles,54,50000,3915,76,61.4,1842,media
-Taylor Swift,pop,León,stadium,18000,10,martes,42,220000,1825,98,73.4,13212,media
-Luis Miguel,pop,Puebla,arena,5000,10,sabado,133,220000,2593,85,84.5,4225,alta
-Luis Miguel,pop,Puebla,stadium,12000,10,miercoles,58,20000,888,85,67.2,8064,media
-Taylor Swift,pop,Toluca,theater,25000,5,domingo,170,220000,4388,98,65.7,16425,media
-The Weeknd,pop,CDMX,festival_ground,55000,3,domingo,177,50000,2384,90,77.9,42845,alta
-Maná,rock,CDMX,stadium,25000,10,viernes,8,50000,4001,80,79.3,19825,alta
-Zoé,rock,Monterrey,arena,25000,12,martes,89,220000,3474,76,56.0,14000,media
-Shakira,pop,Monterrey,festival_ground,55000,9,lunes,142,220000,1450,91,69.4,38170,media
-Bad Bunny,urbano,Puebla,arena,12000,10,martes,49,20000,2905,95,64.8,7776,media
-Bad Bunny,urbano,CDMX,arena,12000,5,lunes,160,160000,4150,95,87.3,10476,alta
-Zoé,rock,Puebla,festival_ground,5000,6,domingo,31,160000,1816,76,84.8,4240,alta
-Julión Álvarez,regional,Veracruz,theater,5000,2,lunes,110,35000,2213,79,58.3,2915,media
-Coldplay,rock,Guadalajara,festival_ground,40000,3,domingo,11,160000,3534,92,70.7,28280,media
-Zoé,rock,CDMX,festival_ground,3000,6,miercoles,109,35000,3094,76,54.3,1629,media
-Arctic Monkeys,rock,Veracruz,theater,40000,9,lunes,90,120000,1551,81,72.1,28840,media
-Coldplay,rock,León,arena,25000,2,viernes,54,20000,3007,92,62.0,15500,media
-Arctic Monkeys,rock,Puebla,arena,12000,3,jueves,108,220000,4066,81,59.3,7116,media
-Taylor Swift,pop,CDMX,theater,18000,11,viernes,16,120000,1173,98,80.3,14454,alta
-Imagine Dragons,rock,Monterrey,arena,40000,4,lunes,80,20000,2851,84,55.2,22080,media
-Taylor Swift,pop,Veracruz,theater,5000,8,viernes,143,35000,3954,98,72.1,3605,media
-Metallica,rock,Toluca,stadium,18000,7,viernes,80,50000,2343,88,73.4,13212,media
-Shakira,pop,Querétaro,stadium,40000,4,viernes,100,80000,2837,91,61.2,24480,media
-Julión Álvarez,regional,Querétaro,theater,3000,4,miercoles,63,35000,3488,79,64.6,1937,media
-Maná,rock,Guadalajara,stadium,25000,9,miercoles,132,50000,2683,80,58.4,14600,media
-Feid,urbano,Mérida,arena,3000,3,viernes,24,120000,3200,82,71.8,2154,media
-Adele,pop,Querétaro,theater,5000,9,martes,180,160000,1615,90,74.8,3740,media
-Arctic Monkeys,rock,Tijuana,theater,8000,11,martes,164,120000,2617,81,71.4,5712,media
-Julión Álvarez,regional,Mérida,stadium,40000,2,lunes,112,220000,1312,79,61.0,24400,media
-Julión Álvarez,regional,León,stadium,40000,5,domingo,166,120000,1259,79,66.4,26560,media
-Mora,urbano,Mérida,theater,18000,6,jueves,141,120000,3499,78,58.0,10440,media
-Peso Pluma,regional,CDMX,festival_ground,40000,8,miercoles,54,120000,2840,86,66.4,26560,media
-Adele,pop,Veracruz,stadium,5000,6,miercoles,162,220000,2337,90,71.2,3560,media
-Peso Pluma,regional,Puebla,festival_ground,3000,1,lunes,72,120000,4424,86,60.2,1806,media
-Shakira,pop,Toluca,festival_ground,40000,7,jueves,98,20000,3226,91,63.7,25480,media
-Mora,urbano,CDMX,arena,12000,2,jueves,102,120000,3634,78,57.0,6840,media
-Karol G,urbano,Puebla,festival_ground,55000,7,jueves,166,120000,3162,89,50.0,27500,media
-Zoé,rock,Monterrey,stadium,25000,6,miercoles,26,220000,2894,76,65.9,16475,media
-Shakira,pop,Tijuana,festival_ground,8000,9,miercoles,137,35000,4486,91,58.6,4688,media
-Feid,urbano,León,stadium,3000,11,viernes,161,20000,3243,82,64.0,1920,media
-Taylor Swift,pop,León,arena,3000,5,sabado,148,20000,2844,98,71.2,2136,media
-Adele,pop,Monterrey,arena,3000,4,martes,134,220000,2529,90,95.0,2850,alta
-Zoé,rock,Guadalajara,stadium,40000,10,lunes,44,35000,1223,76,47.9,19160,baja
-Bad Bunny,urbano,Monterrey,arena,8000,9,jueves,126,120000,3877,95,71.9,5752,media
-Bad Bunny,urbano,Veracruz,theater,8000,12,martes,97,50000,1737,95,68.5,5480,media
-Taylor Swift,pop,Mérida,arena,5000,6,martes,122,120000,3509,98,74.6,3730,media
-Adele,pop,Veracruz,arena,55000,1,viernes,68,35000,2175,90,65.3,35915,media
-Taylor Swift,pop,Guadalajara,stadium,25000,1,domingo,123,50000,3777,98,58.8,14700,media
-Julión Álvarez,regional,Monterrey,stadium,40000,11,sabado,156,35000,3737,79,54.3,21720,media
-Shakira,pop,León,festival_ground,3000,4,lunes,51,35000,3285,91,66.1,1982,media
-Shakira,pop,León,theater,5000,6,viernes,105,50000,3652,91,69.3,3465,media
-The Weeknd,pop,Monterrey,festival_ground,25000,9,martes,106,35000,4175,90,56.0,14000,media
-Taylor Swift,pop,Mérida,arena,25000,3,martes,40,20000,1958,98,68.0,17000,media
-Imagine Dragons,rock,Toluca,stadium,55000,8,domingo,68,35000,3363,84,53.0,29150,media
-Adele,pop,Veracruz,stadium,18000,8,viernes,59,35000,4058,90,72.2,12996,media
-Karol G,urbano,Mérida,festival_ground,25000,9,martes,110,120000,2091,89,74.6,18649,media
-Zoé,rock,Monterrey,theater,40000,1,sabado,152,35000,2895,76,66.8,26720,media
-Bad Bunny,urbano,León,arena,8000,4,miercoles,55,160000,1242,95,97.8,7824,alta
-Zoé,rock,Mérida,stadium,5000,12,miercoles,29,35000,2713,76,70.1,3505,media
-Karol G,urbano,León,theater,25000,7,domingo,125,220000,1432,89,89.8,22450,alta
-Maná,rock,Tijuana,festival_ground,3000,11,sabado,125,35000,3631,80,69.6,2087,media
-Maná,rock,Monterrey,stadium,18000,2,miercoles,162,160000,2145,80,69.3,12474,media
-Taylor Swift,pop,Veracruz,stadium,40000,4,domingo,84,35000,3469,98,67.0,26800,media
-Taylor Swift,pop,Toluca,theater,8000,10,domingo,65,120000,4428,98,71.7,5736,media
-Arctic Monkeys,rock,Veracruz,theater,3000,2,domingo,174,50000,701,81,69.7,2091,media
-Taylor Swift,pop,Puebla,arena,3000,6,martes,95,160000,1055,98,72.5,2175,media
-Coldplay,rock,Mérida,arena,25000,7,jueves,94,160000,4471,92,70.1,17524,media
-Mora,urbano,Toluca,arena,12000,7,sabado,138,220000,1395,78,84.9,10188,alta
-Dua Lipa,pop,Mérida,stadium,8000,11,martes,146,50000,2395,87,70.8,5664,media
-Taylor Swift,pop,Guadalajara,theater,25000,7,lunes,58,160000,2894,98,80.3,20075,alta
-Julión Álvarez,regional,Querétaro,stadium,12000,1,viernes,120,35000,3229,79,77.2,9264,alta
-Shakira,pop,Guadalajara,stadium,12000,6,sabado,37,120000,3828,91,80.9,9708,alta
-Karol G,urbano,Veracruz,festival_ground,40000,4,lunes,81,20000,3303,89,49.7,19880,baja
-Julión Álvarez,regional,Puebla,arena,3000,5,miercoles,57,20000,2880,79,54.9,1647,media
-Peso Pluma,regional,Querétaro,festival_ground,25000,5,martes,149,20000,723,86,65.0,16250,media
-Bad Bunny,urbano,Querétaro,festival_ground,5000,12,sabado,91,160000,2516,95,96.4,4820,alta
-Arctic Monkeys,rock,Querétaro,stadium,25000,1,miercoles,30,160000,2692,81,69.5,17375,media
-Imagine Dragons,rock,Puebla,arena,8000,12,lunes,13,220000,3588,84,78.0,6240,alta
-Luis Miguel,pop,Toluca,stadium,5000,12,domingo,86,160000,3026,85,78.9,3945,alta
-Adele,pop,Guadalajara,theater,25000,4,miercoles,41,120000,3375,90,68.3,17075,media
-Taylor Swift,pop,CDMX,arena,40000,1,martes,133,80000,4442,98,54.7,21880,media
-Luis Miguel,pop,Mérida,arena,8000,12,martes,48,35000,3980,85,56.1,4488,media
-Taylor Swift,pop,Querétaro,festival_ground,12000,4,sabado,102,20000,612,98,83.9,10068,alta
-Zoé,rock,León,stadium,18000,2,sabado,21,120000,3800,76,66.9,12042,media
-Bad Bunny,urbano,Guadalajara,stadium,40000,5,lunes,120,220000,3201,95,69.7,27880,media
-Feid,urbano,Querétaro,arena,25000,9,jueves,116,120000,1614,82,82.1,20524,alta
-The Weeknd,pop,CDMX,theater,18000,10,viernes,114,50000,4288,90,62.9,11322,media
-Karol G,urbano,Mérida,theater,3000,4,martes,180,160000,4014,89,66.6,1997,media
-Maná,rock,Toluca,festival_ground,25000,9,martes,151,80000,3596,80,49.7,12425,baja
-Imagine Dragons,rock,Monterrey,stadium,8000,4,viernes,35,35000,2426,84,79.4,6352,alta
-Imagine Dragons,rock,Querétaro,stadium,55000,4,viernes,153,160000,1275,84,77.4,42570,alta
-Zoé,rock,Veracruz,arena,40000,11,lunes,119,35000,4471,76,33.7,13480,baja
-Metallica,rock,Toluca,arena,55000,11,jueves,146,35000,1919,88,55.8,30690,media
-Julión Álvarez,regional,Monterrey,stadium,25000,10,lunes,110,35000,736,79,65.6,16399,media
-Feid,urbano,Querétaro,theater,5000,12,martes,116,20000,2001,82,64.5,3225,media
-Metallica,rock,Tijuana,stadium,25000,12,domingo,94,220000,445,88,95.8,23950,alta
-Maná,rock,Toluca,theater,55000,1,domingo,161,50000,1166,80,59.9,32945,media
-Maná,rock,Toluca,theater,5000,1,sabado,69,50000,3252,80,67.8,3390,media
-Mora,urbano,Monterrey,arena,55000,2,lunes,73,35000,1580,78,64.2,35310,media
-Dua Lipa,pop,Mérida,festival_ground,8000,10,miercoles,144,160000,2551,87,73.5,5880,media
-Peso Pluma,regional,Guadalajara,festival_ground,55000,1,domingo,16,20000,1843,86,68.2,37510,media
-Adele,pop,Querétaro,stadium,55000,7,martes,163,120000,971,90,66.6,36629,media
-Shakira,pop,Guadalajara,arena,12000,3,domingo,99,160000,4181,91,86.7,10404,alta
-Peso Pluma,regional,Veracruz,festival_ground,40000,6,miercoles,8,50000,4310,86,46.1,18440,baja
-Mora,urbano,Veracruz,arena,8000,12,sabado,43,50000,3499,78,70.8,5664,media
-Imagine Dragons,rock,Monterrey,theater,25000,10,viernes,142,120000,1489,84,78.8,19700,alta
-Dua Lipa,pop,Monterrey,stadium,40000,11,viernes,169,20000,3322,87,68.8,27520,media
-Shakira,pop,Puebla,stadium,5000,5,domingo,94,160000,3320,91,72.8,3640,media
-Maná,rock,Toluca,festival_ground,25000,1,sabado,93,160000,2997,80,70.5,17625,media
-Julión Álvarez,regional,Toluca,theater,12000,4,miercoles,45,35000,2032,79,76.5,9180,alta
-Mora,urbano,León,festival_ground,40000,10,domingo,84,35000,893,78,67.1,26840,media
-Karol G,urbano,Mérida,theater,18000,12,viernes,148,160000,3139,89,79.4,14292,alta
-The Weeknd,pop,Veracruz,stadium,18000,10,miercoles,126,50000,3858,90,57.1,10278,media
-The Weeknd,pop,Querétaro,theater,8000,5,miercoles,146,20000,1698,90,60.6,4848,media
-Bad Bunny,urbano,Puebla,arena,40000,8,martes,161,50000,4461,95,47.3,18920,baja
-Metallica,rock,Puebla,stadium,3000,3,viernes,19,20000,951,88,86.4,2592,alta
-Peso Pluma,regional,Guadalajara,arena,12000,5,viernes,171,20000,2995,86,59.9,7188,media
-Bad Bunny,urbano,Puebla,theater,25000,12,lunes,173,80000,3670,95,51.5,12875,media
-Luis Miguel,pop,CDMX,festival_ground,3000,2,sabado,163,50000,4399,85,64.9,1947,media
-Adele,pop,Mérida,festival_ground,3000,1,miercoles,151,160000,2917,90,81.3,2439,alta
-Peso Pluma,regional,Guadalajara,arena,3000,3,martes,43,120000,1086,86,80.6,2417,alta
-Maná,rock,Tijuana,festival_ground,25000,9,sabado,157,220000,1606,80,76.2,19050,alta
-Peso Pluma,regional,Puebla,theater,55000,1,domingo,172,50000,4062,86,48.0,26400,baja
-Dua Lipa,pop,Mérida,theater,18000,3,miercoles,9,120000,4247,87,63.9,11502,media
-Maná,rock,Guadalajara,stadium,40000,2,lunes,166,35000,1351,80,67.3,26920,media
-Taylor Swift,pop,Toluca,stadium,8000,5,viernes,100,160000,1573,98,99,7920,alta
-Luis Miguel,pop,Toluca,arena,25000,12,martes,120,220000,4437,85,56.6,14150,media
-Feid,urbano,Tijuana,festival_ground,55000,4,miercoles,13,20000,476,82,72.5,39875,media
-Adele,pop,Tijuana,arena,12000,10,jueves,111,80000,2185,90,73.2,8784,media
-Bad Bunny,urbano,Mérida,arena,18000,12,jueves,68,35000,3252,95,65.2,11736,media
-Imagine Dragons,rock,Mérida,festival_ground,12000,10,domingo,47,80000,2539,84,87.2,10464,alta
-Karol G,urbano,Mérida,theater,5000,6,lunes,131,220000,2395,89,79.8,3990,alta
-Mora,urbano,Puebla,arena,12000,12,miercoles,18,220000,3946,78,80.0,9600,alta
-Luis Miguel,pop,León,stadium,18000,11,lunes,35,35000,427,85,74.0,13320,media
-Zoé,rock,Tijuana,arena,8000,8,sabado,108,20000,3743,76,67.7,5416,media
-Peso Pluma,regional,León,theater,3000,10,martes,58,220000,475,86,88.2,2646,alta
-Coldplay,rock,Veracruz,festival_ground,5000,12,lunes,19,50000,878,92,78.5,3925,alta
-Metallica,rock,Monterrey,festival_ground,8000,9,jueves,7,35000,2184,88,68.3,5464,media
-Dua Lipa,pop,Toluca,arena,25000,8,lunes,96,35000,2184,87,54.2,13550,media
-The Weeknd,pop,Mérida,stadium,3000,5,miercoles,24,20000,1959,90,60.3,1809,media
-Dua Lipa,pop,Tijuana,theater,3000,6,sabado,17,160000,4067,87,72.9,2187,media
-Dua Lipa,pop,Mérida,theater,40000,12,sabado,75,80000,3806,87,59.6,23840,media
-Karol G,urbano,León,festival_ground,40000,3,sabado,8,35000,4454,89,64.2,25680,media
-Imagine Dragons,rock,Veracruz,festival_ground,12000,4,sabado,36,20000,625,84,84.0,10080,alta
-Dua Lipa,pop,Tijuana,festival_ground,25000,8,viernes,7,80000,4205,87,63.8,15950,media
-Zoé,rock,Tijuana,festival_ground,12000,11,domingo,103,50000,875,76,74.5,8940,media
-Peso Pluma,regional,Monterrey,stadium,18000,5,domingo,128,220000,3198,86,87.6,15768,alta
-Zoé,rock,Veracruz,festival_ground,12000,3,lunes,142,50000,2028,76,48.7,5844,baja
-Coldplay,rock,Guadalajara,stadium,55000,3,sabado,173,220000,704,92,87.5,48125,alta
-Peso Pluma,regional,León,theater,40000,2,jueves,46,160000,2410,86,54.0,21600,media
-Zoé,rock,Toluca,theater,55000,11,lunes,77,80000,2729,76,56.1,30855,media
-Mora,urbano,Monterrey,festival_ground,55000,12,domingo,51,220000,1577,78,88.0,48400,alta
-Julión Álvarez,regional,Toluca,stadium,25000,9,miercoles,104,50000,495,79,63.9,15975,media
-Dua Lipa,pop,Puebla,arena,18000,1,viernes,52,50000,2599,87,73.3,13194,media
-Imagine Dragons,rock,Querétaro,arena,55000,2,martes,39,80000,2729,84,51.7,28435,media
-Maná,rock,CDMX,festival_ground,40000,6,lunes,82,80000,3880,80,47.1,18840,baja
-Maná,rock,Puebla,festival_ground,8000,10,martes,155,50000,869,80,59.1,4728,media
-Feid,urbano,Tijuana,arena,5000,8,jueves,107,120000,3747,82,47.4,2370,baja
-Bad Bunny,urbano,Monterrey,festival_ground,55000,12,domingo,118,80000,4229,95,72.2,39710,media
-Luis Miguel,pop,Monterrey,festival_ground,40000,8,martes,138,220000,427,85,72.2,28880,media
-Adele,pop,Toluca,arena,18000,9,miercoles,106,220000,4117,90,53.9,9702,media
-Metallica,rock,Monterrey,stadium,5000,10,domingo,10,20000,4420,88,81.1,4055,alta
-Mora,urbano,CDMX,stadium,25000,8,domingo,21,120000,3773,78,78.0,19500,alta
-Karol G,urbano,León,arena,8000,6,miercoles,55,120000,399,89,81.1,6488,alta
-Zoé,rock,Mérida,arena,25000,7,miercoles,176,220000,2797,76,75.9,18975,alta
-Dua Lipa,pop,León,festival_ground,3000,5,miercoles,70,220000,3464,87,77.1,2312,alta
-Imagine Dragons,rock,Mérida,stadium,8000,1,martes,144,160000,3412,84,55.6,4448,media
-Mora,urbano,Querétaro,stadium,25000,6,martes,123,160000,769,78,70.4,17600,media
-The Weeknd,pop,León,theater,3000,5,martes,119,50000,1992,90,63.8,1914,media
-Feid,urbano,Veracruz,festival_ground,40000,12,jueves,59,35000,822,82,67.4,26960,media
-Metallica,rock,CDMX,stadium,5000,10,jueves,53,20000,1694,88,85.9,4295,alta
-Julión Álvarez,regional,Puebla,theater,12000,9,domingo,47,35000,2044,79,62.0,7440,media
-Feid,urbano,Monterrey,arena,40000,4,sabado,72,160000,3974,82,71.0,28400,media
-Arctic Monkeys,rock,Guadalajara,arena,8000,1,martes,121,50000,2256,81,74.8,5984,media
-Dua Lipa,pop,Guadalajara,theater,18000,6,viernes,61,35000,2240,87,60.0,10800,media
-Adele,pop,CDMX,theater,40000,3,sabado,81,35000,1116,90,74.3,29720,media
-Luis Miguel,pop,León,theater,40000,2,lunes,97,20000,2074,85,54.0,21600,media
-Zoé,rock,Toluca,arena,18000,8,miercoles,11,220000,4417,76,68.8,12384,media
-Feid,urbano,Querétaro,theater,18000,10,viernes,145,220000,1074,82,70.7,12726,media
-Feid,urbano,Guadalajara,festival_ground,18000,4,viernes,83,20000,1174,82,83.8,15084,alta
-Karol G,urbano,Mérida,arena,8000,6,miercoles,122,80000,2376,89,66.3,5304,media
-Peso Pluma,regional,Tijuana,stadium,5000,5,domingo,24,160000,4077,86,84.6,4230,alta
-Luis Miguel,pop,Veracruz,festival_ground,55000,1,lunes,17,120000,1146,85,68.2,37510,media
-Arctic Monkeys,rock,Guadalajara,festival_ground,25000,2,miercoles,176,160000,1692,81,63.9,15975,media
-The Weeknd,pop,Tijuana,arena,55000,5,martes,73,20000,1222,90,66.8,36740,media
-Coldplay,rock,Monterrey,stadium,55000,5,viernes,145,20000,3006,92,64.1,35254,media
-Dua Lipa,pop,CDMX,theater,25000,4,miercoles,110,120000,2016,87,72.8,18200,media
-Karol G,urbano,Puebla,stadium,5000,1,lunes,20,80000,2077,89,69.4,3470,media
-Luis Miguel,pop,Guadalajara,theater,3000,7,jueves,166,120000,1247,85,72.9,2187,media
-Shakira,pop,Veracruz,arena,5000,11,viernes,62,35000,2345,91,68.4,3420,media
-Taylor Swift,pop,Puebla,arena,25000,2,lunes,62,120000,1781,98,64.2,16050,media
-Shakira,pop,Tijuana,arena,55000,10,martes,9,50000,3724,91,52.0,28600,media
-Coldplay,rock,Guadalajara,stadium,8000,6,domingo,42,35000,1973,92,80.7,6456,alta
-Coldplay,rock,Tijuana,arena,3000,8,lunes,134,120000,3053,92,79.1,2372,alta
-The Weeknd,pop,Puebla,arena,25000,7,lunes,173,160000,3210,90,62.5,15625,media
-Luis Miguel,pop,Querétaro,festival_ground,8000,5,domingo,84,20000,4168,85,72.4,5792,media
-Luis Miguel,pop,León,festival_ground,18000,12,viernes,143,160000,1298,85,73.2,13176,media
-The Weeknd,pop,Mérida,stadium,12000,4,viernes,124,120000,2288,90,93.4,11208,alta
-Taylor Swift,pop,León,festival_ground,25000,7,jueves,29,35000,3131,98,57.9,14475,media
-Arctic Monkeys,rock,Mérida,arena,18000,8,viernes,11,20000,4244,81,48.8,8784,baja
-Mora,urbano,Guadalajara,theater,12000,2,miercoles,107,220000,4166,78,70.7,8484,media
-Taylor Swift,pop,Mérida,theater,5000,5,martes,120,80000,2330,98,76.6,3830,alta
-Taylor Swift,pop,León,stadium,40000,5,miercoles,45,50000,1721,98,70.8,28320,media
-Coldplay,rock,Tijuana,festival_ground,18000,8,miercoles,136,220000,1901,92,86.8,15624,alta
-Adele,pop,Toluca,arena,3000,3,lunes,69,80000,2404,90,52.8,1584,media
-Maná,rock,Monterrey,festival_ground,8000,5,sabado,113,20000,3062,80,55.6,4448,media
-Maná,rock,Mérida,festival_ground,3000,11,jueves,133,50000,497,80,80.1,2402,alta
-Taylor Swift,pop,Monterrey,festival_ground,55000,5,domingo,138,35000,4109,98,72.7,39985,media
-Karol G,urbano,CDMX,theater,8000,4,viernes,154,120000,732,89,95.1,7608,alta
-Adele,pop,Guadalajara,theater,12000,5,domingo,146,20000,3796,90,62.3,7476,media
-The Weeknd,pop,León,festival_ground,25000,12,miercoles,89,35000,4411,90,53.9,13475,media
-Taylor Swift,pop,Toluca,theater,8000,4,viernes,22,35000,2873,98,76.8,6144,alta
-Shakira,pop,CDMX,theater,40000,6,sabado,54,50000,2884,91,63.3,25320,media
-Julión Álvarez,regional,Puebla,theater,55000,7,lunes,73,50000,3577,79,43.6,23980,baja
-Julión Álvarez,regional,Mérida,arena,12000,10,jueves,135,220000,3694,79,78.9,9468,alta
-Luis Miguel,pop,Tijuana,arena,8000,5,domingo,144,80000,3722,85,71.2,5696,media
-Maná,rock,León,theater,5000,5,jueves,10,20000,2853,80,49.6,2480,baja
-Maná,rock,Veracruz,theater,18000,4,lunes,147,20000,3731,80,54.5,9810,media
-Shakira,pop,Guadalajara,stadium,5000,7,jueves,94,80000,3565,91,63.4,3170,media
-Julión Álvarez,regional,Tijuana,theater,8000,12,domingo,43,120000,3738,79,65.3,5224,media
-Karol G,urbano,Puebla,theater,5000,7,lunes,135,20000,2279,89,52.9,2645,media
-Arctic Monkeys,rock,León,stadium,18000,11,domingo,40,35000,2170,81,66.1,11898,media
-Zoé,rock,Monterrey,theater,3000,12,domingo,173,80000,2705,76,65.9,1977,media
+David Guetta,electronica,LosAngeles,theater,7078,5,Thursday,2,157082,33262,93,0.88,6228,alta
+Grupo Firme,banda,Bogota,club,1791,12,Wednesday,27,51833,1734,90,0.95,1701,alta
+The Weeknd,pop,Queretaro,theater,8188,10,Thursday,172,227767,4129,96,0.95,7778,alta
+Peso Pluma,regional_mexicano,Queretaro,stadium,38238,11,Friday,76,471399,1679,93,0.95,36326,alta
+Ariana Grande,pop,Guadalajara,theater,4786,6,Wednesday,48,73054,3173,95,0.95,4546,alta
+BTS,kpop,Bogota,stadium,55027,9,Monday,110,841427,4796,99,0.95,52275,alta
+Los Tigres del Norte,norteno,Leon,club,2928,1,Saturday,13,43574,1900,92,0.95,2781,alta
+Drake,rap,Madrid,theater,7114,10,Sunday,25,100998,2159,94,0.95,6758,alta
+TWICE,kpop,Leon,festival,29877,6,Tuesday,107,515451,2819,92,0.95,28383,alta
+The Weeknd,pop,CDMX,arena,23246,7,Monday,59,514315,4164,96,0.95,22083,alta
+aespa,kpop,Guadalajara,stadium,52484,12,Saturday,107,1219156,1728,90,0.95,49859,alta
+Martin Garrix,electronica,Leon,arena,21111,7,Friday,119,472026,1928,92,0.95,20055,alta
+Coldplay,rock,Seul,stadium,79636,4,Wednesday,143,1936406,4081,96,0.95,75654,alta
+Post Malone,rap,Madrid,theater,4609,2,Thursday,58,60861,4362,92,0.92,4240,alta
+Taylor Swift,pop,Queretaro,club,2563,7,Tuesday,94,73857,29909,98,0.93,2383,alta
+Clairo,indie,Queretaro,stadium,66829,5,Tuesday,119,1161761,1915,80,0.9,60146,alta
+Karol G,reggaeton,Bogota,stadium,48105,1,Sunday,90,1282438,1955,94,0.95,45699,alta
+TWICE,kpop,Guadalajara,festival,40724,6,Tuesday,106,756989,3781,92,0.95,38687,alta
+Ed Sheeran,pop,Monterrey,arena,15607,6,Tuesday,9,185348,2220,94,0.94,14670,alta
+Calvin Harris,electronica,Madrid,stadium,65568,7,Monday,11,1639578,1919,94,0.95,62289,alta
+Martin Garrix,electronica,Guadalajara,stadium,55706,12,Thursday,27,1055071,2675,92,0.95,52920,alta
+Stray Kids,kpop,Seul,arena,20606,4,Friday,37,356855,3119,91,0.95,19575,alta
+Ed Sheeran,pop,Monterrey,stadium,44996,1,Monday,176,737965,23769,94,0.89,40046,alta
+Adele,pop,Monterrey,festival,72977,3,Friday,49,2080166,32243,95,0.95,69328,alta
+Dua Lipa,pop,Monterrey,club,2753,3,Friday,167,69149,3401,93,0.95,2615,alta
+Post Malone,rap,Bogota,arena,15564,6,Monday,69,447779,38032,92,0.87,13540,alta
+Fuerza Regida,regional_mexicano,LosAngeles,club,1482,10,Wednesday,34,44173,2569,88,0.95,1407,alta
+Calvin Harris,electronica,Leon,stadium,44665,5,Tuesday,147,581718,38709,94,0.79,35285,alta
+Peso Pluma,regional_mexicano,Queretaro,club,2849,2,Saturday,12,67348,1421,93,0.95,2706,alta
+Ed Sheeran,pop,Seul,arena,19295,8,Monday,98,257374,4230,94,0.94,18137,alta
+TWICE,kpop,Monterrey,theater,7152,1,Tuesday,154,200343,2847,92,0.95,6794,alta
+Travis Scott,rap,Bogota,club,2530,4,Wednesday,87,33359,21011,93,0.78,1973,alta
+aespa,kpop,CDMX,club,2802,3,Saturday,6,62224,23212,90,0.95,2661,alta
+Kendrick Lamar,rap,Leon,arena,21859,11,Saturday,78,302378,31976,95,0.9,19673,alta
+Bad Bunny,reggaeton,Queretaro,arena,14310,11,Monday,164,216538,3510,95,0.95,13594,alta
+aespa,kpop,Queretaro,festival,59511,9,Saturday,172,1538448,3699,90,0.95,56535,alta
+TWICE,kpop,Guadalajara,stadium,50891,2,Thursday,25,1243202,4150,92,0.95,48346,alta
+Imagine Dragons,rock,CDMX,festival,72296,8,Sunday,35,1494844,4269,94,0.95,68681,alta
+aespa,kpop,CDMX,club,2777,9,Wednesday,82,30122,2629,90,0.95,2638,alta
+Banda MS,banda,CDMX,arena,15771,5,Saturday,68,355433,3801,89,0.95,14982,alta
+Calvin Harris,electronica,Madrid,festival,69286,9,Wednesday,159,1513682,2294,94,0.95,65821,alta
+Ariana Grande,pop,Monterrey,club,629,5,Sunday,123,15745,3466,95,0.95,597,alta
+Kendrick Lamar,rap,Leon,festival,87602,6,Tuesday,107,1803103,1688,95,0.95,83221,alta
+Martin Garrix,electronica,Queretaro,arena,13358,8,Saturday,168,160738,2080,92,0.95,12690,alta
+Ariana Grande,pop,Queretaro,stadium,75016,3,Monday,87,1890084,2129,95,0.95,71265,alta
+Clairo,indie,Leon,stadium,31268,12,Tuesday,91,882607,24960,80,0.75,23451,media
+Imagine Dragons,rock,LosAngeles,festival,24830,4,Monday,180,635748,1584,94,0.95,23588,alta
+Adele,pop,Bogota,theater,3077,10,Tuesday,139,52306,4519,95,0.95,2923,alta
+Peso Pluma,regional_mexicano,Monterrey,club,2305,5,Thursday,71,36915,2220,93,0.95,2189,alta
+Martin Garrix,electronica,CDMX,festival,44883,11,Sunday,56,636820,1532,92,0.95,42638,alta
+Ed Sheeran,pop,Bogota,arena,18461,9,Thursday,49,413536,4219,94,0.95,17537,alta
+Fuerza Regida,regional_mexicano,CDMX,club,2718,12,Sunday,169,76919,3906,88,0.95,2582,alta
+Girl Ultra,indie,LosAngeles,club,2748,4,Wednesday,115,45036,3719,78,0.88,2418,alta
+Coldplay,rock,Madrid,festival,29982,11,Friday,74,580146,4534,96,0.95,28482,alta
+Los Tigres del Norte,norteno,Bogota,festival,97035,7,Wednesday,14,1454906,3795,92,0.95,92183,alta
+Post Malone,rap,Leon,arena,17045,10,Tuesday,69,361352,4567,92,0.95,16192,alta
+Dua Lipa,pop,Madrid,stadium,78351,7,Wednesday,150,903667,2991,93,0.93,72866,alta
+Natanael Cano,corridos,Seul,festival,37134,5,Thursday,59,998680,3016,87,0.95,35277,alta
+Coldplay,rock,Leon,stadium,43264,12,Thursday,98,953638,1809,96,0.95,41100,alta
+BLACKPINK,kpop,Queretaro,theater,6229,12,Saturday,111,173854,3957,98,0.95,5917,alta
+Travis Scott,rap,CDMX,arena,22601,1,Saturday,62,398285,3948,93,0.95,21470,alta
+Banda MS,banda,LosAngeles,stadium,47287,2,Monday,65,691108,2520,89,0.94,44449,alta
+Travis Scott,rap,Madrid,arena,17392,10,Wednesday,134,513824,1448,93,0.95,16522,alta
+The Weeknd,pop,Seul,festival,70189,10,Friday,19,1579084,3973,96,0.95,66679,alta
+TWICE,kpop,Bogota,stadium,56833,1,Sunday,117,742203,1845,92,0.95,53991,alta
+Peso Pluma,regional_mexicano,Seul,club,739,5,Saturday,129,19427,3563,93,0.95,702,alta
+Taylor Swift,pop,Seul,club,871,4,Sunday,82,16441,2023,98,0.95,827,alta
+NewJeans,kpop,Leon,club,2106,5,Saturday,25,32669,3060,93,0.95,2000,alta
+Peso Pluma,regional_mexicano,LosAngeles,club,1881,5,Tuesday,127,47653,1473,93,0.95,1786,alta
+Peso Pluma,regional_mexicano,CDMX,arena,23834,1,Friday,34,420464,2385,93,0.95,22642,alta
+Banda MS,banda,Leon,theater,7316,11,Tuesday,158,143395,4059,89,0.95,6950,alta
+Stray Kids,kpop,Bogota,arena,11385,7,Sunday,170,284677,21261,91,0.95,10815,alta
+BTS,kpop,Bogota,club,1107,8,Sunday,77,27338,4217,99,0.95,1051,alta
+Fuerza Regida,regional_mexicano,Madrid,arena,17093,1,Tuesday,64,255738,2267,88,0.93,15896,alta
+Martin Garrix,electronica,Bogota,stadium,78818,3,Friday,155,1111366,1949,92,0.95,74877,alta
+Coldplay,rock,LosAngeles,stadium,67064,3,Friday,37,1504548,4225,96,0.95,63710,alta
+BLACKPINK,kpop,Seul,club,2842,9,Tuesday,18,55581,2356,98,0.95,2699,alta
+Stray Kids,kpop,Seul,festival,60471,12,Thursday,58,1615236,1502,91,0.95,57447,alta
+Clairo,indie,LosAngeles,festival,28202,11,Tuesday,70,611196,3830,80,0.95,26791,alta
+Taylor Swift,pop,Queretaro,arena,12067,3,Tuesday,52,328731,2146,98,0.95,11463,alta
+Clairo,indie,Leon,arena,17713,7,Thursday,168,413209,1301,80,0.9,15941,alta
+Banda MS,banda,Guadalajara,stadium,32754,2,Wednesday,10,417347,3051,89,0.94,30788,alta
+David Guetta,electronica,Guadalajara,theater,5750,10,Saturday,177,113154,2283,93,0.95,5462,alta
+Siddhartha,indie,LosAngeles,club,2683,3,Tuesday,30,40052,37645,85,0.7,1878,media
+The Weeknd,pop,Queretaro,festival,43629,3,Sunday,125,1195176,4352,96,0.95,41447,alta
+Karol G,reggaeton,Monterrey,arena,19286,11,Thursday,173,487066,2007,94,0.95,18321,alta
+Bad Bunny,reggaeton,LosAngeles,festival,65208,4,Thursday,156,1443437,2446,95,0.95,61947,alta
+Ariana Grande,pop,Queretaro,theater,3264,4,Thursday,62,83358,3308,95,0.95,3100,alta
+aespa,kpop,Seul,stadium,60077,5,Wednesday,74,837374,3473,90,0.95,57073,alta
+Kendrick Lamar,rap,Bogota,stadium,49644,3,Wednesday,50,1155703,1516,95,0.95,47161,alta
+Clairo,indie,Monterrey,festival,72637,1,Sunday,41,2092144,3593,80,0.95,69005,alta
+Cuco,indie,Queretaro,stadium,73668,11,Thursday,42,864053,22692,82,0.67,49357,media
+BLACKPINK,kpop,Monterrey,festival,21704,12,Saturday,164,584446,3451,98,0.95,20618,alta
+Natanael Cano,corridos,Leon,arena,16293,7,Wednesday,93,392052,24785,87,0.82,13360,alta
+Calvin Harris,electronica,Leon,theater,6235,4,Tuesday,59,119510,3456,94,0.95,5923,alta
+Peso Pluma,regional_mexicano,Bogota,theater,8214,8,Sunday,176,210177,4489,93,0.95,7803,alta
+Adele,pop,Bogota,club,1219,8,Tuesday,113,25359,3490,95,0.95,1158,alta
+Martin Garrix,electronica,CDMX,club,1490,6,Monday,49,24975,33045,92,0.87,1296,alta
+David Guetta,electronica,Monterrey,arena,16951,2,Wednesday,32,395125,3296,93,0.95,16103,alta
+Imagine Dragons,rock,Leon,stadium,71630,1,Monday,152,958339,3606,94,0.94,67332,alta
+Bad Bunny,reggaeton,Bogota,festival,83819,3,Saturday,33,1712072,2528,95,0.95,79628,alta
+Martin Garrix,electronica,Guadalajara,stadium,34712,2,Sunday,10,375040,35002,92,0.87,30199,alta
+Imagine Dragons,rock,Seul,festival,25336,2,Sunday,1,642325,2932,94,0.95,24069,alta
+David Guetta,electronica,Queretaro,theater,5456,3,Thursday,172,71177,36854,93,0.78,4255,alta
+David Guetta,electronica,Bogota,club,1977,6,Friday,50,53571,34171,93,0.95,1878,alta
+The Weeknd,pop,CDMX,club,1157,11,Wednesday,135,32971,4784,96,0.95,1099,alta
+TWICE,kpop,Guadalajara,theater,7496,2,Wednesday,112,75279,3287,92,0.95,7121,alta
+Ed Sheeran,pop,Madrid,stadium,59442,6,Wednesday,89,1761890,23712,94,0.89,52903,alta
+David Guetta,electronica,CDMX,club,1468,5,Tuesday,129,43650,2371,93,0.95,1394,alta
+Adele,pop,Bogota,theater,5291,6,Saturday,60,121252,3113,95,0.95,5026,alta
+Post Malone,rap,Bogota,stadium,78281,1,Wednesday,155,787105,4058,92,0.92,72018,alta
+BLACKPINK,kpop,Leon,festival,34354,7,Friday,124,970371,4692,98,0.95,32636,alta
+Arctic Monkeys,rock,CDMX,stadium,76434,8,Saturday,108,1947068,2681,92,0.95,72612,alta
+Natanael Cano,corridos,Monterrey,stadium,49713,11,Friday,4,1040542,3085,87,0.95,47227,alta
+Dua Lipa,pop,CDMX,club,1002,10,Friday,167,11327,2186,93,0.95,951,alta
+Grupo Firme,banda,Leon,club,1342,6,Tuesday,132,17074,4068,90,0.95,1274,alta
+Arctic Monkeys,rock,Guadalajara,arena,10188,6,Saturday,53,240117,3855,92,0.95,9678,alta
+Martin Garrix,electronica,Queretaro,club,1794,8,Monday,164,33092,4504,92,0.95,1704,alta
+Dua Lipa,pop,Leon,theater,8937,1,Tuesday,119,241637,28342,93,0.88,7864,alta
+Martin Garrix,electronica,CDMX,festival,29279,12,Saturday,60,711070,1654,92,0.95,27815,alta
+David Guetta,electronica,Madrid,festival,65948,9,Tuesday,67,760386,3840,93,0.95,62650,alta
+Fuerza Regida,regional_mexicano,Leon,arena,20556,6,Saturday,36,216914,3845,88,0.95,19528,alta
+Ed Sheeran,pop,CDMX,stadium,71318,3,Thursday,107,874338,1914,94,0.94,67038,alta
+Ariana Grande,pop,LosAngeles,theater,4455,10,Wednesday,115,89502,3785,95,0.95,4232,alta
+TWICE,kpop,Guadalajara,theater,3532,11,Sunday,56,67536,1854,92,0.95,3355,alta
+Post Malone,rap,Monterrey,festival,23815,10,Thursday,8,494864,2288,92,0.95,22624,alta
+Cuco,indie,Bogota,club,781,5,Wednesday,105,10547,3793,82,0.82,640,alta
+Grupo Firme,banda,CDMX,arena,24152,5,Tuesday,26,661800,1934,90,0.95,22944,alta
+Taylor Swift,pop,Madrid,theater,5952,11,Saturday,22,175121,2912,98,0.95,5654,alta
+BTS,kpop,Bogota,festival,84120,9,Saturday,7,2291481,2887,99,0.95,79914,alta
+Kendrick Lamar,rap,Leon,stadium,54310,7,Thursday,37,1615082,4082,95,0.95,51594,alta
+Siddhartha,indie,CDMX,festival,70491,4,Tuesday,127,1161678,2879,85,0.95,66966,alta
+Drake,rap,CDMX,club,1324,3,Sunday,62,30537,2188,94,0.95,1257,alta
+Ed Sheeran,pop,LosAngeles,theater,8484,8,Saturday,21,105677,1500,94,0.95,8059,alta
+Martin Garrix,electronica,Leon,stadium,38691,7,Saturday,44,563140,4016,92,0.95,36756,alta
+BTS,kpop,Madrid,arena,20806,2,Wednesday,147,368302,4006,99,0.95,19765,alta
+NewJeans,kpop,Guadalajara,theater,7780,12,Tuesday,94,97159,3103,93,0.95,7391,alta
+TWICE,kpop,Madrid,arena,23125,9,Monday,8,351191,2376,92,0.95,21968,alta
+Karol G,reggaeton,Leon,arena,23987,2,Sunday,126,612228,3853,94,0.95,22787,alta
+Natanael Cano,corridos,LosAngeles,festival,77124,7,Wednesday,57,1204793,4312,87,0.95,73267,alta
+Grupo Firme,banda,Bogota,festival,81152,6,Saturday,113,2066219,3008,90,0.95,77094,alta
+Karol G,reggaeton,Guadalajara,club,822,2,Tuesday,50,15744,26929,94,0.89,731,alta
+Drake,rap,Seul,festival,94422,12,Friday,7,2294778,3336,94,0.95,89700,alta
+Ariana Grande,pop,Monterrey,arena,17386,1,Sunday,156,297708,3121,95,0.95,16516,alta
+Arctic Monkeys,rock,CDMX,stadium,49851,8,Friday,83,591618,3156,92,0.95,47358,alta
+Martin Garrix,electronica,Monterrey,arena,16442,8,Saturday,116,420862,2137,92,0.95,15619,alta
+Adele,pop,Guadalajara,stadium,71172,6,Thursday,135,1786624,3619,95,0.95,67613,alta
+Stray Kids,kpop,Bogota,theater,3582,8,Wednesday,82,62309,2441,91,0.95,3402,alta
+Kendrick Lamar,rap,LosAngeles,festival,86473,8,Friday,142,1720431,2138,95,0.95,82149,alta
+BLACKPINK,kpop,Seul,festival,51470,12,Thursday,113,774846,1704,98,0.95,48896,alta
+Calvin Harris,electronica,Queretaro,arena,15644,3,Thursday,21,381422,3827,94,0.95,14861,alta
+Arctic Monkeys,rock,Bogota,club,1046,1,Wednesday,155,25565,28853,92,0.87,910,alta
+Peso Pluma,regional_mexicano,CDMX,stadium,33280,3,Wednesday,161,882081,1501,93,0.95,31616,alta
+Natanael Cano,corridos,Queretaro,arena,12367,6,Friday,27,196648,1416,87,0.95,11748,alta
+Post Malone,rap,Seul,stadium,68999,7,Wednesday,62,1704264,3030,92,0.95,65549,alta
+BLACKPINK,kpop,LosAngeles,festival,29310,3,Friday,19,343067,1491,98,0.95,27844,alta
+Clairo,indie,CDMX,club,1703,11,Wednesday,153,39931,2974,80,0.9,1532,alta
+Fuerza Regida,regional_mexicano,Monterrey,club,1630,5,Saturday,141,25609,3636,88,0.95,1548,alta
+David Guetta,electronica,Seul,club,789,1,Thursday,81,20605,1409,93,0.95,749,alta
+Ariana Grande,pop,Queretaro,stadium,31052,2,Monday,121,770231,3673,95,0.95,29499,alta
+Ed Sheeran,pop,Monterrey,stadium,46884,12,Thursday,13,1098844,4530,94,0.95,44539,alta
+Fuerza Regida,regional_mexicano,Madrid,club,2917,4,Monday,126,71983,2369,88,0.95,2771,alta
+Post Malone,rap,Bogota,arena,16587,5,Monday,25,471307,2358,92,0.95,15757,alta
+Siddhartha,indie,Madrid,arena,15937,12,Wednesday,109,338764,1371,85,0.95,15140,alta
+Natanael Cano,corridos,LosAngeles,theater,8520,5,Monday,19,86306,1394,87,0.87,7412,alta
+Kendrick Lamar,rap,Seul,club,1880,12,Monday,141,35000,2180,95,0.95,1786,alta
+Peso Pluma,regional_mexicano,CDMX,festival,23539,6,Sunday,92,673270,2427,93,0.95,22362,alta
+Banda MS,banda,LosAngeles,arena,21289,7,Tuesday,97,253265,2324,89,0.94,20011,alta
+The Weeknd,pop,Leon,club,1346,1,Monday,126,27496,4206,96,0.95,1278,alta
+Natanael Cano,corridos,Leon,festival,23004,10,Wednesday,121,358622,1680,87,0.95,21853,alta
+Clairo,indie,Madrid,arena,12190,5,Friday,122,329043,3694,80,0.95,11580,alta
+Adele,pop,Seul,festival,61336,6,Thursday,15,1156253,2195,95,0.95,58269,alta
+Kendrick Lamar,rap,Monterrey,club,1719,12,Saturday,139,18491,3588,95,0.95,1633,alta
+Post Malone,rap,Bogota,stadium,74004,11,Friday,153,1398351,3177,92,0.95,70303,alta
+BTS,kpop,CDMX,stadium,69261,3,Tuesday,52,1574743,4730,99,0.95,65797,alta
+Grupo Firme,banda,Seul,stadium,46729,12,Tuesday,169,1044576,2479,90,0.95,44392,alta
+Karol G,reggaeton,Madrid,club,2857,12,Monday,121,84036,3186,94,0.95,2714,alta
+Fuerza Regida,regional_mexicano,Madrid,theater,6077,2,Wednesday,157,174265,25251,88,0.88,5347,alta
+aespa,kpop,Leon,theater,6033,12,Wednesday,53,101524,1826,90,0.95,5731,alta
+Ariana Grande,pop,LosAngeles,stadium,30936,1,Friday,164,462879,2447,95,0.95,29389,alta
+Travis Scott,rap,Leon,arena,18312,12,Tuesday,96,476792,3535,93,0.95,17396,alta
+Dua Lipa,pop,LosAngeles,festival,66162,4,Thursday,86,1851102,2244,93,0.95,62853,alta
+NewJeans,kpop,Bogota,stadium,75354,7,Monday,34,1379048,1485,93,0.95,71586,alta
+BTS,kpop,Madrid,club,902,5,Tuesday,37,21756,3484,99,0.95,856,alta
+Los Tigres del Norte,norteno,Guadalajara,festival,35230,1,Sunday,162,615912,2317,92,0.95,33468,alta
+Imagine Dragons,rock,Queretaro,stadium,50559,6,Wednesday,73,1370922,2567,94,0.95,48031,alta
+Calvin Harris,electronica,Queretaro,arena,11751,8,Thursday,173,168919,1938,94,0.94,11045,alta
+Adele,pop,Monterrey,festival,80941,8,Friday,150,1030427,2343,95,0.95,76893,alta
+Post Malone,rap,LosAngeles,festival,72921,10,Monday,17,1729297,3393,92,0.95,69274,alta
+Karol G,reggaeton,Monterrey,theater,5340,7,Thursday,84,108132,1807,94,0.95,5073,alta
+Natanael Cano,corridos,CDMX,arena,16024,12,Tuesday,152,396425,1873,87,0.95,15222,alta
+Siddhartha,indie,Bogota,festival,34765,5,Monday,167,525044,2111,85,0.95,33026,alta
+Girl Ultra,indie,CDMX,festival,80483,12,Sunday,47,1895773,2023,78,0.95,76458,alta
+Taylor Swift,pop,Monterrey,arena,12942,9,Monday,151,161702,4466,98,0.95,12294,alta
+Clairo,indie,Bogota,stadium,39267,9,Monday,89,585670,1633,80,0.8,31413,alta
+Coldplay,rock,LosAngeles,stadium,77611,6,Friday,132,1577322,2505,96,0.95,73730,alta
+Dua Lipa,pop,LosAngeles,arena,23823,7,Tuesday,109,442307,2665,93,0.95,22631,alta
+Kendrick Lamar,rap,Seul,festival,80778,11,Saturday,70,2249012,4332,95,0.95,76739,alta
+Martin Garrix,electronica,LosAngeles,club,1959,4,Friday,17,42482,21458,92,0.95,1861,alta
+Bad Bunny,reggaeton,Seul,club,676,10,Monday,34,18919,4413,95,0.95,642,alta
+Coldplay,rock,Guadalajara,festival,65581,6,Thursday,51,1744306,2098,96,0.95,62301,alta
+Post Malone,rap,Monterrey,arena,15833,11,Friday,57,221181,4067,92,0.95,15041,alta
+Dua Lipa,pop,Queretaro,theater,6893,1,Saturday,106,142562,4367,93,0.95,6548,alta
+Post Malone,rap,Bogota,club,592,11,Thursday,147,9090,2977,92,0.95,562,alta
+Imagine Dragons,rock,Madrid,arena,20570,12,Saturday,94,453165,4511,94,0.95,19541,alta
+Los Tigres del Norte,norteno,Leon,theater,4627,2,Friday,3,56246,2797,92,0.95,4395,alta
+The Weeknd,pop,Guadalajara,arena,23949,2,Wednesday,113,704132,4039,96,0.95,22751,alta
+Adele,pop,LosAngeles,theater,8050,5,Wednesday,31,84675,3521,95,0.95,7647,alta
+Kendrick Lamar,rap,Madrid,club,2843,10,Sunday,146,56658,2875,95,0.95,2700,alta
+BTS,kpop,Seul,festival,77692,2,Friday,167,1393374,3825,99,0.95,73807,alta
+Girl Ultra,indie,Monterrey,club,2102,8,Thursday,87,45071,2637,78,0.88,1849,alta
+David Guetta,electronica,Queretaro,stadium,50489,2,Saturday,76,506339,4408,93,0.95,47964,alta
+Peso Pluma,regional_mexicano,Queretaro,arena,11586,10,Thursday,6,239822,3641,93,0.95,11006,alta
+Girl Ultra,indie,CDMX,stadium,45105,12,Wednesday,17,1250206,2375,78,0.88,39692,alta
+Martin Garrix,electronica,LosAngeles,club,912,9,Thursday,70,15122,3918,92,0.95,866,alta
+The Weeknd,pop,Monterrey,festival,87410,3,Sunday,134,2162829,38801,96,0.95,83039,alta
+Adele,pop,Bogota,arena,24727,12,Wednesday,32,396186,1572,95,0.95,23490,alta
+Fuerza Regida,regional_mexicano,Monterrey,theater,8299,4,Saturday,123,188889,2647,88,0.95,7884,alta
+Banda MS,banda,Guadalajara,club,1922,5,Wednesday,28,33400,1600,89,0.95,1825,alta
+Calvin Harris,electronica,LosAngeles,festival,27602,11,Saturday,104,523387,3595,94,0.95,26221,alta
+BTS,kpop,CDMX,theater,9982,2,Thursday,126,285119,3532,99,0.95,9482,alta
+The Weeknd,pop,Bogota,club,1940,5,Tuesday,150,24159,2623,96,0.95,1843,alta
+Los Tigres del Norte,norteno,Guadalajara,stadium,69522,1,Sunday,104,1382536,3764,92,0.95,66045,alta
+Bad Bunny,reggaeton,Madrid,club,2954,4,Thursday,68,77913,3339,95,0.95,2806,alta
+Cuco,indie,Monterrey,festival,79065,1,Friday,49,2225572,2693,82,0.95,75111,alta
+Stray Kids,kpop,CDMX,theater,6068,3,Wednesday,58,171038,22312,91,0.95,5764,alta
+Natanael Cano,corridos,Guadalajara,arena,12887,5,Monday,102,143210,3454,87,0.87,11211,alta
+Peso Pluma,regional_mexicano,Seul,theater,9118,3,Thursday,151,256406,1592,93,0.95,8662,alta
+Siddhartha,indie,Seul,arena,15583,9,Wednesday,150,406843,3670,85,0.95,14803,alta
+Siddhartha,indie,Bogota,arena,22871,9,Wednesday,22,644276,3325,85,0.95,21727,alta
+David Guetta,electronica,Seul,festival,32924,7,Thursday,142,499758,2726,93,0.95,31277,alta
+Grupo Firme,banda,Monterrey,stadium,50959,6,Tuesday,25,1234348,2412,90,0.95,48411,alta
+Martin Garrix,electronica,Monterrey,stadium,64112,1,Monday,17,715094,38811,92,0.77,49366,alta
+Cuco,indie,CDMX,club,2948,6,Wednesday,83,57736,3131,82,0.92,2712,alta
+Fuerza Regida,regional_mexicano,Guadalajara,club,2747,3,Saturday,111,54896,4268,88,0.95,2609,alta
+Karol G,reggaeton,Guadalajara,club,1435,9,Thursday,77,18780,1424,94,0.94,1348,alta
+Los Tigres del Norte,norteno,Seul,festival,51997,5,Sunday,151,1067327,1447,92,0.95,49397,alta
+Kendrick Lamar,rap,Leon,club,2807,10,Thursday,112,47130,23077,95,0.9,2526,alta
+David Guetta,electronica,Guadalajara,festival,46035,8,Tuesday,62,1111940,2063,93,0.95,43733,alta
+Girl Ultra,indie,Guadalajara,theater,7761,3,Wednesday,80,206231,3386,78,0.88,6829,alta
+Ed Sheeran,pop,Seul,arena,23786,4,Saturday,118,277250,2813,94,0.95,22596,alta
+Ariana Grande,pop,Seul,festival,40270,4,Monday,86,696282,4244,95,0.95,38256,alta
+Bad Bunny,reggaeton,Madrid,theater,7961,5,Monday,14,107152,4419,95,0.95,7562,alta
+Clairo,indie,Bogota,stadium,56561,2,Friday,124,1221334,23279,80,0.85,48076,alta
+Ariana Grande,pop,Queretaro,theater,8992,7,Monday,79,263041,3100,95,0.95,8542,alta
+Imagine Dragons,rock,LosAngeles,theater,9114,10,Monday,75,246377,3337,94,0.95,8658,alta
+Kendrick Lamar,rap,Guadalajara,club,2887,2,Friday,47,44919,3046,95,0.95,2742,alta
+Ed Sheeran,pop,Queretaro,arena,12794,8,Wednesday,156,287760,2802,94,0.95,12154,alta
+Taylor Swift,pop,Bogota,stadium,56005,9,Tuesday,139,826928,3095,98,0.95,53204,alta
+BTS,kpop,LosAngeles,arena,11199,4,Monday,150,331924,4416,99,0.95,10639,alta
+Adele,pop,Guadalajara,theater,5910,3,Sunday,32,121270,2573,95,0.95,5614,alta
+Drake,rap,Monterrey,festival,59777,7,Saturday,88,1566370,3119,94,0.95,56788,alta
+Peso Pluma,regional_mexicano,Seul,theater,4699,6,Thursday,109,133586,3404,93,0.95,4464,alta
+Grupo Firme,banda,LosAngeles,arena,14457,3,Monday,47,375096,2347,90,0.95,13734,alta
+Fuerza Regida,regional_mexicano,Leon,arena,17095,9,Friday,67,199526,1935,88,0.95,16240,alta
+aespa,kpop,Monterrey,festival,48661,4,Sunday,12,1005483,31118,90,0.95,46227,alta
+Dua Lipa,pop,Guadalajara,club,1402,8,Friday,163,26341,2736,93,0.95,1331,alta
+Bad Bunny,reggaeton,LosAngeles,stadium,60596,11,Tuesday,56,882250,29412,95,0.8,48476,alta
+The Weeknd,pop,Monterrey,theater,4581,1,Thursday,5,46035,3874,96,0.95,4351,alta
+Banda MS,banda,Queretaro,theater,8997,3,Friday,98,242731,3707,89,0.95,8547,alta
+Stray Kids,kpop,Seul,theater,7337,7,Friday,159,96749,4100,91,0.95,6970,alta
+Cuco,indie,Bogota,club,2992,5,Monday,177,77918,1361,82,0.92,2752,alta
+Calvin Harris,electronica,Guadalajara,theater,9218,12,Sunday,49,94745,28086,94,0.89,8204,alta
+Post Malone,rap,LosAngeles,club,1916,9,Tuesday,72,33187,4021,92,0.95,1820,alta
+Adele,pop,Queretaro,club,627,4,Sunday,50,13486,4165,95,0.95,595,alta
+Taylor Swift,pop,Queretaro,festival,78814,7,Thursday,44,911969,3257,98,0.95,74873,alta
+David Guetta,electronica,LosAngeles,stadium,52508,6,Thursday,118,778973,2797,93,0.93,48832,alta
+Coldplay,rock,LosAngeles,arena,11361,3,Friday,37,130273,35191,96,0.91,10338,alta
+Imagine Dragons,rock,Leon,club,1633,1,Saturday,63,41106,2945,94,0.95,1551,alta
+Bad Bunny,reggaeton,CDMX,club,2237,7,Tuesday,146,61776,3779,95,0.95,2125,alta
+Siddhartha,indie,Queretaro,club,952,10,Friday,173,11726,3132,85,0.95,904,alta
+Girl Ultra,indie,CDMX,club,734,10,Monday,99,19449,1803,78,0.88,645,alta
+Banda MS,banda,CDMX,festival,71028,7,Monday,136,988673,39463,89,0.89,63214,alta
+BLACKPINK,kpop,Bogota,club,724,11,Monday,118,10620,3743,98,0.95,687,alta
+Drake,rap,Leon,stadium,77252,12,Friday,48,1204672,2981,94,0.95,73389,alta
+The Weeknd,pop,Seul,festival,72928,8,Thursday,85,1879161,1720,96,0.95,69281,alta
+Calvin Harris,electronica,Seul,stadium,40211,7,Saturday,78,1119963,3356,94,0.95,38200,alta
+Los Tigres del Norte,norteno,Bogota,club,1321,11,Tuesday,113,25550,1475,92,0.95,1254,alta
+David Guetta,electronica,LosAngeles,arena,13659,5,Sunday,153,238159,2406,93,0.95,12976,alta
+aespa,kpop,LosAngeles,festival,25087,10,Wednesday,165,668790,2777,90,0.95,23832,alta
+Fuerza Regida,regional_mexicano,Guadalajara,festival,89251,8,Friday,13,1887336,3297,88,0.95,84788,alta
+BTS,kpop,CDMX,stadium,70766,7,Thursday,125,1050209,4438,99,0.95,67227,alta
+TWICE,kpop,Seul,club,2722,7,Wednesday,70,29510,3562,92,0.95,2585,alta
+Ed Sheeran,pop,CDMX,theater,7849,2,Monday,144,224447,1854,94,0.95,7456,alta
+David Guetta,electronica,Seul,theater,8427,6,Wednesday,155,203551,31053,93,0.88,7415,alta
+The Weeknd,pop,LosAngeles,theater,6026,11,Saturday,96,123977,4472,96,0.95,5724,alta
+BTS,kpop,LosAngeles,club,2442,7,Friday,65,36050,4153,99,0.95,2319,alta
+NewJeans,kpop,CDMX,festival,68789,7,Tuesday,79,1011281,4564,93,0.95,65349,alta
+Ariana Grande,pop,CDMX,festival,51774,4,Monday,5,785854,4388,95,0.95,49185,alta
+Banda MS,banda,Seul,theater,6135,7,Saturday,80,157506,2070,89,0.95,5828,alta
+Peso Pluma,regional_mexicano,Bogota,club,2510,3,Tuesday,24,35035,2432,93,0.95,2384,alta
+TWICE,kpop,CDMX,theater,3495,1,Saturday,71,52972,3726,92,0.95,3320,alta
+Kendrick Lamar,rap,LosAngeles,festival,20546,12,Thursday,50,568957,1632,95,0.95,19518,alta
+Banda MS,banda,CDMX,club,2838,12,Monday,136,41120,3869,89,0.94,2667,alta
+Peso Pluma,regional_mexicano,Queretaro,arena,13126,12,Thursday,39,320086,2837,93,0.95,12469,alta
+Banda MS,banda,Leon,stadium,42487,2,Friday,33,873849,3381,89,0.95,40362,alta
+Martin Garrix,electronica,Bogota,theater,8048,10,Thursday,165,113135,2882,92,0.92,7404,alta
+Fuerza Regida,regional_mexicano,Monterrey,arena,11160,12,Saturday,178,179546,2088,88,0.95,10602,alta
+Clairo,indie,LosAngeles,arena,21455,8,Monday,62,404382,1296,80,0.9,19309,alta
+BLACKPINK,kpop,Leon,arena,15461,6,Monday,31,375825,26367,98,0.95,14687,alta
+Arctic Monkeys,rock,LosAngeles,club,2693,2,Wednesday,133,33105,4522,92,0.92,2477,alta
+aespa,kpop,Queretaro,club,2755,10,Thursday,78,56496,2775,90,0.95,2617,alta
+Stray Kids,kpop,Madrid,festival,76603,3,Tuesday,83,1696947,3797,91,0.95,72772,alta
+Natanael Cano,corridos,Leon,festival,60386,8,Saturday,84,1172602,2063,87,0.95,57366,alta
+Bad Bunny,reggaeton,Leon,stadium,62910,2,Friday,122,1471562,1725,95,0.95,59764,alta
+Adele,pop,Queretaro,club,1008,6,Sunday,29,30215,23322,95,0.95,957,alta
+Siddhartha,indie,Bogota,festival,26604,2,Saturday,130,335613,3894,85,0.95,25273,alta
+Stray Kids,kpop,Guadalajara,stadium,43410,3,Sunday,125,875755,3029,91,0.95,41239,alta
+Coldplay,rock,CDMX,festival,48483,3,Monday,52,739465,3145,96,0.95,46058,alta
+Cuco,indie,LosAngeles,festival,48707,10,Sunday,4,669316,2671,82,0.95,46271,alta
+David Guetta,electronica,Guadalajara,arena,10953,3,Tuesday,101,246103,3991,93,0.95,10405,alta
+Banda MS,banda,Monterrey,theater,5631,9,Sunday,37,121085,2821,89,0.95,5349,alta
+Taylor Swift,pop,Leon,theater,6742,6,Wednesday,13,162174,2971,98,0.95,6404,alta
+Cuco,indie,Queretaro,festival,40838,2,Saturday,20,619352,39856,82,0.95,38796,alta
+Girl Ultra,indie,Queretaro,theater,7556,8,Monday,170,188341,2162,78,0.88,6649,alta
+Arctic Monkeys,rock,Seul,theater,4489,7,Thursday,122,98897,3283,92,0.95,4264,alta
+Kendrick Lamar,rap,Madrid,festival,41222,12,Sunday,55,1116539,1957,95,0.95,39160,alta
+Clairo,indie,Bogota,club,2478,2,Sunday,170,37248,1878,80,0.95,2354,alta
+BTS,kpop,Leon,arena,15470,5,Sunday,53,462844,4517,99,0.95,14696,alta
+Arctic Monkeys,rock,Guadalajara,theater,6290,9,Thursday,153,105179,4411,92,0.95,5975,alta
+Bad Bunny,reggaeton,Bogota,club,1016,8,Tuesday,39,26225,2911,95,0.95,965,alta
+Siddhartha,indie,Seul,club,789,2,Sunday,121,12415,2327,85,0.95,749,alta
+aespa,kpop,Seul,stadium,31003,9,Wednesday,129,760684,3322,90,0.95,29452,alta
+Karol G,reggaeton,Guadalajara,festival,79715,4,Wednesday,116,1905774,1712,94,0.95,75729,alta
+Karol G,reggaeton,Queretaro,festival,89049,8,Tuesday,48,1741136,2875,94,0.95,84596,alta
+Clairo,indie,Seul,theater,5154,9,Friday,130,101529,3880,80,0.95,4896,alta
+Banda MS,banda,Queretaro,stadium,65505,4,Thursday,103,947776,3114,89,0.94,61574,alta
+David Guetta,electronica,Monterrey,festival,98906,6,Monday,101,2849841,2062,93,0.95,93960,alta
+Calvin Harris,electronica,Seul,stadium,69025,11,Wednesday,122,1906585,3722,94,0.95,65573,alta
+Imagine Dragons,rock,Guadalajara,stadium,42672,11,Monday,58,1263852,4263,94,0.95,40538,alta
+Dua Lipa,pop,Madrid,stadium,39581,3,Friday,45,999036,3487,93,0.95,37601,alta
+David Guetta,electronica,Bogota,festival,94576,5,Saturday,160,1953560,3579,93,0.95,89847,alta
+Imagine Dragons,rock,Madrid,club,532,1,Monday,150,12881,4273,94,0.95,505,alta
+Grupo Firme,banda,LosAngeles,theater,3305,12,Thursday,30,64614,3430,90,0.95,3139,alta
+aespa,kpop,CDMX,stadium,69361,7,Thursday,9,1194494,4373,90,0.95,65892,alta
+The Weeknd,pop,Seul,club,1679,11,Friday,16,46465,3057,96,0.95,1595,alta
+Imagine Dragons,rock,Guadalajara,arena,18547,7,Thursday,171,389504,3255,94,0.95,17619,alta
+Natanael Cano,corridos,Leon,stadium,43116,12,Sunday,134,1237435,3960,87,0.95,40960,alta
+Kendrick Lamar,rap,Leon,arena,17096,2,Saturday,20,409920,3154,95,0.95,16241,alta
+BTS,kpop,Madrid,stadium,56459,10,Friday,47,916296,2724,99,0.95,53636,alta
+Los Tigres del Norte,norteno,Queretaro,festival,52654,8,Wednesday,107,643226,3082,92,0.95,50021,alta
+aespa,kpop,Guadalajara,stadium,72019,12,Friday,77,1968656,2815,90,0.95,68418,alta
+Kendrick Lamar,rap,Seul,arena,19363,3,Sunday,91,544214,2322,95,0.95,18394,alta
+Calvin Harris,electronica,Monterrey,festival,67448,4,Saturday,27,1406213,3971,94,0.95,64075,alta
+Dua Lipa,pop,LosAngeles,club,2721,2,Wednesday,151,62282,4112,93,0.95,2584,alta
+Post Malone,rap,Guadalajara,club,1626,5,Wednesday,135,37511,2401,92,0.95,1544,alta
+David Guetta,electronica,Queretaro,festival,79431,9,Sunday,13,927990,3559,93,0.95,75459,alta
+Grupo Firme,banda,LosAngeles,theater,8160,5,Tuesday,105,125361,2315,90,0.95,7752,alta
+Bad Bunny,reggaeton,Bogota,club,1538,7,Thursday,134,21458,2186,95,0.95,1461,alta
+Fuerza Regida,regional_mexicano,Madrid,club,2243,7,Wednesday,156,51403,3921,88,0.95,2130,alta
+Clairo,indie,CDMX,stadium,78247,9,Monday,95,826785,1248,80,0.8,62597,alta
+Dua Lipa,pop,Seul,stadium,53346,3,Wednesday,111,999324,21860,93,0.88,46944,alta
+Los Tigres del Norte,norteno,Monterrey,arena,14635,6,Sunday,17,250376,24141,92,0.95,13903,alta
+Clairo,indie,LosAngeles,theater,5608,2,Thursday,164,156898,21516,80,0.75,4206,media
+Martin Garrix,electronica,Monterrey,club,1410,6,Monday,16,21050,2850,92,0.92,1297,alta
+The Weeknd,pop,CDMX,theater,8000,3,Friday,154,215774,31574,96,0.95,7600,alta
+Post Malone,rap,Monterrey,theater,5025,5,Saturday,2,142908,4164,92,0.95,4773,alta
+Taylor Swift,pop,Queretaro,club,2006,7,Tuesday,20,51265,4051,98,0.95,1905,alta
+Coldplay,rock,LosAngeles,theater,7231,12,Wednesday,176,164894,4080,96,0.95,6869,alta
+Ed Sheeran,pop,Guadalajara,stadium,47962,1,Wednesday,41,999125,3737,94,0.95,45563,alta
+Siddhartha,indie,Seul,theater,4953,12,Monday,139,123709,1359,85,0.95,4705,alta
+Adele,pop,Queretaro,stadium,56658,6,Monday,152,705950,4126,95,0.95,53825,alta
+Natanael Cano,corridos,CDMX,stadium,77503,2,Sunday,140,2224209,25303,87,0.92,71302,alta
+Bad Bunny,reggaeton,LosAngeles,club,674,2,Thursday,147,16936,24910,95,0.9,606,alta
+The Weeknd,pop,Madrid,festival,69971,12,Wednesday,86,807354,38023,96,0.91,63673,alta
+Travis Scott,rap,Seul,stadium,56944,6,Wednesday,177,1034790,4225,93,0.95,54096,alta
+Imagine Dragons,rock,Madrid,arena,18754,10,Monday,170,339110,4643,94,0.95,17816,alta
+Post Malone,rap,Queretaro,festival,47952,12,Thursday,105,1242437,1867,92,0.95,45554,alta
+Dua Lipa,pop,Leon,stadium,63352,9,Sunday,176,1559621,2628,93,0.95,60184,alta
+Peso Pluma,regional_mexicano,Seul,theater,8607,2,Wednesday,137,90934,2930,93,0.95,8176,alta
+Banda MS,banda,Bogota,stadium,65240,9,Saturday,89,673813,1499,89,0.95,61978,alta
+Karol G,reggaeton,Madrid,club,2401,9,Saturday,128,28081,4145,94,0.95,2280,alta
+Drake,rap,Madrid,stadium,61376,7,Tuesday,123,1207463,3036,94,0.95,58307,alta
+Stray Kids,kpop,Seul,club,725,10,Monday,65,10217,4439,91,0.95,688,alta
+Calvin Harris,electronica,LosAngeles,arena,18318,3,Tuesday,27,404547,2237,94,0.95,17402,alta
+Girl Ultra,indie,Bogota,stadium,46978,12,Tuesday,132,870767,3173,78,0.88,41340,alta
+Karol G,reggaeton,CDMX,club,521,10,Wednesday,83,5580,37117,94,0.79,411,alta
+Drake,rap,LosAngeles,theater,4299,5,Thursday,63,91176,39236,94,0.89,3826,alta
+Martin Garrix,electronica,Leon,festival,90013,10,Saturday,139,2397575,3843,92,0.95,85512,alta
+Peso Pluma,regional_mexicano,Guadalajara,theater,9397,7,Tuesday,35,209350,3919,93,0.95,8927,alta
+Travis Scott,rap,Bogota,festival,74815,11,Monday,87,827368,4527,93,0.95,71074,alta
+Post Malone,rap,CDMX,theater,4795,5,Saturday,8,110167,3518,92,0.95,4555,alta
+David Guetta,electronica,LosAngeles,stadium,57635,9,Friday,84,892357,4363,93,0.95,54753,alta
+Travis Scott,rap,CDMX,arena,16722,3,Sunday,36,241255,3539,93,0.95,15885,alta
+Travis Scott,rap,Seul,theater,6593,8,Friday,35,79028,4372,93,0.95,6263,alta
+The Weeknd,pop,Queretaro,festival,74551,1,Sunday,118,971264,3720,96,0.95,70823,alta
+Natanael Cano,corridos,Leon,festival,59112,7,Saturday,116,1630054,3258,87,0.95,56156,alta
+BLACKPINK,kpop,Madrid,theater,3050,12,Tuesday,98,74981,2974,98,0.95,2897,alta
+Cuco,indie,Seul,theater,9738,5,Saturday,164,248154,4036,82,0.95,9251,alta
+Grupo Firme,banda,Madrid,festival,43563,12,Monday,126,1024463,4205,90,0.95,41384,alta
+Banda MS,banda,CDMX,festival,34750,8,Friday,140,920541,4154,89,0.95,33012,alta
+Ed Sheeran,pop,Leon,arena,22861,2,Tuesday,114,441110,1511,94,0.95,21717,alta
+Adele,pop,CDMX,stadium,73932,8,Wednesday,152,1721381,2012,95,0.95,70235,alta
+Peso Pluma,regional_mexicano,Madrid,arena,15321,11,Wednesday,157,169464,2819,93,0.95,14554,alta
+Post Malone,rap,Leon,theater,9109,2,Tuesday,122,235203,1441,92,0.95,8653,alta
+Ariana Grande,pop,Madrid,club,1015,10,Tuesday,126,19820,1573,95,0.95,964,alta
+Los Tigres del Norte,norteno,Guadalajara,theater,4751,11,Sunday,146,127680,2672,92,0.95,4513,alta
+BTS,kpop,Seul,club,2238,2,Sunday,14,44999,3387,99,0.95,2126,alta
+Martin Garrix,electronica,Bogota,arena,24711,10,Sunday,127,636829,2480,92,0.95,23475,alta
+NewJeans,kpop,CDMX,festival,36756,12,Tuesday,140,628473,1745,93,0.95,34918,alta
+Bad Bunny,reggaeton,Seul,festival,29417,4,Friday,91,742701,3353,95,0.95,27946,alta
+Stray Kids,kpop,Monterrey,festival,65179,3,Wednesday,124,872989,3730,91,0.95,61920,alta
+Imagine Dragons,rock,Bogota,stadium,74680,1,Saturday,159,1288854,1802,94,0.95,70946,alta
+Siddhartha,indie,Seul,theater,6251,11,Wednesday,38,119764,4219,85,0.95,5938,alta
+Calvin Harris,electronica,Queretaro,club,1028,5,Thursday,25,28437,4084,94,0.95,976,alta
+Stray Kids,kpop,Queretaro,theater,4379,5,Friday,74,90483,3215,91,0.95,4160,alta
+David Guetta,electronica,Queretaro,arena,19891,7,Saturday,145,478155,2116,93,0.95,18896,alta
+The Weeknd,pop,Queretaro,stadium,70800,7,Saturday,27,1721611,3251,96,0.95,67260,alta
+TWICE,kpop,Madrid,theater,9805,4,Friday,52,240192,35454,92,0.95,9314,alta
+Ed Sheeran,pop,Guadalajara,club,2324,3,Wednesday,135,31300,2140,94,0.94,2184,alta
+Stray Kids,kpop,Guadalajara,arena,22010,6,Sunday,167,519884,2412,91,0.95,20909,alta
+BLACKPINK,kpop,Monterrey,stadium,37548,9,Saturday,22,996460,4373,98,0.95,35670,alta
+NewJeans,kpop,Seul,club,1985,5,Sunday,105,51503,2774,93,0.95,1885,alta
+Banda MS,banda,Monterrey,club,1229,2,Monday,79,17803,2342,89,0.94,1155,alta
+Drake,rap,Guadalajara,festival,39379,1,Wednesday,79,804488,3500,94,0.95,37410,alta
+Stray Kids,kpop,LosAngeles,festival,93082,10,Tuesday,154,2688546,3799,91,0.95,88427,alta
+BTS,kpop,Bogota,theater,8295,5,Monday,4,203368,2051,99,0.95,7880,alta
+Bad Bunny,reggaeton,Madrid,stadium,31085,10,Sunday,17,910146,3512,95,0.95,29530,alta
+Coldplay,rock,Madrid,festival,38749,2,Tuesday,173,418170,39646,96,0.91,35261,alta
+NewJeans,kpop,LosAngeles,club,939,3,Sunday,116,9409,2095,93,0.95,892,alta
+Imagine Dragons,rock,Queretaro,stadium,51565,10,Sunday,56,1546273,4552,94,0.95,48986,alta
+Drake,rap,CDMX,club,1389,8,Saturday,154,31920,28360,94,0.95,1319,alta
+Coldplay,rock,Monterrey,festival,72891,1,Thursday,41,1713301,4546,96,0.95,69246,alta
+Grupo Firme,banda,Guadalajara,arena,16635,2,Thursday,53,372030,1900,90,0.95,15803,alta
+Peso Pluma,regional_mexicano,Bogota,festival,97445,3,Monday,76,2682358,2929,93,0.95,92572,alta
+BLACKPINK,kpop,Madrid,arena,10758,6,Thursday,30,269315,3308,98,0.95,10220,alta
+TWICE,kpop,CDMX,festival,80721,10,Friday,141,1573299,2887,92,0.95,76684,alta
+aespa,kpop,Madrid,club,930,1,Friday,89,20112,2836,90,0.95,883,alta
+Post Malone,rap,Madrid,theater,5765,6,Tuesday,167,140447,2615,92,0.95,5476,alta
+Drake,rap,Leon,arena,14821,6,Wednesday,119,196786,4040,94,0.94,13931,alta
+Cuco,indie,Queretaro,club,758,5,Saturday,160,9204,3494,82,0.92,697,alta
+David Guetta,electronica,Leon,club,2675,6,Saturday,173,77890,3847,93,0.95,2541,alta
+Banda MS,banda,LosAngeles,theater,9645,7,Monday,168,244938,2984,89,0.95,9162,alta
+The Weeknd,pop,LosAngeles,theater,3558,11,Tuesday,161,64609,4385,96,0.95,3380,alta
+The Weeknd,pop,LosAngeles,club,1145,12,Tuesday,156,14031,3598,96,0.95,1087,alta
+Ariana Grande,pop,CDMX,festival,20685,3,Wednesday,47,271876,3489,95,0.95,19650,alta
+Taylor Swift,pop,Guadalajara,stadium,69647,6,Saturday,144,732451,4083,98,0.95,66164,alta
+David Guetta,electronica,Queretaro,stadium,47364,12,Friday,135,1408285,1677,93,0.95,44995,alta
+aespa,kpop,Madrid,theater,7146,12,Friday,84,119552,2226,90,0.95,6788,alta
+Banda MS,banda,Monterrey,club,2028,11,Thursday,178,57257,1485,89,0.95,1926,alta
+Taylor Swift,pop,CDMX,club,1816,5,Wednesday,165,32176,3011,98,0.95,1725,alta
+Travis Scott,rap,Monterrey,arena,21319,10,Sunday,46,464142,3712,93,0.95,20253,alta
+Kendrick Lamar,rap,Leon,festival,86161,6,Saturday,157,2388207,3650,95,0.95,81852,alta
+Imagine Dragons,rock,Queretaro,stadium,48181,2,Wednesday,83,530201,1936,94,0.94,45290,alta
+Travis Scott,rap,Guadalajara,arena,17291,1,Friday,47,362753,2923,93,0.95,16426,alta
+Arctic Monkeys,rock,Monterrey,festival,26451,12,Sunday,149,599656,4401,92,0.95,25128,alta
+BTS,kpop,Leon,arena,17004,3,Wednesday,15,242478,3890,99,0.95,16153,alta
+Natanael Cano,corridos,Guadalajara,festival,29603,1,Tuesday,113,790226,2318,87,0.95,28122,alta
+Taylor Swift,pop,Bogota,stadium,70408,3,Friday,125,1342199,1954,98,0.95,66887,alta
+Adele,pop,Madrid,club,1416,3,Monday,65,30511,2238,95,0.95,1345,alta
+Los Tigres del Norte,norteno,Monterrey,club,2153,2,Saturday,174,40927,4090,92,0.95,2045,alta
+TWICE,kpop,Bogota,theater,8072,10,Monday,170,117451,3481,92,0.95,7668,alta
+Ed Sheeran,pop,Bogota,stadium,44861,6,Tuesday,72,1317677,2841,94,0.95,42617,alta
+Dua Lipa,pop,Guadalajara,stadium,67269,1,Friday,22,1156864,4550,93,0.95,63905,alta
+Taylor Swift,pop,LosAngeles,stadium,40078,8,Monday,30,1088334,4470,98,0.95,38074,alta
+Ed Sheeran,pop,Madrid,festival,80345,12,Tuesday,157,1358314,29151,94,0.95,76327,alta
+Stray Kids,kpop,Bogota,club,1735,2,Monday,42,48980,3682,91,0.95,1648,alta
+Coldplay,rock,Madrid,festival,38714,12,Tuesday,60,924546,23473,96,0.95,36778,alta
+The Weeknd,pop,Guadalajara,theater,7361,2,Saturday,19,100488,23806,96,0.91,6698,alta
+Adele,pop,Madrid,club,2894,1,Friday,13,31461,2027,95,0.95,2749,alta
+Banda MS,banda,Madrid,stadium,44574,9,Saturday,31,1041140,1633,89,0.95,42345,alta
+TWICE,kpop,Guadalajara,club,1088,4,Thursday,65,23606,2837,92,0.95,1033,alta
+Fuerza Regida,regional_mexicano,Queretaro,festival,33850,5,Thursday,43,669053,2481,88,0.95,32157,alta
+Siddhartha,indie,Leon,festival,96017,11,Wednesday,110,1101475,4052,85,0.95,91216,alta
+Siddhartha,indie,Bogota,stadium,56646,2,Wednesday,31,964009,2205,85,0.95,53813,alta
+Imagine Dragons,rock,Madrid,theater,9367,6,Tuesday,49,94338,1487,94,0.94,8804,alta
+Martin Garrix,electronica,LosAngeles,stadium,53181,6,Saturday,8,600321,31053,92,0.87,46267,alta
+aespa,kpop,Madrid,arena,12651,6,Thursday,67,189457,1612,90,0.95,12018,alta
+Adele,pop,Monterrey,festival,39049,9,Thursday,155,1116360,1927,95,0.95,37096,alta
+Adele,pop,LosAngeles,club,2439,2,Tuesday,78,29953,2010,95,0.95,2317,alta
+Los Tigres del Norte,norteno,Monterrey,arena,16093,3,Monday,101,446917,2587,92,0.95,15288,alta
+David Guetta,electronica,Madrid,arena,21912,7,Saturday,161,389584,1454,93,0.95,20816,alta
+Fuerza Regida,regional_mexicano,Monterrey,arena,24202,6,Tuesday,119,669323,3335,88,0.95,22991,alta
+Siddhartha,indie,Bogota,stadium,66045,3,Thursday,72,1716555,2451,85,0.95,62742,alta
+Grupo Firme,banda,Monterrey,arena,23549,1,Wednesday,121,363207,1717,90,0.95,22371,alta
+NewJeans,kpop,CDMX,arena,15616,1,Friday,94,455215,4276,93,0.95,14835,alta
+Taylor Swift,pop,Seul,stadium,30344,3,Monday,101,865551,1548,98,0.95,28826,alta
+Ariana Grande,pop,Leon,arena,11813,2,Saturday,38,285865,4375,95,0.95,11222,alta
+Bad Bunny,reggaeton,Monterrey,arena,21933,5,Saturday,92,597222,2670,95,0.95,20836,alta
+NewJeans,kpop,Seul,theater,8481,4,Monday,145,102617,2031,93,0.95,8056,alta
+Stray Kids,kpop,Monterrey,arena,20089,4,Saturday,180,589819,2586,91,0.95,19084,alta
+Cuco,indie,Queretaro,festival,45818,12,Wednesday,30,1108716,2179,82,0.95,43527,alta
+Girl Ultra,indie,Madrid,festival,57239,9,Tuesday,145,1505111,2872,78,0.95,54377,alta
+Imagine Dragons,rock,Queretaro,festival,87401,6,Sunday,153,2189216,37711,94,0.95,83030,alta
+Cuco,indie,Leon,festival,95217,3,Friday,157,1316645,3929,82,0.95,90456,alta
+Ed Sheeran,pop,CDMX,stadium,64430,6,Sunday,148,1256466,4271,94,0.95,61208,alta
+Peso Pluma,regional_mexicano,Monterrey,festival,77433,10,Tuesday,136,781085,3019,93,0.95,73561,alta
+Dua Lipa,pop,Monterrey,theater,3560,10,Tuesday,93,64831,3466,93,0.95,3382,alta
+Ariana Grande,pop,Guadalajara,theater,4126,5,Saturday,127,60299,1862,95,0.95,3919,alta
+Banda MS,banda,Guadalajara,festival,86523,12,Tuesday,81,1910179,2874,89,0.95,82196,alta
+BLACKPINK,kpop,Leon,theater,5333,12,Saturday,52,75344,2343,98,0.95,5066,alta
+Adele,pop,CDMX,club,2955,8,Wednesday,156,83969,4284,95,0.95,2807,alta
+TWICE,kpop,Leon,arena,21525,9,Thursday,132,606059,2910,92,0.95,20448,alta
+Girl Ultra,indie,CDMX,stadium,67317,2,Friday,175,791488,2275,78,0.88,59238,alta
+Ed Sheeran,pop,Seul,stadium,63655,11,Monday,42,641159,4555,94,0.94,59835,alta
+Ed Sheeran,pop,Monterrey,arena,11393,11,Wednesday,50,217863,2630,94,0.95,10823,alta
+Karol G,reggaeton,Bogota,club,1716,11,Monday,66,26882,2605,94,0.95,1630,alta
+The Weeknd,pop,Bogota,arena,15334,2,Monday,35,237540,4536,96,0.95,14567,alta
+Stray Kids,kpop,Madrid,theater,7746,6,Sunday,165,148718,4111,91,0.95,7358,alta
+Natanael Cano,corridos,Madrid,club,2927,6,Thursday,48,61761,4015,87,0.95,2780,alta
+TWICE,kpop,Monterrey,theater,4343,6,Saturday,1,49537,3455,92,0.95,4125,alta
+The Weeknd,pop,CDMX,arena,13832,11,Saturday,63,302064,2199,96,0.95,13140,alta
+Stray Kids,kpop,Madrid,club,2536,5,Saturday,144,70239,2353,91,0.95,2409,alta
+Drake,rap,Monterrey,club,2458,9,Monday,116,35903,2296,94,0.94,2310,alta
+Clairo,indie,Monterrey,stadium,64516,9,Wednesday,111,1004939,2403,80,0.9,58064,alta
+Dua Lipa,pop,Bogota,festival,93438,4,Wednesday,175,1276553,3706,93,0.95,88766,alta
+Clairo,indie,Seul,arena,18200,8,Wednesday,102,300580,3878,80,0.9,16380,alta
+Natanael Cano,corridos,Bogota,festival,55608,10,Sunday,18,1040236,3121,87,0.95,52827,alta
+NewJeans,kpop,Queretaro,theater,3490,2,Friday,38,70299,2737,93,0.95,3315,alta
+Dua Lipa,pop,Monterrey,arena,22007,8,Sunday,117,631190,2502,93,0.95,20906,alta
+Arctic Monkeys,rock,Queretaro,festival,74049,11,Wednesday,118,1402510,3950,92,0.95,70346,alta
+Coldplay,rock,Madrid,festival,37681,7,Sunday,128,525313,2509,96,0.95,35796,alta
+Taylor Swift,pop,Bogota,club,1076,9,Saturday,2,31425,4223,98,0.95,1022,alta
+Natanael Cano,corridos,CDMX,festival,90814,6,Sunday,125,2487779,4318,87,0.95,86273,alta
+Siddhartha,indie,CDMX,arena,10163,2,Monday,45,279760,2527,85,0.95,9654,alta
+Los Tigres del Norte,norteno,Madrid,theater,7117,6,Saturday,175,107034,3802,92,0.95,6761,alta
+Karol G,reggaeton,Monterrey,arena,13423,5,Wednesday,9,277266,2602,94,0.95,12751,alta
+TWICE,kpop,Bogota,festival,39418,10,Monday,118,792459,2736,92,0.95,37447,alta
+Martin Garrix,electronica,LosAngeles,stadium,48176,3,Saturday,87,665612,3246,92,0.95,45767,alta
+Calvin Harris,electronica,Leon,festival,61644,4,Sunday,9,726476,2819,94,0.95,58561,alta
+Imagine Dragons,rock,Leon,club,1263,2,Friday,75,20739,1955,94,0.95,1199,alta
+Siddhartha,indie,Bogota,stadium,44584,5,Monday,120,814525,2176,85,0.95,42354,alta
+Grupo Firme,banda,CDMX,festival,31613,1,Wednesday,101,459410,3128,90,0.95,30032,alta
+Adele,pop,CDMX,club,901,8,Sunday,177,12568,34216,95,0.9,810,alta
+Kendrick Lamar,rap,CDMX,theater,6028,12,Saturday,141,171889,1939,95,0.95,5726,alta
+Stray Kids,kpop,Guadalajara,festival,32543,4,Sunday,46,630974,1627,91,0.95,30915,alta
+aespa,kpop,Guadalajara,club,1517,4,Saturday,24,17456,2200,90,0.95,1441,alta
+Kendrick Lamar,rap,Queretaro,club,1610,1,Wednesday,163,46016,3315,95,0.95,1529,alta
+Siddhartha,indie,Queretaro,arena,11334,6,Saturday,40,170359,3811,85,0.95,10767,alta
+David Guetta,electronica,Madrid,festival,24370,3,Sunday,109,650694,2777,93,0.95,23151,alta
+Arctic Monkeys,rock,LosAngeles,arena,14899,5,Saturday,64,222564,21492,92,0.87,12962,alta
+Dua Lipa,pop,CDMX,theater,7262,2,Sunday,110,110064,3624,93,0.95,6898,alta
+Ariana Grande,pop,Queretaro,stadium,48450,6,Friday,126,975394,3873,95,0.95,46027,alta
+Clairo,indie,Bogota,theater,4907,8,Tuesday,81,86425,1236,80,0.9,4416,alta
+Peso Pluma,regional_mexicano,Queretaro,festival,70340,3,Saturday,9,1372235,22112,93,0.95,66823,alta
+Ed Sheeran,pop,Seul,club,995,2,Thursday,96,15680,2127,94,0.95,945,alta
+Siddhartha,indie,Leon,theater,8523,7,Friday,157,133337,2491,85,0.95,8096,alta
+Imagine Dragons,rock,Monterrey,club,2943,11,Friday,166,70603,2986,94,0.95,2795,alta
+Ed Sheeran,pop,Madrid,theater,7287,11,Wednesday,34,200553,1593,94,0.95,6922,alta
+Dua Lipa,pop,Leon,stadium,78314,1,Saturday,108,1847222,22126,93,0.95,74398,alta
+Adele,pop,Leon,theater,5883,9,Friday,51,156886,2623,95,0.95,5588,alta
+Bad Bunny,reggaeton,Bogota,stadium,74825,11,Tuesday,153,1171898,3984,95,0.95,71083,alta
+Ariana Grande,pop,Monterrey,club,604,9,Sunday,52,10155,2109,95,0.95,573,alta
+Cuco,indie,Leon,theater,6421,1,Monday,13,89094,3035,82,0.82,5265,alta
+NewJeans,kpop,Bogota,festival,74588,12,Sunday,74,2101981,2677,93,0.95,70858,alta
+Karol G,reggaeton,CDMX,theater,7095,9,Thursday,41,113128,37417,94,0.89,6314,alta
+Los Tigres del Norte,norteno,Bogota,festival,72189,10,Saturday,148,1576314,2121,92,0.95,68579,alta
+Taylor Swift,pop,CDMX,arena,10098,4,Wednesday,173,104093,3319,98,0.95,9593,alta
+NewJeans,kpop,Guadalajara,stadium,53784,2,Thursday,83,676565,3646,93,0.95,51094,alta
+Arctic Monkeys,rock,Madrid,arena,13673,5,Thursday,113,225333,3279,92,0.95,12989,alta
+TWICE,kpop,Monterrey,theater,7660,1,Monday,120,115445,4472,92,0.95,7277,alta
+Natanael Cano,corridos,Bogota,theater,4985,1,Friday,162,56157,2085,87,0.95,4735,alta
+Dua Lipa,pop,CDMX,festival,43579,7,Saturday,169,565429,3887,93,0.95,41400,alta
+Siddhartha,indie,Madrid,festival,55748,12,Wednesday,124,567288,2876,85,0.95,52960,alta
+Natanael Cano,corridos,Monterrey,stadium,76156,2,Thursday,148,952803,4094,87,0.87,66255,alta
+Peso Pluma,regional_mexicano,LosAngeles,theater,6917,6,Saturday,15,175063,33227,93,0.95,6571,alta
+Post Malone,rap,Madrid,festival,87180,2,Friday,8,2006497,4358,92,0.95,82821,alta
+Peso Pluma,regional_mexicano,LosAngeles,festival,81103,10,Wednesday,33,1538534,2651,93,0.95,77047,alta
+Siddhartha,indie,Monterrey,festival,59059,4,Friday,125,1279096,3565,85,0.95,56106,alta
+Imagine Dragons,rock,Leon,theater,6645,12,Thursday,59,76160,2927,94,0.94,6246,alta
+TWICE,kpop,CDMX,club,2791,8,Saturday,8,36645,4176,92,0.95,2651,alta
+aespa,kpop,Monterrey,club,2594,2,Thursday,102,77104,4337,90,0.95,2464,alta
+Banda MS,banda,Bogota,festival,52759,2,Tuesday,100,1162453,1908,89,0.95,50121,alta
+Taylor Swift,pop,Madrid,club,2045,7,Friday,176,42520,2019,98,0.95,1942,alta
+Arctic Monkeys,rock,Madrid,stadium,58795,6,Tuesday,81,993385,2967,92,0.95,55855,alta
+Kendrick Lamar,rap,Guadalajara,arena,16232,4,Thursday,137,334234,3458,95,0.95,15420,alta
+Karol G,reggaeton,Queretaro,stadium,65969,12,Sunday,125,987479,3421,94,0.95,62670,alta
+Ariana Grande,pop,Guadalajara,festival,26501,5,Wednesday,82,370496,3694,95,0.95,25175,alta
+Girl Ultra,indie,Leon,theater,4794,7,Sunday,47,55287,3178,78,0.88,4218,alta
+Siddhartha,indie,LosAngeles,theater,9009,9,Wednesday,44,116914,3709,85,0.85,7657,alta
+Banda MS,banda,CDMX,arena,19671,6,Saturday,139,344033,3591,89,0.95,18687,alta
+Ed Sheeran,pop,Monterrey,festival,95670,2,Friday,123,2407502,29215,94,0.95,90886,alta
+Natanael Cano,corridos,Seul,club,557,12,Wednesday,114,13750,2741,87,0.95,529,alta
+David Guetta,electronica,Bogota,arena,18648,2,Monday,114,474439,4505,93,0.95,17715,alta
+Kendrick Lamar,rap,CDMX,arena,24007,4,Sunday,96,303977,2137,95,0.95,22806,alta
+Bad Bunny,reggaeton,Madrid,theater,8953,4,Friday,121,97211,4086,95,0.95,8505,alta
+Ed Sheeran,pop,Bogota,club,576,11,Monday,57,6489,4633,94,0.94,541,alta
+Drake,rap,Madrid,stadium,57512,12,Tuesday,65,1215360,2100,94,0.95,54636,alta
+Clairo,indie,Monterrey,festival,72141,11,Saturday,42,968388,3015,80,0.95,68533,alta
+BTS,kpop,Monterrey,stadium,74925,7,Wednesday,59,1632504,1533,99,0.95,71178,alta
+The Weeknd,pop,Guadalajara,stadium,67361,4,Friday,154,1378700,4331,96,0.95,63992,alta
+Girl Ultra,indie,LosAngeles,club,2256,4,Tuesday,29,44871,27590,78,0.73,1646,media
+The Weeknd,pop,LosAngeles,arena,10571,2,Sunday,16,272190,2094,96,0.95,10042,alta
+Kendrick Lamar,rap,CDMX,theater,9618,4,Monday,169,163619,2700,95,0.95,9137,alta
+Post Malone,rap,CDMX,stadium,66532,8,Monday,126,1521591,3429,92,0.95,63205,alta
+The Weeknd,pop,Seul,club,1726,3,Saturday,6,20298,4180,96,0.95,1639,alta
+BTS,kpop,Seul,stadium,79147,9,Monday,43,2039765,3103,99,0.95,75189,alta
+Calvin Harris,electronica,Guadalajara,arena,18481,5,Sunday,28,484031,4327,94,0.95,17556,alta
+Karol G,reggaeton,Monterrey,theater,5927,7,Tuesday,140,119255,2006,94,0.95,5630,alta
+Peso Pluma,regional_mexicano,Madrid,festival,73503,9,Tuesday,112,1189803,2092,93,0.95,69827,alta
+aespa,kpop,Queretaro,stadium,78726,3,Wednesday,40,2074838,4002,90,0.95,74789,alta
+Dua Lipa,pop,Leon,festival,78707,6,Monday,45,1513846,1597,93,0.95,74771,alta
+Arctic Monkeys,rock,Seul,theater,8820,10,Monday,146,102933,3579,92,0.92,8114,alta
+Stray Kids,kpop,LosAngeles,festival,33984,11,Saturday,159,356982,3297,91,0.95,32284,alta
+Banda MS,banda,Leon,theater,7016,4,Thursday,95,193246,3020,89,0.95,6665,alta
+BTS,kpop,Leon,festival,93865,11,Wednesday,83,2257519,4741,99,0.95,89171,alta
+Banda MS,banda,Leon,festival,79691,3,Sunday,111,961521,4044,89,0.95,75706,alta
+Arctic Monkeys,rock,Leon,arena,23347,1,Friday,10,287113,3456,92,0.95,22179,alta
+Arctic Monkeys,rock,Bogota,stadium,39427,9,Sunday,172,501237,4442,92,0.95,37455,alta
+Karol G,reggaeton,Monterrey,festival,96165,3,Monday,166,2748227,28555,94,0.95,91356,alta
+Karol G,reggaeton,Queretaro,stadium,72549,8,Saturday,65,2098298,1869,94,0.95,68921,alta
+Fuerza Regida,regional_mexicano,Madrid,theater,3373,8,Saturday,103,40862,4012,88,0.95,3204,alta
+Banda MS,banda,LosAngeles,stadium,62996,4,Friday,122,1543608,3580,89,0.95,59846,alta
+BTS,kpop,CDMX,club,2441,2,Wednesday,130,51703,4562,99,0.95,2318,alta
+Girl Ultra,indie,Leon,arena,19432,2,Tuesday,57,373439,1457,78,0.88,17100,alta
+BTS,kpop,Monterrey,arena,15031,1,Sunday,16,306079,4414,99,0.95,14279,alta
+BTS,kpop,Monterrey,arena,19220,12,Monday,163,252102,3788,99,0.95,18259,alta
+Taylor Swift,pop,Bogota,stadium,63266,1,Friday,17,729808,2357,98,0.95,60102,alta
+BLACKPINK,kpop,LosAngeles,arena,14252,7,Friday,51,357129,2099,98,0.95,13539,alta
+NewJeans,kpop,Leon,theater,6946,12,Tuesday,122,181949,3679,93,0.95,6598,alta
+Travis Scott,rap,Monterrey,club,1609,1,Friday,18,31953,3036,93,0.95,1528,alta
+Natanael Cano,corridos,Queretaro,theater,9701,12,Saturday,71,101593,37866,87,0.82,7954,alta
+Girl Ultra,indie,Guadalajara,club,1397,2,Sunday,42,21936,1481,78,0.95,1327,alta
+Natanael Cano,corridos,Bogota,arena,22552,6,Sunday,158,521554,2102,87,0.95,21424,alta
+BLACKPINK,kpop,Leon,club,2541,11,Thursday,53,47573,4142,98,0.95,2413,alta
+Natanael Cano,corridos,Guadalajara,club,818,1,Thursday,165,18225,1884,87,0.95,777,alta
+Los Tigres del Norte,norteno,Seul,theater,8905,2,Wednesday,139,243170,2976,92,0.95,8459,alta
+NewJeans,kpop,Guadalajara,arena,21991,12,Friday,139,431306,3570,93,0.95,20891,alta
+Martin Garrix,electronica,Queretaro,club,1124,2,Saturday,173,27880,39919,92,0.95,1067,alta
+Fuerza Regida,regional_mexicano,Leon,theater,7067,8,Friday,163,190620,27238,88,0.95,6713,alta
+BTS,kpop,Madrid,stadium,58328,6,Friday,174,1370148,1545,99,0.95,55411,alta
+aespa,kpop,CDMX,club,2681,4,Wednesday,164,71601,3392,90,0.95,2546,alta
+Drake,rap,Guadalajara,club,939,12,Sunday,81,17561,23246,94,0.95,892,alta
+Calvin Harris,electronica,Bogota,arena,11107,9,Sunday,7,189957,2207,94,0.95,10551,alta
+aespa,kpop,CDMX,arena,22264,2,Saturday,131,332769,2088,90,0.95,21150,alta
+Coldplay,rock,Guadalajara,stadium,79515,6,Monday,39,2135144,3414,96,0.95,75539,alta
+Dua Lipa,pop,Leon,arena,11094,7,Sunday,59,241235,2022,93,0.95,10539,alta
+Post Malone,rap,Leon,theater,6573,3,Tuesday,130,128316,3215,92,0.95,6244,alta
+Kendrick Lamar,rap,CDMX,arena,18496,11,Wednesday,45,403596,2058,95,0.95,17571,alta
+Stray Kids,kpop,Leon,stadium,77935,1,Thursday,174,1149177,2526,91,0.95,74038,alta
+Dua Lipa,pop,Leon,theater,7705,4,Friday,146,125877,2818,93,0.95,7319,alta
+Girl Ultra,indie,Leon,festival,44639,2,Tuesday,29,1105990,1947,78,0.95,42407,alta
+Drake,rap,LosAngeles,club,744,11,Thursday,152,19622,3287,94,0.95,706,alta
+David Guetta,electronica,Leon,festival,95604,11,Monday,110,2405453,2425,93,0.95,90823,alta
+aespa,kpop,Leon,theater,6128,7,Sunday,86,69382,3773,90,0.95,5821,alta
+Travis Scott,rap,Monterrey,festival,81881,11,Saturday,136,1950610,1773,93,0.95,77786,alta
+Taylor Swift,pop,Leon,theater,7616,5,Saturday,113,214943,1994,98,0.95,7235,alta
+Drake,rap,Guadalajara,club,1751,11,Wednesday,89,33101,3260,94,0.95,1663,alta
+Taylor Swift,pop,Madrid,arena,19890,1,Tuesday,153,459644,4124,98,0.95,18895,alta
+Karol G,reggaeton,Bogota,festival,42331,6,Monday,59,1235203,29238,94,0.95,40214,alta
+Calvin Harris,electronica,Monterrey,arena,21027,12,Friday,100,359630,2398,94,0.95,19975,alta
+Peso Pluma,regional_mexicano,Guadalajara,stadium,47761,5,Thursday,46,1149361,3961,93,0.95,45372,alta
+Cuco,indie,Bogota,festival,76718,6,Friday,115,1024942,1816,82,0.95,72882,alta
+Calvin Harris,electronica,LosAngeles,arena,10773,1,Saturday,176,175318,3347,94,0.95,10234,alta
+Coldplay,rock,LosAngeles,theater,7321,3,Friday,125,181009,2863,96,0.95,6954,alta
+David Guetta,electronica,Queretaro,theater,5450,6,Wednesday,113,161420,2794,93,0.95,5177,alta
+Clairo,indie,Leon,theater,8082,7,Tuesday,31,170361,1743,80,0.9,7273,alta
+aespa,kpop,Madrid,festival,81526,5,Thursday,108,876414,1376,90,0.95,77449,alta
+The Weeknd,pop,Monterrey,festival,80949,11,Monday,89,2363286,30882,96,0.95,76901,alta
+Drake,rap,Bogota,arena,15282,7,Thursday,60,157860,4039,94,0.94,14365,alta
+Dua Lipa,pop,Bogota,festival,93141,6,Sunday,144,1001750,4183,93,0.95,88483,alta
+Kendrick Lamar,rap,Bogota,arena,22938,5,Tuesday,90,575713,20478,95,0.9,20644,alta
+Kendrick Lamar,rap,Leon,club,581,9,Monday,32,6847,3356,95,0.95,551,alta
+Ariana Grande,pop,Seul,theater,6741,5,Tuesday,34,111325,4427,95,0.95,6403,alta
+Drake,rap,Seul,arena,18501,2,Saturday,57,462453,3804,94,0.95,17575,alta
+Bad Bunny,reggaeton,Leon,arena,15183,3,Monday,107,378307,3587,95,0.95,14423,alta
+aespa,kpop,CDMX,stadium,62983,3,Monday,98,917325,33631,90,0.85,53535,alta
+Coldplay,rock,Leon,stadium,71126,9,Tuesday,137,830973,1945,96,0.95,67569,alta
+Peso Pluma,regional_mexicano,Madrid,theater,4570,3,Saturday,93,51362,2354,93,0.95,4341,alta
+Fuerza Regida,regional_mexicano,Bogota,stadium,59990,3,Thursday,142,1154224,1921,88,0.95,56990,alta
+Imagine Dragons,rock,Seul,stadium,75882,1,Friday,127,1013829,3370,94,0.95,72087,alta
+Cuco,indie,Leon,club,1281,2,Thursday,139,32389,1308,82,0.92,1178,alta
+Arctic Monkeys,rock,Madrid,club,2804,4,Thursday,176,56397,2599,92,0.95,2663,alta
+Banda MS,banda,Guadalajara,arena,11474,7,Wednesday,63,334103,3030,89,0.95,10900,alta
+Imagine Dragons,rock,Queretaro,club,2120,6,Tuesday,63,54588,2662,94,0.95,2014,alta
+Girl Ultra,indie,Queretaro,club,1995,9,Saturday,155,48595,2779,78,0.95,1895,alta
+Arctic Monkeys,rock,Bogota,arena,16816,12,Wednesday,101,439907,4528,92,0.95,15975,alta
+Fuerza Regida,regional_mexicano,Guadalajara,theater,3873,4,Monday,149,41961,2767,88,0.93,3601,alta
+Martin Garrix,electronica,Guadalajara,stadium,64049,8,Saturday,180,1494973,3980,92,0.95,60846,alta
+Los Tigres del Norte,norteno,Guadalajara,theater,7799,6,Tuesday,97,109204,28965,92,0.77,6005,alta
+Arctic Monkeys,rock,Bogota,theater,7920,8,Tuesday,160,168138,3159,92,0.95,7524,alta
+Ed Sheeran,pop,Seul,theater,9244,11,Saturday,24,225309,2072,94,0.95,8781,alta
+Imagine Dragons,rock,CDMX,theater,6810,2,Saturday,75,171180,4206,94,0.95,6469,alta
+David Guetta,electronica,Bogota,arena,23759,6,Thursday,60,512580,2466,93,0.95,22571,alta
+Girl Ultra,indie,Bogota,theater,6332,2,Wednesday,80,72708,2329,78,0.78,4938,alta
+Stray Kids,kpop,LosAngeles,theater,8931,6,Wednesday,42,192528,3025,91,0.95,8484,alta
+Girl Ultra,indie,Leon,club,2471,5,Tuesday,12,47586,1417,78,0.88,2174,alta
+David Guetta,electronica,CDMX,theater,7461,8,Tuesday,90,189646,4450,93,0.95,7087,alta
+Taylor Swift,pop,CDMX,theater,5381,2,Sunday,168,101212,3447,98,0.95,5111,alta
+Arctic Monkeys,rock,LosAngeles,theater,4097,9,Wednesday,154,74304,2451,92,0.95,3892,alta
+Stray Kids,kpop,Guadalajara,stadium,76463,1,Friday,60,1127049,3628,91,0.95,72639,alta
+Natanael Cano,corridos,LosAngeles,stadium,36638,11,Friday,108,625663,1438,87,0.95,34806,alta
+Siddhartha,indie,Queretaro,stadium,60834,1,Saturday,25,1824005,1914,85,0.95,57792,alta
+Fuerza Regida,regional_mexicano,Queretaro,arena,10325,1,Thursday,143,281561,4302,88,0.95,9808,alta
+Post Malone,rap,Madrid,arena,15016,5,Saturday,164,208937,2443,92,0.95,14265,alta
+Natanael Cano,corridos,Bogota,club,1058,11,Wednesday,152,16027,3584,87,0.95,1005,alta
+BLACKPINK,kpop,CDMX,arena,17620,5,Tuesday,71,485856,3010,98,0.95,16739,alta
+The Weeknd,pop,Guadalajara,stadium,70023,3,Monday,73,1797466,3203,96,0.95,66521,alta
+Grupo Firme,banda,Monterrey,club,1104,9,Wednesday,162,12586,2918,90,0.95,1048,alta
+Coldplay,rock,Madrid,theater,6914,10,Wednesday,65,165633,3965,96,0.95,6568,alta
+Post Malone,rap,Queretaro,festival,23060,4,Thursday,65,463510,3836,92,0.95,21907,alta
+Imagine Dragons,rock,CDMX,stadium,49662,12,Tuesday,10,582056,20789,94,0.79,39232,alta
+Drake,rap,Bogota,arena,12422,6,Saturday,152,309013,2068,94,0.95,11800,alta
+The Weeknd,pop,Monterrey,stadium,63815,12,Friday,173,1734166,3177,96,0.95,60624,alta
+BTS,kpop,Leon,arena,22369,9,Tuesday,124,319927,2929,99,0.95,21250,alta
+Ed Sheeran,pop,CDMX,arena,20554,9,Friday,46,539297,3411,94,0.95,19526,alta
+NewJeans,kpop,Guadalajara,arena,13711,11,Sunday,62,208289,3512,93,0.95,13025,alta
+Karol G,reggaeton,Leon,club,1167,12,Saturday,103,32331,1667,94,0.95,1108,alta
+Los Tigres del Norte,norteno,LosAngeles,club,1915,9,Wednesday,177,49655,1443,92,0.95,1819,alta
+Taylor Swift,pop,Leon,festival,56763,2,Monday,95,1018287,4252,98,0.95,53924,alta
+Drake,rap,Monterrey,stadium,60752,4,Friday,38,651298,35623,94,0.89,54069,alta
+Siddhartha,indie,Leon,theater,4331,4,Monday,84,83233,2638,85,0.95,4114,alta
+Kendrick Lamar,rap,Leon,stadium,70387,5,Tuesday,16,825338,1489,95,0.95,66867,alta
+Grupo Firme,banda,Guadalajara,stadium,65216,3,Sunday,109,1474229,1897,90,0.95,61955,alta
+Los Tigres del Norte,norteno,Leon,festival,21031,9,Friday,112,331911,4533,92,0.95,19979,alta
+BTS,kpop,Queretaro,club,1340,12,Friday,110,37915,4808,99,0.95,1273,alta
+aespa,kpop,Leon,arena,23737,7,Wednesday,7,588670,1970,90,0.95,22550,alta
+Grupo Firme,banda,Guadalajara,stadium,51705,6,Saturday,99,1520672,1368,90,0.95,49119,alta
+Karol G,reggaeton,Bogota,festival,30944,1,Wednesday,70,849343,3833,94,0.95,29396,alta
+Girl Ultra,indie,Monterrey,arena,14012,3,Wednesday,92,232087,2494,78,0.88,12330,alta
+Ariana Grande,pop,Guadalajara,arena,10620,4,Thursday,61,196785,1556,95,0.95,10089,alta
+Martin Garrix,electronica,CDMX,theater,9208,12,Monday,17,105906,4498,92,0.92,8471,alta
+Taylor Swift,pop,Queretaro,stadium,30072,5,Sunday,12,681794,2246,98,0.95,28568,alta
+Stray Kids,kpop,Guadalajara,festival,81037,2,Monday,164,1565514,3137,91,0.95,76985,alta
+Girl Ultra,indie,Madrid,stadium,35151,7,Saturday,135,491626,2533,78,0.88,30932,alta
+NewJeans,kpop,Madrid,stadium,51744,7,Wednesday,67,1411419,2204,93,0.95,49156,alta
+Siddhartha,indie,LosAngeles,stadium,76035,12,Monday,62,1146321,3569,85,0.95,72233,alta
+Siddhartha,indie,Madrid,arena,21105,12,Friday,28,514709,1418,85,0.95,20049,alta
+Imagine Dragons,rock,Madrid,festival,82075,10,Tuesday,85,1881666,3518,94,0.95,77971,alta
+Bad Bunny,reggaeton,Seul,club,622,10,Thursday,178,17052,3806,95,0.95,590,alta
+Post Malone,rap,Bogota,club,2890,9,Sunday,179,36442,3089,92,0.95,2745,alta
+Grupo Firme,banda,Madrid,theater,4681,10,Saturday,133,128969,2265,90,0.95,4446,alta
+Karol G,reggaeton,CDMX,festival,85573,12,Friday,107,1674289,3446,94,0.95,81294,alta
+Stray Kids,kpop,Queretaro,festival,93183,11,Tuesday,118,2486059,1476,91,0.95,88523,alta
+Dua Lipa,pop,Monterrey,club,2585,8,Saturday,157,52770,1596,93,0.95,2455,alta
+aespa,kpop,LosAngeles,festival,90526,6,Wednesday,85,1821306,27696,90,0.95,85999,alta
+Cuco,indie,LosAngeles,arena,22534,11,Sunday,163,561659,2966,82,0.95,21407,alta
+Fuerza Regida,regional_mexicano,Guadalajara,stadium,42906,4,Sunday,104,928121,3976,88,0.95,40760,alta
+Ariana Grande,pop,CDMX,theater,4340,4,Saturday,137,56517,3884,95,0.95,4123,alta
+Bad Bunny,reggaeton,Madrid,arena,12004,1,Saturday,116,276565,4014,95,0.95,11403,alta
+Arctic Monkeys,rock,CDMX,theater,6492,5,Thursday,141,68837,2493,92,0.92,5972,alta
+Ed Sheeran,pop,LosAngeles,festival,62637,7,Wednesday,18,636966,3173,94,0.95,59505,alta
+Post Malone,rap,Seul,theater,6598,2,Monday,33,176283,2806,92,0.95,6268,alta
+Karol G,reggaeton,LosAngeles,arena,14476,1,Friday,164,231829,36921,94,0.95,13752,alta
+TWICE,kpop,Bogota,club,2803,3,Saturday,125,43520,3040,92,0.95,2662,alta
+Bad Bunny,reggaeton,Bogota,arena,16709,2,Tuesday,52,444987,1860,95,0.95,15873,alta
+Cuco,indie,Guadalajara,festival,38945,10,Thursday,131,1001740,2667,82,0.95,36997,alta
+Cuco,indie,Guadalajara,club,1663,5,Tuesday,136,30763,3108,82,0.92,1529,alta
+Stray Kids,kpop,LosAngeles,festival,89958,5,Wednesday,50,1691368,2642,91,0.95,85460,alta
+Stray Kids,kpop,Queretaro,festival,49336,11,Wednesday,102,1085750,3309,91,0.95,46869,alta
+Arctic Monkeys,rock,LosAngeles,stadium,36447,5,Wednesday,166,599919,2498,92,0.95,34624,alta
+Martin Garrix,electronica,Queretaro,arena,16509,3,Thursday,42,276801,2418,92,0.95,15683,alta
+NewJeans,kpop,Queretaro,club,2663,11,Sunday,165,26916,4493,93,0.95,2529,alta
+Girl Ultra,indie,Queretaro,stadium,76120,8,Tuesday,99,1856935,2178,78,0.88,66985,alta
+Post Malone,rap,Guadalajara,theater,9668,9,Thursday,70,209685,2724,92,0.95,9184,alta
+Ariana Grande,pop,Madrid,arena,14131,5,Saturday,172,312182,4010,95,0.95,13424,alta
+Drake,rap,Leon,stadium,61942,5,Monday,76,1039837,39412,94,0.89,55128,alta
+Clairo,indie,Madrid,theater,4673,10,Friday,172,128399,3578,80,0.95,4439,alta
+TWICE,kpop,Seul,festival,54530,6,Thursday,19,951583,39280,92,0.95,51803,alta
+Drake,rap,CDMX,arena,19866,6,Thursday,152,212117,2174,94,0.94,18674,alta
+Stray Kids,kpop,Monterrey,stadium,75272,4,Saturday,162,952928,2812,91,0.95,71508,alta
+Stray Kids,kpop,CDMX,stadium,38210,3,Friday,59,1047573,3501,91,0.95,36299,alta
+Fuerza Regida,regional_mexicano,Queretaro,arena,21999,1,Saturday,13,301444,3547,88,0.95,20899,alta
+NewJeans,kpop,Bogota,festival,29313,2,Wednesday,43,377368,4639,93,0.95,27847,alta
+Martin Garrix,electronica,Bogota,arena,17713,3,Wednesday,84,449276,3256,92,0.95,16827,alta
+Grupo Firme,banda,LosAngeles,festival,99064,9,Saturday,63,1567050,1483,90,0.95,94110,alta
+Ed Sheeran,pop,Monterrey,club,2566,8,Tuesday,98,49020,3294,94,0.95,2437,alta
+Dua Lipa,pop,Guadalajara,arena,12435,10,Sunday,16,152903,2195,93,0.95,11813,alta
+Clairo,indie,Guadalajara,arena,24430,11,Monday,150,358009,24940,80,0.65,15879,media
+Grupo Firme,banda,Madrid,theater,6422,3,Thursday,29,122080,1968,90,0.95,6100,alta
+Ariana Grande,pop,LosAngeles,arena,19989,4,Thursday,12,259356,2339,95,0.95,18989,alta
+The Weeknd,pop,Leon,festival,26605,9,Tuesday,29,794608,37343,96,0.95,25274,alta
+Imagine Dragons,rock,Monterrey,arena,13500,3,Thursday,55,232915,1582,94,0.95,12825,alta
+Girl Ultra,indie,Leon,stadium,69091,12,Thursday,112,1533938,3592,78,0.88,60800,alta
+aespa,kpop,Monterrey,arena,10952,1,Monday,155,288325,2853,90,0.95,10404,alta
+Martin Garrix,electronica,Monterrey,stadium,42498,5,Monday,157,571405,1515,92,0.92,39098,alta
+David Guetta,electronica,Queretaro,arena,21746,6,Saturday,2,256089,3878,93,0.95,20658,alta
+TWICE,kpop,Bogota,theater,7131,2,Sunday,60,162777,1677,92,0.95,6774,alta
+Karol G,reggaeton,Leon,arena,15361,10,Wednesday,124,246319,2145,94,0.95,14592,alta
+Kendrick Lamar,rap,Madrid,club,2982,6,Saturday,121,85977,33694,95,0.95,2832,alta
+BLACKPINK,kpop,Queretaro,arena,16777,11,Sunday,175,462127,2499,98,0.95,15938,alta
+Martin Garrix,electronica,Bogota,theater,5888,11,Thursday,137,153030,1453,92,0.95,5593,alta
+Imagine Dragons,rock,Queretaro,theater,6238,7,Monday,118,85503,1603,94,0.94,5863,alta
+David Guetta,electronica,Madrid,festival,59067,4,Friday,53,1761830,2974,93,0.95,56113,alta
+Girl Ultra,indie,Guadalajara,arena,10800,4,Saturday,24,309928,35099,78,0.83,8964,alta
+Martin Garrix,electronica,Madrid,theater,4745,10,Sunday,69,93828,2833,92,0.95,4507,alta
+Girl Ultra,indie,Queretaro,club,1511,10,Sunday,98,21597,2538,78,0.88,1329,alta
+Dua Lipa,pop,LosAngeles,theater,4627,11,Saturday,69,100639,4633,93,0.95,4395,alta
+TWICE,kpop,Leon,club,2312,6,Tuesday,68,59850,1489,92,0.95,2196,alta
+Coldplay,rock,Seul,theater,3215,5,Thursday,52,46821,4678,96,0.95,3054,alta
+Girl Ultra,indie,Monterrey,stadium,71859,6,Wednesday,36,1654134,2951,78,0.88,63235,alta
+The Weeknd,pop,Queretaro,theater,7520,8,Sunday,17,159245,2552,96,0.95,7144,alta
+Fuerza Regida,regional_mexicano,Guadalajara,club,2852,8,Saturday,35,83092,1458,88,0.95,2709,alta
+Post Malone,rap,Bogota,stadium,57599,2,Tuesday,87,1471669,3923,92,0.95,54719,alta
+Post Malone,rap,Guadalajara,stadium,70707,1,Sunday,87,1628358,2092,92,0.95,67171,alta
+Banda MS,banda,CDMX,theater,8714,5,Sunday,77,92158,2041,89,0.95,8278,alta
+Coldplay,rock,Bogota,theater,6477,12,Thursday,119,74986,2601,96,0.95,6153,alta
+Kendrick Lamar,rap,LosAngeles,festival,26933,8,Friday,141,459032,4060,95,0.95,25586,alta
+Cuco,indie,Monterrey,theater,3707,4,Wednesday,21,49263,2103,82,0.82,3039,alta
+Adele,pop,Bogota,theater,9255,12,Friday,112,149842,2720,95,0.95,8792,alta
+Grupo Firme,banda,Bogota,club,2274,6,Thursday,88,57568,30915,90,0.9,2046,alta
+BLACKPINK,kpop,Leon,club,513,11,Monday,139,8350,2643,98,0.95,487,alta
+Natanael Cano,corridos,Bogota,theater,4767,1,Sunday,106,62826,2351,87,0.95,4528,alta
+BTS,kpop,Bogota,club,1649,8,Monday,97,22648,34180,99,0.94,1550,alta
+BLACKPINK,kpop,Queretaro,festival,47361,1,Saturday,103,812771,2131,98,0.95,44992,alta
+Martin Garrix,electronica,Bogota,arena,20246,9,Saturday,52,477812,3274,92,0.95,19233,alta
+TWICE,kpop,Leon,arena,21856,10,Friday,127,607116,39820,92,0.95,20763,alta
+Los Tigres del Norte,norteno,Leon,arena,13720,11,Thursday,137,195224,4094,92,0.92,12622,alta
+Post Malone,rap,Guadalajara,stadium,72220,1,Saturday,119,1645313,3593,92,0.95,68609,alta
+Taylor Swift,pop,Guadalajara,festival,88925,12,Tuesday,86,1135741,2696,98,0.95,84478,alta
+aespa,kpop,Guadalajara,club,2805,11,Saturday,87,74203,1443,90,0.95,2664,alta
+Natanael Cano,corridos,Bogota,festival,49880,6,Thursday,78,1387550,2404,87,0.95,47386,alta
+Los Tigres del Norte,norteno,Madrid,theater,4832,2,Wednesday,128,109202,2578,92,0.95,4590,alta
+Ed Sheeran,pop,Seul,stadium,35233,8,Thursday,77,391684,2142,94,0.94,33119,alta
+Imagine Dragons,rock,Madrid,club,2625,1,Saturday,155,26428,23397,94,0.89,2336,alta
+Ed Sheeran,pop,Bogota,stadium,50484,7,Friday,104,1273129,1661,94,0.95,47959,alta
+Los Tigres del Norte,norteno,Queretaro,arena,14746,10,Tuesday,157,279906,2121,92,0.95,14008,alta
+Natanael Cano,corridos,Leon,club,1207,9,Saturday,9,25446,37350,87,0.92,1110,alta
+Girl Ultra,indie,Madrid,stadium,58333,1,Thursday,26,598136,3063,78,0.78,45499,alta
+David Guetta,electronica,LosAngeles,festival,77705,9,Saturday,4,871111,2207,93,0.95,73819,alta
+Ariana Grande,pop,Queretaro,arena,10946,6,Tuesday,13,194140,2372,95,0.95,10398,alta
+Kendrick Lamar,rap,Bogota,stadium,69472,9,Friday,35,1007286,27328,95,0.9,62524,alta
+Grupo Firme,banda,Guadalajara,festival,82612,3,Saturday,105,1762102,3977,90,0.95,78481,alta
+Post Malone,rap,Queretaro,club,1718,2,Thursday,9,40807,1412,92,0.95,1632,alta
+Banda MS,banda,Madrid,theater,7572,12,Friday,137,152600,2895,89,0.95,7193,alta
+BLACKPINK,kpop,Leon,arena,24019,5,Friday,172,261097,3985,98,0.95,22818,alta
+Drake,rap,Madrid,club,537,7,Saturday,114,7408,2184,94,0.95,510,alta
+Grupo Firme,banda,Seul,arena,22158,1,Saturday,102,266639,4027,90,0.95,21050,alta
+Post Malone,rap,Monterrey,arena,10330,4,Thursday,106,216054,26609,92,0.87,8987,alta
+Post Malone,rap,Bogota,arena,21424,10,Monday,122,585690,24002,92,0.87,18638,alta
+Cuco,indie,LosAngeles,theater,9032,3,Saturday,43,236793,2145,82,0.95,8580,alta
+Stray Kids,kpop,Queretaro,arena,24288,7,Sunday,144,516740,2174,91,0.95,23073,alta
+BTS,kpop,LosAngeles,festival,48689,7,Friday,143,1006560,2384,99,0.95,46254,alta
+Natanael Cano,corridos,Bogota,festival,36639,10,Saturday,40,518492,3316,87,0.95,34807,alta
+aespa,kpop,Monterrey,arena,22735,7,Tuesday,109,604258,3756,90,0.95,21598,alta
+Banda MS,banda,Guadalajara,arena,13431,8,Monday,32,378976,2917,89,0.95,12759,alta
+Banda MS,banda,CDMX,stadium,41051,4,Saturday,38,832363,2989,89,0.95,38998,alta
+Dua Lipa,pop,Bogota,arena,21225,1,Friday,34,569157,30915,93,0.95,20163,alta
+TWICE,kpop,Bogota,festival,87479,6,Saturday,130,1107548,2005,92,0.95,83105,alta
+Karol G,reggaeton,Madrid,festival,74259,7,Saturday,19,1025256,4548,94,0.95,70546,alta
+Adele,pop,LosAngeles,theater,7961,2,Wednesday,35,93750,3960,95,0.95,7562,alta
+Coldplay,rock,Queretaro,arena,20917,11,Sunday,8,617683,2928,96,0.95,19871,alta
+Travis Scott,rap,Monterrey,theater,6602,10,Thursday,10,189806,2626,93,0.95,6271,alta
+Fuerza Regida,regional_mexicano,CDMX,arena,20372,7,Monday,33,307489,2769,88,0.95,19353,alta
+Imagine Dragons,rock,Guadalajara,arena,21451,5,Thursday,3,613735,2959,94,0.95,20378,alta
+Los Tigres del Norte,norteno,Leon,theater,4151,9,Wednesday,154,43418,2850,92,0.92,3818,alta
+Girl Ultra,indie,Leon,arena,11194,2,Tuesday,152,320257,37706,78,0.73,8171,media
+Grupo Firme,banda,Monterrey,arena,19968,5,Sunday,47,498550,1605,90,0.95,18969,alta
+Clairo,indie,CDMX,theater,4270,5,Friday,128,74247,2462,80,0.95,4056,alta
+Dua Lipa,pop,CDMX,arena,11425,4,Monday,117,324324,3404,93,0.95,10853,alta
+NewJeans,kpop,CDMX,theater,4408,5,Sunday,57,64656,4643,93,0.95,4187,alta
+BLACKPINK,kpop,LosAngeles,club,1246,9,Wednesday,86,13469,2230,98,0.95,1183,alta
+Arctic Monkeys,rock,CDMX,stadium,42871,1,Wednesday,176,1170871,2269,92,0.95,40727,alta
+Kendrick Lamar,rap,Madrid,club,1344,8,Wednesday,163,22169,4290,95,0.95,1276,alta
+Siddhartha,indie,LosAngeles,arena,13572,4,Sunday,97,186785,3215,85,0.95,12893,alta
+Karol G,reggaeton,Monterrey,arena,24918,5,Thursday,16,443397,1910,94,0.95,23672,alta
+Fuerza Regida,regional_mexicano,Seul,stadium,71098,9,Wednesday,21,1465806,3137,88,0.95,67543,alta
+Adele,pop,Queretaro,stadium,68980,10,Wednesday,6,1591927,4418,95,0.95,65531,alta
+Taylor Swift,pop,Leon,festival,80829,8,Wednesday,81,1822427,4773,98,0.95,76787,alta
+Bad Bunny,reggaeton,Queretaro,festival,74244,5,Thursday,64,1595271,3963,95,0.95,70531,alta
+Girl Ultra,indie,CDMX,stadium,62828,6,Sunday,149,674829,1608,78,0.88,55288,alta
+Dua Lipa,pop,Guadalajara,theater,5217,7,Saturday,118,153716,2996,93,0.95,4956,alta
+Kendrick Lamar,rap,Queretaro,arena,17232,9,Thursday,114,209071,39104,95,0.8,13785,alta
+Taylor Swift,pop,CDMX,theater,5578,3,Monday,11,71863,2027,98,0.95,5299,alta
+NewJeans,kpop,Bogota,stadium,41297,3,Sunday,44,824129,4598,93,0.95,39232,alta
+Ariana Grande,pop,Madrid,arena,21738,11,Sunday,169,295213,20932,95,0.9,19564,alta
+Banda MS,banda,Monterrey,theater,9763,9,Thursday,31,228923,1634,89,0.95,9274,alta
+TWICE,kpop,CDMX,festival,60556,8,Sunday,173,948396,1694,92,0.95,57528,alta
+Banda MS,banda,Queretaro,stadium,72549,4,Sunday,99,763891,3745,89,0.95,68921,alta
+Karol G,reggaeton,Seul,stadium,50941,10,Saturday,152,565918,35486,94,0.89,45337,alta
+Coldplay,rock,Guadalajara,theater,7944,12,Thursday,54,233502,37398,96,0.91,7229,alta
+Siddhartha,indie,CDMX,arena,11428,1,Tuesday,100,139479,2196,85,0.85,9713,alta
+BLACKPINK,kpop,Leon,festival,30492,9,Friday,47,421179,3413,98,0.95,28967,alta
+Karol G,reggaeton,Leon,festival,69416,2,Wednesday,110,791589,2554,94,0.95,65945,alta
+Siddhartha,indie,Seul,theater,7496,9,Wednesday,149,208193,1756,85,0.95,7121,alta
+BLACKPINK,kpop,Leon,stadium,30700,7,Friday,82,664664,1543,98,0.95,29165,alta
+Natanael Cano,corridos,Guadalajara,club,2336,6,Monday,130,25810,3226,87,0.87,2032,alta
+The Weeknd,pop,Madrid,stadium,76947,2,Saturday,109,1410320,23075,96,0.95,73099,alta
+Calvin Harris,electronica,Madrid,club,1648,12,Tuesday,30,23345,3902,94,0.94,1549,alta
+Grupo Firme,banda,Monterrey,theater,5979,1,Friday,125,130693,1912,90,0.95,5680,alta
+aespa,kpop,Seul,stadium,50437,5,Sunday,94,1421745,4216,90,0.95,47915,alta
+Natanael Cano,corridos,Seul,club,2469,9,Monday,134,55652,2854,87,0.95,2345,alta
+Drake,rap,Madrid,theater,4711,8,Saturday,170,101634,2586,94,0.95,4475,alta
+Girl Ultra,indie,Madrid,club,1714,8,Wednesday,143,36030,1372,78,0.88,1508,alta
+Arctic Monkeys,rock,Monterrey,festival,42949,9,Monday,92,948404,32338,92,0.95,40801,alta
+Banda MS,banda,Queretaro,arena,10688,2,Tuesday,11,212528,4252,89,0.95,10153,alta
+Siddhartha,indie,LosAngeles,festival,89869,8,Saturday,160,1203998,38240,85,0.9,80882,alta
+BTS,kpop,Leon,arena,12227,9,Tuesday,146,203453,4873,99,0.95,11615,alta
+Travis Scott,rap,Guadalajara,arena,16251,12,Wednesday,108,175557,2146,93,0.93,15113,alta
+Taylor Swift,pop,LosAngeles,festival,74994,6,Thursday,148,1208526,2459,98,0.95,71244,alta
+Natanael Cano,corridos,Queretaro,theater,7443,2,Monday,180,131822,3535,87,0.95,7070,alta
+David Guetta,electronica,Madrid,arena,18880,6,Wednesday,58,251558,3052,93,0.93,17558,alta
+Siddhartha,indie,Bogota,festival,61421,7,Monday,3,1026734,2961,85,0.95,58349,alta
+Adele,pop,CDMX,club,2299,2,Tuesday,130,62517,28277,95,0.9,2069,alta
+Cuco,indie,Monterrey,festival,84720,12,Wednesday,2,2489366,22584,82,0.87,73706,alta
+Karol G,reggaeton,CDMX,stadium,70072,6,Wednesday,155,808526,2151,94,0.94,65867,alta
+Karol G,reggaeton,Guadalajara,stadium,60095,3,Wednesday,5,1215188,36293,94,0.89,53484,alta
+BTS,kpop,Monterrey,theater,5183,6,Thursday,105,102429,1948,99,0.95,4923,alta
+Calvin Harris,electronica,Leon,festival,40707,8,Saturday,127,1164516,3104,94,0.95,38671,alta
+aespa,kpop,Guadalajara,stadium,52758,4,Tuesday,131,1378114,2078,90,0.95,50120,alta
+Natanael Cano,corridos,Leon,festival,57350,8,Tuesday,177,709282,3773,87,0.95,54482,alta
+Calvin Harris,electronica,Madrid,stadium,30882,1,Wednesday,54,617823,2504,94,0.95,29337,alta
+Imagine Dragons,rock,CDMX,arena,13613,6,Tuesday,152,154577,29960,94,0.79,10754,alta
+David Guetta,electronica,LosAngeles,stadium,33008,4,Wednesday,178,620903,3869,93,0.95,31357,alta
+Taylor Swift,pop,Bogota,stadium,44691,12,Saturday,37,718731,3208,98,0.95,42456,alta
+Coldplay,rock,CDMX,arena,17561,4,Monday,105,210987,4574,96,0.95,16682,alta
+Clairo,indie,Bogota,stadium,66254,3,Thursday,92,1619428,3368,80,0.9,59628,alta
+NewJeans,kpop,Leon,festival,40721,11,Tuesday,124,548957,4561,93,0.95,38684,alta
+Martin Garrix,electronica,Bogota,arena,13038,8,Wednesday,170,312857,3436,92,0.95,12386,alta
+Dua Lipa,pop,Seul,club,1129,3,Wednesday,11,16004,1442,93,0.93,1049,alta
+TWICE,kpop,Madrid,club,2451,8,Friday,35,42271,4366,92,0.95,2328,alta
+Clairo,indie,Guadalajara,theater,9342,2,Thursday,67,221415,3210,80,0.9,8407,alta
+Banda MS,banda,CDMX,festival,42775,12,Saturday,134,658031,1736,89,0.95,40636,alta
+Taylor Swift,pop,CDMX,stadium,67742,2,Monday,159,1576918,3561,98,0.95,64354,alta
+Siddhartha,indie,Monterrey,theater,3205,12,Friday,102,43455,2245,85,0.95,3044,alta
+Grupo Firme,banda,CDMX,arena,17681,10,Sunday,120,382743,2698,90,0.95,16796,alta
+aespa,kpop,CDMX,stadium,31957,11,Thursday,37,434259,2103,90,0.95,30359,alta
+TWICE,kpop,Bogota,stadium,34450,5,Thursday,130,357880,4382,92,0.95,32727,alta
+Banda MS,banda,Leon,theater,4974,2,Monday,39,108194,2938,89,0.95,4725,alta
+Taylor Swift,pop,Monterrey,arena,19741,10,Monday,148,512138,4058,98,0.95,18753,alta
+Karol G,reggaeton,Bogota,theater,9651,12,Thursday,82,270754,22931,94,0.89,8589,alta
+Clairo,indie,Guadalajara,arena,11016,9,Sunday,11,170973,22143,80,0.85,9363,alta
+Fuerza Regida,regional_mexicano,Leon,theater,5848,4,Saturday,3,132947,2602,88,0.95,5555,alta
+Dua Lipa,pop,Monterrey,stadium,77492,11,Friday,17,1550158,1770,93,0.95,73617,alta
+The Weeknd,pop,Madrid,arena,11311,12,Friday,15,173404,4269,96,0.95,10745,alta
+BLACKPINK,kpop,Guadalajara,arena,13599,11,Saturday,160,206190,2512,98,0.95,12919,alta
+Arctic Monkeys,rock,Guadalajara,stadium,69130,3,Thursday,103,1813548,3259,92,0.95,65673,alta
+Banda MS,banda,Bogota,stadium,78617,11,Saturday,26,1398645,2806,89,0.95,74686,alta
+Calvin Harris,electronica,Bogota,theater,9153,7,Friday,156,206009,2104,94,0.95,8695,alta
+Post Malone,rap,Queretaro,theater,3428,1,Saturday,19,89527,1868,92,0.95,3256,alta
+Bad Bunny,reggaeton,CDMX,club,1958,11,Thursday,79,52946,4542,95,0.95,1860,alta
+Adele,pop,Monterrey,theater,4457,11,Saturday,177,81826,2092,95,0.95,4234,alta
+Dua Lipa,pop,Madrid,stadium,61937,12,Monday,131,1371727,2247,93,0.95,58840,alta
+BTS,kpop,CDMX,stadium,39822,2,Monday,77,963688,4021,99,0.95,37830,alta
+The Weeknd,pop,Madrid,arena,13027,11,Wednesday,24,148436,3576,96,0.95,12375,alta
+The Weeknd,pop,LosAngeles,festival,77125,7,Sunday,20,1752132,2749,96,0.95,73268,alta
+Kendrick Lamar,rap,Monterrey,theater,8805,10,Monday,80,249441,2317,95,0.95,8364,alta
+Kendrick Lamar,rap,Madrid,arena,16057,3,Thursday,145,388510,3591,95,0.95,15254,alta
+aespa,kpop,LosAngeles,club,2233,5,Monday,42,47913,4249,90,0.95,2121,alta
+Los Tigres del Norte,norteno,Leon,stadium,71620,12,Friday,25,1113125,3640,92,0.95,68039,alta
+Arctic Monkeys,rock,Leon,stadium,69918,9,Sunday,52,1417873,3946,92,0.95,66422,alta
+Martin Garrix,electronica,Madrid,club,2480,9,Thursday,28,73166,4273,92,0.95,2356,alta
+Stray Kids,kpop,CDMX,stadium,63629,7,Tuesday,36,949831,3428,91,0.95,60447,alta
+Karol G,reggaeton,Seul,theater,9188,2,Monday,24,229967,3933,94,0.95,8728,alta
+Kendrick Lamar,rap,Bogota,festival,73943,6,Thursday,56,1533641,28912,95,0.95,70245,alta
+Adele,pop,Monterrey,theater,9083,10,Thursday,1,92691,1687,95,0.95,8628,alta
+Imagine Dragons,rock,LosAngeles,stadium,75566,3,Thursday,6,1017245,1960,94,0.94,71032,alta
+Banda MS,banda,Guadalajara,theater,3187,9,Wednesday,71,64510,29741,89,0.89,2836,alta
+aespa,kpop,Bogota,club,2963,7,Friday,177,57223,4273,90,0.95,2814,alta
+Arctic Monkeys,rock,Leon,festival,74404,1,Friday,120,1837059,1851,92,0.95,70683,alta
+Fuerza Regida,regional_mexicano,Leon,theater,3039,3,Thursday,32,56544,3270,88,0.95,2887,alta
+BLACKPINK,kpop,Bogota,theater,9640,9,Friday,84,166672,3577,98,0.95,9158,alta
+TWICE,kpop,Guadalajara,arena,14965,3,Saturday,54,423612,4003,92,0.95,14216,alta
+Travis Scott,rap,Bogota,festival,69284,12,Friday,46,1402224,2273,93,0.95,65819,alta
+Peso Pluma,regional_mexicano,CDMX,stadium,75332,7,Sunday,23,1318622,4480,93,0.95,71565,alta
+Arctic Monkeys,rock,Monterrey,festival,78328,7,Wednesday,111,1893019,4039,92,0.95,74411,alta
+Fuerza Regida,regional_mexicano,LosAngeles,stadium,33052,4,Friday,27,763809,3555,88,0.95,31399,alta
+Natanael Cano,corridos,Leon,festival,70046,2,Saturday,36,1959537,3186,87,0.95,66543,alta
+Clairo,indie,Monterrey,club,2989,7,Saturday,112,36883,3045,80,0.9,2690,alta
+David Guetta,electronica,LosAngeles,arena,22606,2,Tuesday,97,359701,2752,93,0.95,21475,alta
+Calvin Harris,electronica,Seul,arena,15980,5,Sunday,29,468961,2399,94,0.95,15181,alta
+Los Tigres del Norte,norteno,Seul,stadium,79812,4,Sunday,176,1244694,39097,92,0.95,75821,alta
+Post Malone,rap,Queretaro,stadium,34539,1,Saturday,10,860492,3371,92,0.95,32812,alta
+Arctic Monkeys,rock,Guadalajara,club,1906,8,Friday,178,31338,3273,92,0.95,1810,alta
+Adele,pop,Seul,theater,9293,4,Saturday,15,200946,2870,95,0.95,8828,alta
+Bad Bunny,reggaeton,Bogota,stadium,49123,2,Sunday,63,801427,2384,95,0.95,46666,alta
+NewJeans,kpop,Monterrey,club,650,11,Wednesday,104,13238,39889,93,0.95,617,alta
+TWICE,kpop,LosAngeles,arena,18101,9,Monday,97,190857,3854,92,0.95,17195,alta
+aespa,kpop,Bogota,theater,7277,7,Wednesday,180,170690,2924,90,0.95,6913,alta
+TWICE,kpop,LosAngeles,arena,14467,10,Monday,53,247481,4040,92,0.95,13743,alta
+BLACKPINK,kpop,Bogota,stadium,51212,6,Thursday,105,929277,4360,98,0.95,48651,alta
+Girl Ultra,indie,Monterrey,arena,20037,1,Saturday,173,580411,3498,78,0.95,19035,alta
+Coldplay,rock,Queretaro,arena,23291,8,Tuesday,78,525055,31932,96,0.91,21194,alta
+Clairo,indie,LosAngeles,arena,10526,4,Saturday,148,224386,2954,80,0.95,9999,alta
+Cuco,indie,Queretaro,theater,4625,12,Tuesday,93,138587,3235,82,0.92,4255,alta
+Bad Bunny,reggaeton,LosAngeles,theater,6781,12,Tuesday,103,194256,2072,95,0.95,6441,alta
+Kendrick Lamar,rap,CDMX,theater,9428,5,Tuesday,98,224680,3492,95,0.95,8956,alta
+Peso Pluma,regional_mexicano,Monterrey,club,744,5,Thursday,56,10618,4293,93,0.95,706,alta
+Travis Scott,rap,Seul,festival,47639,12,Tuesday,53,857949,2772,93,0.95,45257,alta
+BLACKPINK,kpop,Queretaro,stadium,64775,5,Thursday,176,1583846,4885,98,0.95,61536,alta
+Martin Garrix,electronica,Monterrey,festival,69258,4,Wednesday,53,1651410,3076,92,0.95,65795,alta
+Los Tigres del Norte,norteno,LosAngeles,festival,65840,11,Wednesday,156,1902408,38331,92,0.95,62548,alta
+Ed Sheeran,pop,Seul,club,1048,8,Friday,9,16447,3853,94,0.95,995,alta
+BTS,kpop,Madrid,arena,22773,9,Wednesday,172,445029,33728,99,0.95,21634,alta
+Martin Garrix,electronica,Seul,festival,45809,9,Tuesday,152,1315249,2341,92,0.95,43518,alta
+Imagine Dragons,rock,Queretaro,arena,20033,3,Wednesday,78,310335,1898,94,0.95,19031,alta
+Martin Garrix,electronica,CDMX,club,1425,7,Thursday,156,35440,3623,92,0.95,1353,alta
+Clairo,indie,Seul,club,1740,9,Saturday,81,50613,20199,80,0.85,1479,alta
+TWICE,kpop,Madrid,festival,84636,6,Thursday,75,1297405,2365,92,0.95,80404,alta
+Clairo,indie,Seul,theater,3287,1,Saturday,176,54268,2269,80,0.95,3122,alta
+NewJeans,kpop,CDMX,festival,48330,12,Friday,37,1239542,3163,93,0.95,45913,alta
+Adele,pop,Queretaro,arena,21400,1,Wednesday,20,293604,3365,95,0.95,20330,alta
+Clairo,indie,Leon,stadium,58777,12,Friday,62,1185577,3714,80,0.95,55838,alta
+Cuco,indie,LosAngeles,theater,9300,8,Sunday,154,159377,2798,82,0.95,8835,alta
+Kendrick Lamar,rap,Bogota,arena,17880,7,Thursday,74,370418,1710,95,0.95,16986,alta
+Grupo Firme,banda,Leon,festival,68670,12,Thursday,67,1654673,3186,90,0.95,65236,alta
+Los Tigres del Norte,norteno,Guadalajara,club,735,4,Saturday,93,19159,1707,92,0.95,698,alta
+Peso Pluma,regional_mexicano,Guadalajara,theater,5433,1,Wednesday,78,55309,1584,93,0.95,5161,alta
+Martin Garrix,electronica,Guadalajara,festival,37092,2,Tuesday,159,594512,3416,92,0.95,35237,alta
+Stray Kids,kpop,Madrid,club,2869,10,Sunday,176,28883,1393,91,0.95,2725,alta
+Girl Ultra,indie,LosAngeles,festival,51959,4,Sunday,165,785028,3104,78,0.95,49361,alta
+Taylor Swift,pop,LosAngeles,festival,81863,11,Tuesday,76,1971462,2751,98,0.95,77769,alta
+Bad Bunny,reggaeton,Seul,club,1087,5,Sunday,37,22560,2463,95,0.95,1032,alta
+Cuco,indie,Leon,club,816,5,Sunday,8,11389,35581,82,0.77,628,alta
+Martin Garrix,electronica,Guadalajara,festival,73231,8,Wednesday,173,1535498,3105,92,0.95,69569,alta
+Arctic Monkeys,rock,Madrid,stadium,36460,9,Sunday,37,1026516,3206,92,0.95,34637,alta
+Clairo,indie,Queretaro,club,2992,10,Monday,89,64807,2892,80,0.9,2692,alta
+Cuco,indie,Leon,club,2650,12,Sunday,120,52706,1435,82,0.95,2517,alta
+BLACKPINK,kpop,Seul,club,2545,2,Sunday,126,49924,4692,98,0.95,2417,alta
+Coldplay,rock,Queretaro,stadium,47788,8,Saturday,130,958103,2027,96,0.95,45398,alta
+Natanael Cano,corridos,Monterrey,arena,12654,7,Monday,38,133413,36098,87,0.72,9110,media
+Stray Kids,kpop,Monterrey,arena,16810,10,Wednesday,23,404818,3700,91,0.95,15969,alta
+Ariana Grande,pop,Bogota,stadium,74054,9,Monday,66,1085191,4166,95,0.95,70351,alta
+Ed Sheeran,pop,LosAngeles,arena,20989,12,Monday,91,328879,2384,94,0.95,19939,alta
+Drake,rap,Queretaro,club,2390,5,Monday,83,63702,2231,94,0.95,2270,alta
+BTS,kpop,Bogota,club,1871,10,Friday,67,26901,1591,99,0.95,1777,alta
+Martin Garrix,electronica,LosAngeles,stadium,40986,2,Monday,55,734469,2652,92,0.95,38936,alta
+NewJeans,kpop,Queretaro,theater,5144,11,Thursday,29,144095,2745,93,0.95,4886,alta
+Dua Lipa,pop,Queretaro,festival,48568,2,Tuesday,117,1307834,3586,93,0.95,46139,alta
+Imagine Dragons,rock,LosAngeles,club,616,7,Thursday,36,16877,2957,94,0.95,585,alta
+Dua Lipa,pop,Bogota,club,2557,8,Thursday,7,69448,3063,93,0.95,2429,alta
+Kendrick Lamar,rap,Seul,arena,21459,4,Tuesday,144,387805,23201,95,0.9,19313,alta
+Kendrick Lamar,rap,Madrid,festival,35881,1,Wednesday,170,522783,2062,95,0.95,34086,alta
+Travis Scott,rap,Madrid,club,2447,12,Friday,133,68728,3588,93,0.95,2324,alta
+Los Tigres del Norte,norteno,Queretaro,arena,15292,1,Friday,147,207765,3300,92,0.95,14527,alta
+Siddhartha,indie,Guadalajara,club,2848,6,Wednesday,72,65157,2877,85,0.95,2705,alta
+Dua Lipa,pop,CDMX,arena,21004,2,Saturday,70,416058,2901,93,0.95,19953,alta
+Ed Sheeran,pop,Leon,festival,44307,1,Friday,19,709264,3628,94,0.95,42091,alta
+Imagine Dragons,rock,CDMX,arena,14902,2,Sunday,94,337256,4526,94,0.95,14156,alta
+Grupo Firme,banda,Monterrey,theater,3566,12,Monday,6,51398,28501,90,0.8,2852,alta
+BLACKPINK,kpop,Seul,festival,75964,4,Tuesday,31,2196709,4374,98,0.95,72165,alta
+Stray Kids,kpop,CDMX,club,1567,12,Sunday,175,42141,2492,91,0.95,1488,alta
+Travis Scott,rap,Leon,festival,96756,8,Tuesday,144,1496784,4638,93,0.95,91918,alta
+TWICE,kpop,Seul,club,1290,5,Monday,11,14701,2845,92,0.95,1225,alta
+Cuco,indie,Madrid,arena,23172,4,Saturday,47,452422,29805,82,0.87,20159,alta
+Los Tigres del Norte,norteno,Seul,club,1807,6,Friday,3,18698,3519,92,0.95,1716,alta
+Travis Scott,rap,Monterrey,arena,19370,2,Tuesday,86,256206,1614,93,0.93,18014,alta
+Cuco,indie,Queretaro,arena,10855,4,Monday,131,254586,2013,82,0.92,9986,alta
+Cuco,indie,Seul,arena,23360,4,Sunday,147,683289,2410,82,0.95,22192,alta
+Arctic Monkeys,rock,Madrid,stadium,41620,5,Thursday,88,830864,3143,92,0.95,39539,alta
+Travis Scott,rap,Bogota,arena,21777,11,Saturday,63,421724,4111,93,0.95,20688,alta
+Girl Ultra,indie,Madrid,club,1515,10,Monday,6,40982,3384,78,0.88,1333,alta
+Ed Sheeran,pop,Monterrey,theater,5844,12,Sunday,44,78147,2906,94,0.95,5551,alta
+Ariana Grande,pop,CDMX,stadium,32500,5,Tuesday,138,889068,4340,95,0.95,30875,alta
+aespa,kpop,Queretaro,club,2201,6,Monday,59,48158,1960,90,0.95,2090,alta
+Ariana Grande,pop,Queretaro,festival,41684,8,Friday,25,894338,37817,95,0.95,39599,alta
+TWICE,kpop,LosAngeles,festival,36762,6,Tuesday,50,580167,3664,92,0.95,34923,alta
+Stray Kids,kpop,Leon,theater,3601,12,Monday,168,78309,3509,91,0.95,3420,alta
+Martin Garrix,electronica,Monterrey,arena,14649,10,Sunday,61,318388,3496,92,0.95,13916,alta
+The Weeknd,pop,Guadalajara,festival,48835,7,Saturday,175,1021310,4299,96,0.95,46393,alta
+Karol G,reggaeton,Madrid,club,752,2,Tuesday,8,15678,1478,94,0.95,714,alta
+Cuco,indie,Monterrey,stadium,34849,9,Monday,33,596570,2096,82,0.92,32061,alta
+Drake,rap,Seul,stadium,46558,2,Saturday,120,952021,3353,94,0.95,44230,alta
+Karol G,reggaeton,Bogota,stadium,54177,1,Tuesday,53,560580,1700,94,0.94,50926,alta
+Clairo,indie,Queretaro,stadium,49906,10,Tuesday,118,986966,3390,80,0.9,44915,alta
+Coldplay,rock,Guadalajara,festival,96558,6,Saturday,127,1587019,1621,96,0.95,91730,alta
+Peso Pluma,regional_mexicano,LosAngeles,theater,7002,2,Sunday,129,70964,3695,93,0.95,6651,alta
+Peso Pluma,regional_mexicano,CDMX,stadium,53134,10,Tuesday,96,860189,2351,93,0.95,50477,alta
+Cuco,indie,Bogota,festival,86240,11,Friday,62,1247253,1284,82,0.95,81928,alta
+Bad Bunny,reggaeton,Leon,club,2859,3,Tuesday,169,63959,4646,95,0.95,2716,alta
+Clairo,indie,Queretaro,festival,95651,3,Tuesday,171,2517315,3707,80,0.95,90868,alta
+Adele,pop,Madrid,theater,4581,1,Sunday,20,56701,4288,95,0.95,4351,alta
+Arctic Monkeys,rock,Monterrey,stadium,31734,8,Friday,93,430493,1603,92,0.95,30147,alta
+aespa,kpop,CDMX,festival,65285,8,Saturday,105,1516388,2593,90,0.95,62020,alta
+Karol G,reggaeton,Seul,stadium,61281,1,Sunday,128,1611974,2213,94,0.95,58216,alta
+David Guetta,electronica,Guadalajara,festival,55774,5,Friday,33,719180,1696,93,0.95,52985,alta
+Stray Kids,kpop,Guadalajara,arena,24746,2,Sunday,12,258529,2299,91,0.95,23508,alta
+Banda MS,banda,Madrid,stadium,76922,3,Thursday,100,1000934,2033,89,0.94,72306,alta
+Martin Garrix,electronica,Madrid,arena,16636,3,Friday,69,223305,2749,92,0.95,15804,alta
+Cuco,indie,LosAngeles,club,1539,9,Saturday,64,40114,2830,82,0.95,1462,alta
+TWICE,kpop,Monterrey,stadium,68350,1,Saturday,61,1273676,2099,92,0.95,64932,alta
+Post Malone,rap,CDMX,club,1352,7,Sunday,139,15382,3412,92,0.95,1284,alta
+Cuco,indie,LosAngeles,theater,6277,7,Friday,175,170733,1294,82,0.95,5963,alta
+Imagine Dragons,rock,Madrid,theater,4564,7,Thursday,170,62660,2415,94,0.94,4290,alta
+TWICE,kpop,Madrid,festival,34329,9,Friday,152,715799,2630,92,0.95,32612,alta
+Martin Garrix,electronica,Monterrey,stadium,34033,7,Wednesday,82,892792,3475,92,0.95,32331,alta
+Clairo,indie,LosAngeles,club,1421,12,Wednesday,78,36698,2218,80,0.9,1278,alta
+Girl Ultra,indie,Seul,theater,7974,10,Monday,54,184488,25438,78,0.73,5821,media
+BLACKPINK,kpop,Leon,club,1024,9,Thursday,66,18859,1923,98,0.95,972,alta
+TWICE,kpop,LosAngeles,stadium,41224,6,Friday,123,625184,2472,92,0.95,39162,alta
+Calvin Harris,electronica,Queretaro,club,746,11,Wednesday,129,11542,3873,94,0.95,708,alta
+Stray Kids,kpop,CDMX,festival,82302,8,Tuesday,34,2310427,4068,91,0.95,78186,alta
+Drake,rap,Guadalajara,festival,93805,11,Sunday,115,2127019,1450,94,0.95,89114,alta
+Grupo Firme,banda,Seul,club,1303,11,Wednesday,88,33457,1848,90,0.95,1237,alta
+Adele,pop,Guadalajara,stadium,71692,8,Monday,127,1410037,2581,95,0.95,68107,alta
+aespa,kpop,Madrid,festival,95094,10,Wednesday,106,2713903,32456,90,0.95,90339,alta
+Kendrick Lamar,rap,LosAngeles,festival,90409,11,Friday,81,2485453,2567,95,0.95,85888,alta
+Banda MS,banda,Leon,stadium,70974,2,Friday,139,1973853,4154,89,0.95,67425,alta
+NewJeans,kpop,Madrid,arena,18905,7,Tuesday,41,309029,3703,93,0.95,17959,alta
+Cuco,indie,LosAngeles,club,885,4,Monday,170,13266,2433,82,0.82,725,alta
+BTS,kpop,Seul,arena,20069,9,Sunday,5,392796,3303,99,0.95,19065,alta
+Coldplay,rock,Guadalajara,club,1268,8,Thursday,3,16042,3988,96,0.95,1204,alta
+Ariana Grande,pop,Guadalajara,theater,4740,8,Saturday,108,81485,4113,95,0.95,4503,alta
+Adele,pop,Queretaro,arena,22154,2,Saturday,39,228354,4509,95,0.95,21046,alta
+Travis Scott,rap,Guadalajara,festival,43751,11,Saturday,14,495806,21008,93,0.95,41563,alta
+Stray Kids,kpop,Guadalajara,arena,16531,4,Friday,88,452961,2413,91,0.95,15704,alta
+Martin Garrix,electronica,Seul,festival,92272,7,Tuesday,45,2044005,1768,92,0.95,87658,alta
+Girl Ultra,indie,Monterrey,stadium,48566,11,Monday,128,907488,1583,78,0.88,42738,alta
+Travis Scott,rap,Guadalajara,theater,3319,1,Tuesday,147,40022,2293,93,0.93,3086,alta
+Cuco,indie,LosAngeles,club,1167,1,Monday,95,13198,2420,82,0.82,956,alta
+Arctic Monkeys,rock,CDMX,arena,18826,1,Wednesday,113,454408,3526,92,0.95,17884,alta
+Cuco,indie,Guadalajara,club,733,4,Saturday,25,14120,2885,82,0.95,696,alta
+Adele,pop,Monterrey,arena,21086,11,Thursday,55,464231,4094,95,0.95,20031,alta
+Martin Garrix,electronica,Madrid,arena,15932,12,Thursday,47,207485,25747,92,0.77,12267,alta
+Bad Bunny,reggaeton,Guadalajara,arena,11961,2,Tuesday,127,198943,1526,95,0.95,11362,alta
+Dua Lipa,pop,Monterrey,theater,8823,4,Tuesday,26,191751,3212,93,0.95,8381,alta
+Stray Kids,kpop,Seul,stadium,40296,2,Tuesday,56,1056133,1427,91,0.95,38281,alta
+Dua Lipa,pop,LosAngeles,stadium,61470,10,Sunday,41,1287310,4376,93,0.95,58396,alta
+BLACKPINK,kpop,CDMX,festival,51210,2,Sunday,59,1447637,1712,98,0.95,48649,alta
+BTS,kpop,CDMX,club,2809,10,Tuesday,7,69051,3989,99,0.95,2668,alta
+TWICE,kpop,Leon,club,2469,4,Wednesday,123,51843,3535,92,0.95,2345,alta
+Peso Pluma,regional_mexicano,Leon,club,2964,6,Friday,10,75535,3097,93,0.95,2815,alta
+Calvin Harris,electronica,Bogota,theater,6665,10,Friday,163,108655,2507,94,0.95,6331,alta
+Coldplay,rock,Bogota,stadium,44547,7,Wednesday,134,664170,3511,96,0.95,42319,alta
+Taylor Swift,pop,CDMX,stadium,46057,7,Thursday,31,825208,2191,98,0.95,43754,alta
+Girl Ultra,indie,Guadalajara,festival,60304,5,Saturday,94,1757168,2840,78,0.95,57288,alta
+Arctic Monkeys,rock,Madrid,festival,24508,4,Thursday,171,566825,1644,92,0.95,23282,alta
+Arctic Monkeys,rock,Guadalajara,arena,14792,3,Sunday,171,370186,38887,92,0.95,14052,alta
+Ariana Grande,pop,Guadalajara,arena,21817,7,Saturday,136,504673,3486,95,0.95,20726,alta
+Siddhartha,indie,CDMX,festival,58250,3,Wednesday,100,900443,34318,85,0.9,52424,alta
+Martin Garrix,electronica,Bogota,club,580,5,Sunday,6,8932,3863,92,0.95,551,alta
+Stray Kids,kpop,Guadalajara,theater,5711,2,Tuesday,96,100187,35443,91,0.95,5425,alta
+Bad Bunny,reggaeton,CDMX,stadium,36239,1,Wednesday,136,534346,2704,95,0.95,34427,alta
+Taylor Swift,pop,Leon,club,2782,8,Monday,29,72175,2672,98,0.95,2642,alta
+Peso Pluma,regional_mexicano,Bogota,club,2687,5,Wednesday,102,42823,2616,93,0.95,2552,alta
+David Guetta,electronica,Madrid,arena,21541,8,Saturday,144,485938,22988,93,0.95,20463,alta
+Travis Scott,rap,CDMX,club,1524,5,Monday,24,38368,4526,93,0.95,1447,alta
+Fuerza Regida,regional_mexicano,Leon,arena,17359,8,Wednesday,143,474534,3858,88,0.95,16491,alta
+David Guetta,electronica,CDMX,stadium,73479,4,Sunday,18,1999674,3286,93,0.95,69805,alta
+Coldplay,rock,Monterrey,club,1906,3,Wednesday,40,33357,34460,96,0.91,1734,alta
+Travis Scott,rap,Bogota,arena,17335,3,Sunday,104,374342,1535,93,0.95,16468,alta
+David Guetta,electronica,Madrid,arena,24579,6,Thursday,64,472480,3610,93,0.95,23350,alta
+Imagine Dragons,rock,Madrid,stadium,63349,6,Saturday,167,1774350,4514,94,0.95,60181,alta
+TWICE,kpop,Leon,arena,20428,12,Sunday,125,475556,1405,92,0.95,19406,alta
+Dua Lipa,pop,Bogota,club,1550,8,Friday,161,21191,36135,93,0.88,1364,alta
+Clairo,indie,LosAngeles,theater,6876,6,Saturday,7,193061,2161,80,0.95,6532,alta
+Los Tigres del Norte,norteno,Madrid,theater,6926,3,Saturday,54,77852,3603,92,0.95,6579,alta
+NewJeans,kpop,CDMX,festival,54305,11,Saturday,106,1440151,1794,93,0.95,51589,alta
+Calvin Harris,electronica,Madrid,theater,6787,1,Friday,92,90179,2025,94,0.95,6447,alta
+The Weeknd,pop,Leon,festival,51914,11,Friday,26,644509,29913,96,0.95,49318,alta
+Adele,pop,LosAngeles,club,1617,5,Thursday,123,30589,2953,95,0.95,1536,alta
+Dua Lipa,pop,Bogota,club,1877,6,Thursday,83,24029,3310,93,0.93,1745,alta
+Girl Ultra,indie,Guadalajara,festival,42855,11,Monday,110,801424,1959,78,0.95,40712,alta
+David Guetta,electronica,Guadalajara,festival,82321,12,Saturday,67,1138504,3459,93,0.95,78204,alta
+Peso Pluma,regional_mexicano,Monterrey,arena,12875,11,Thursday,71,211181,2497,93,0.95,12231,alta
+Girl Ultra,indie,Seul,theater,5912,8,Wednesday,92,95806,1555,78,0.88,5202,alta
+Martin Garrix,electronica,Seul,stadium,55036,11,Wednesday,32,842114,20796,92,0.87,47881,alta
+NewJeans,kpop,CDMX,festival,24047,6,Thursday,48,414185,1719,93,0.95,22844,alta
+aespa,kpop,Bogota,theater,4616,7,Thursday,160,117164,3890,90,0.95,4385,alta
+The Weeknd,pop,Bogota,arena,19061,2,Monday,21,353299,2394,96,0.95,18107,alta
+Fuerza Regida,regional_mexicano,Queretaro,stadium,48610,2,Thursday,72,1160529,2276,88,0.95,46179,alta
+Calvin Harris,electronica,Queretaro,club,1650,11,Wednesday,66,23881,4242,94,0.94,1551,alta
+Cuco,indie,Seul,stadium,78207,2,Tuesday,12,1290623,3277,82,0.92,71950,alta
+Siddhartha,indie,Monterrey,arena,13122,11,Wednesday,152,231301,3638,85,0.95,12465,alta
+Peso Pluma,regional_mexicano,LosAngeles,festival,31961,1,Wednesday,51,467116,3898,93,0.95,30362,alta
+David Guetta,electronica,Leon,club,2072,12,Sunday,120,51653,37525,93,0.95,1968,alta
+Stray Kids,kpop,Bogota,theater,7464,2,Monday,82,206053,2285,91,0.95,7090,alta
+Ariana Grande,pop,Madrid,club,619,7,Tuesday,100,9732,2915,95,0.95,588,alta
+Los Tigres del Norte,norteno,Seul,club,701,12,Wednesday,79,12466,2992,92,0.95,665,alta
+Imagine Dragons,rock,CDMX,stadium,63318,7,Thursday,88,1026251,2405,94,0.95,60152,alta
+David Guetta,electronica,LosAngeles,festival,61133,4,Sunday,150,1822901,2091,93,0.95,58076,alta
+Bad Bunny,reggaeton,Leon,club,1892,1,Tuesday,62,36579,2634,95,0.95,1797,alta
+Drake,rap,Guadalajara,theater,7248,2,Wednesday,92,178650,26981,94,0.89,6450,alta
+Los Tigres del Norte,norteno,Bogota,club,1823,6,Monday,124,38725,1762,92,0.95,1731,alta
+Grupo Firme,banda,Madrid,theater,5041,2,Monday,76,51414,4127,90,0.95,4788,alta
+Stray Kids,kpop,Guadalajara,club,2266,1,Friday,103,60480,3111,91,0.95,2152,alta
+Fuerza Regida,regional_mexicano,CDMX,theater,3666,10,Saturday,168,109653,31881,88,0.95,3482,alta
+Martin Garrix,electronica,LosAngeles,arena,24513,7,Thursday,10,339546,3051,92,0.92,22551,alta
+Siddhartha,indie,Madrid,arena,19729,5,Monday,111,431766,2289,85,0.95,18742,alta
+BTS,kpop,Leon,festival,67744,9,Sunday,60,1428431,4748,99,0.95,64356,alta
+Grupo Firme,banda,Queretaro,stadium,79141,1,Wednesday,25,2318618,3998,90,0.95,75183,alta
+Ed Sheeran,pop,LosAngeles,festival,56740,4,Saturday,105,954352,3908,94,0.95,53903,alta
+Martin Garrix,electronica,Leon,club,2743,5,Saturday,2,77318,2885,92,0.95,2605,alta
+Kendrick Lamar,rap,Leon,stadium,65737,9,Monday,112,1728808,2667,95,0.95,62450,alta
+Fuerza Regida,regional_mexicano,Queretaro,club,2979,6,Friday,1,70657,3449,88,0.95,2830,alta
+Los Tigres del Norte,norteno,Monterrey,stadium,33147,9,Saturday,118,938522,2690,92,0.95,31489,alta
+Kendrick Lamar,rap,LosAngeles,club,584,2,Tuesday,46,14179,2489,95,0.95,554,alta
+Kendrick Lamar,rap,Seul,arena,22626,5,Tuesday,71,640510,2979,95,0.95,21494,alta
+Imagine Dragons,rock,LosAngeles,festival,82382,4,Monday,169,1670005,4699,94,0.95,78262,alta
+David Guetta,electronica,Madrid,theater,4868,8,Wednesday,115,137369,4053,93,0.95,4624,alta
+Clairo,indie,Queretaro,stadium,59147,1,Thursday,102,1611875,3248,80,0.9,53232,alta
+Arctic Monkeys,rock,Leon,theater,9409,3,Thursday,15,215275,3523,92,0.95,8938,alta
+Calvin Harris,electronica,Madrid,theater,8469,4,Monday,146,106496,1903,94,0.94,7960,alta
+Taylor Swift,pop,Guadalajara,club,2491,1,Thursday,177,46957,2937,98,0.95,2366,alta
+NewJeans,kpop,CDMX,stadium,53300,2,Monday,135,741397,2031,93,0.95,50635,alta
+Los Tigres del Norte,norteno,Bogota,theater,5307,6,Wednesday,60,58622,2143,92,0.92,4882,alta
+The Weeknd,pop,Madrid,festival,85341,11,Tuesday,161,1504599,1944,96,0.95,81073,alta
+Calvin Harris,electronica,Monterrey,arena,12416,3,Thursday,20,270990,4245,94,0.95,11795,alta
+Arctic Monkeys,rock,Seul,stadium,51896,10,Wednesday,68,899800,1408,92,0.95,49301,alta
+Bad Bunny,reggaeton,Leon,arena,19043,10,Friday,78,429039,2231,95,0.95,18090,alta
+Fuerza Regida,regional_mexicano,Seul,festival,24794,11,Friday,140,434635,3713,88,0.95,23554,alta
+Girl Ultra,indie,Seul,arena,16735,3,Saturday,34,243596,1282,78,0.88,14726,alta
+Travis Scott,rap,LosAngeles,stadium,36139,2,Monday,57,925682,3913,93,0.95,34332,alta
+TWICE,kpop,Madrid,festival,29005,2,Saturday,10,460457,3766,92,0.95,27554,alta
+BLACKPINK,kpop,Leon,arena,19240,8,Friday,81,376644,2754,98,0.95,18278,alta
+Siddhartha,indie,Bogota,arena,22732,7,Monday,84,326868,1538,85,0.85,19322,alta
+Los Tigres del Norte,norteno,Bogota,arena,21705,11,Tuesday,19,347525,2761,92,0.95,20619,alta
+Ed Sheeran,pop,LosAngeles,festival,98882,2,Sunday,26,1988200,2292,94,0.95,93937,alta
+Martin Garrix,electronica,Monterrey,stadium,66941,1,Tuesday,106,792526,1756,92,0.92,61585,alta
+NewJeans,kpop,CDMX,arena,19379,1,Friday,165,380362,2501,93,0.95,18410,alta
+Siddhartha,indie,Guadalajara,club,2788,3,Monday,48,63953,3618,85,0.95,2648,alta
+Calvin Harris,electronica,Monterrey,theater,7154,3,Wednesday,139,151795,36437,94,0.89,6367,alta
+Kendrick Lamar,rap,Madrid,club,1493,7,Saturday,123,39198,3576,95,0.95,1418,alta
+Drake,rap,Leon,arena,11792,10,Tuesday,148,315862,1450,94,0.95,11202,alta
+BTS,kpop,Guadalajara,festival,89501,11,Sunday,124,904727,31345,99,0.95,85025,alta
+Ariana Grande,pop,Leon,festival,71883,1,Wednesday,45,1390051,1757,95,0.95,68288,alta
+Ariana Grande,pop,Queretaro,arena,14256,4,Saturday,33,220592,1505,95,0.95,13543,alta
+Los Tigres del Norte,norteno,Queretaro,theater,4696,7,Saturday,11,135348,2643,92,0.95,4461,alta
+Grupo Firme,banda,CDMX,club,1487,4,Monday,49,37231,2594,90,0.95,1412,alta
+David Guetta,electronica,Leon,club,1311,6,Saturday,86,33718,3834,93,0.95,1245,alta
