@@ -40,6 +40,8 @@ concert-demand-ml/
 │   ├── train.py
 │   ├── predict.py
 │   └── model.pkl
+├── notebooks/
+│   └── 01_eda_training.ipynb
 ├── app/
 │   └── app.py
 ├── notebooks/
@@ -73,6 +75,7 @@ El dataset contiene:
 - artista
 - género
 - ciudad
+- pais
 - tipo de venue
 - capacidad
 - mes
