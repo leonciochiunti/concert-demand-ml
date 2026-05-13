@@ -1,0 +1,25 @@
+Resultados del entrenamiento final
+=================================
+
+Mejor modelo: Base - Logistic Regression
+Accuracy: 0.8500
+Precision macro: 0.8535
+Recall macro: 0.8500
+F1 macro: 0.8512
+F1 weighted: 0.8512
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+        alta       0.92      0.90      0.91        80
+        baja       0.88      0.84      0.86        80
+       media       0.76      0.81      0.78        80
+
+    accuracy                           0.85       240
+   macro avg       0.85      0.85      0.85       240
+weighted avg       0.85      0.85      0.85       240
+
+Matriz de confusión:
+[[72  0  8]
+ [ 0 67 13]
+ [ 6  9 65]]

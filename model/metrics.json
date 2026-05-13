@@ -1,0 +1,26 @@
+{
+    "best_model": "Base - Logistic Regression",
+    "accuracy": 0.85,
+    "precision_macro": 0.8534899413112388,
+    "recall_macro": 0.85,
+    "f1_macro": 0.851166431386044,
+    "f1_weighted": 0.8511664313860441,
+    "classification_report": "              precision    recall  f1-score   support\n\n        alta       0.92      0.90      0.91        80\n        baja       0.88      0.84      0.86        80\n       media       0.76      0.81      0.78        80\n\n    accuracy                           0.85       240\n   macro avg       0.85      0.85      0.85       240\nweighted avg       0.85      0.85      0.85       240\n",
+    "confusion_matrix": [
+        [
+            72,
+            0,
+            8
+        ],
+        [
+            0,
+            67,
+            13
+        ],
+        [
+            6,
+            9,
+            65
+        ]
+    ]
+}
