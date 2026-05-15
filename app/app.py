@@ -3,16 +3,11 @@ app.py
 
 Streamlit app for ConcertDemandAI.
 
-This version loads form options dynamically from data/dataset.csv.
-That means artists, genres, cities, countries, venue types and event days
-are not hardcoded in the app.
-
-The app flow is:
-1. Load the trained model from model/model.pkl.
-2. Load available options from data/dataset.csv.
-3. Let the user fill the concert form.
-4. Prepare the input through model/predict.py.
-5. Show predicted demand and class probabilities.
+Updates included:
+- The app uses a music icon again in the browser tab and title.
+- Form options are loaded dynamically from data/dataset.csv.
+- City selection is outside st.form so the detected country updates immediately.
+- Country is detected automatically from the selected city.
 """
 
 from __future__ import annotations
@@ -29,7 +24,6 @@ import streamlit as st
 # ==============================
 # 1. Project paths
 # ==============================
-# app/app.py is inside the app folder, so parents[1] points to the project root.
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(PROJECT_ROOT))
 
@@ -45,9 +39,10 @@ LOGO_PATH = PROJECT_ROOT / "assets" / "concertdemandai_logo.png"
 # ==============================
 # 2. Streamlit page configuration
 # ==============================
+# Music icon restored for the browser tab.
 st.set_page_config(
     page_title="ConcertDemandAI",
-    page_icon="📊",
+    page_icon="🎵",
     layout="wide",
 )
 
@@ -58,11 +53,10 @@ st.set_page_config(
 @st.cache_data
 def load_dataset(path: Path = DATA_PATH) -> pd.DataFrame:
     """
-    Load the dataset used by the app to populate form options.
+    Load data/dataset.csv to build dynamic form options.
 
-    Why this matters:
-    The form should reflect the real dataset values instead of using
-    fixed lists written manually in the code.
+    This avoids hardcoded artists, genres, cities, countries,
+    venue types and event days.
     """
     if not path.exists():
         raise FileNotFoundError(
@@ -129,17 +123,52 @@ def get_city_country_map(df: pd.DataFrame) -> dict[str, str]:
     """
     Build a dynamic city-to-country map from the dataset.
 
-    If a city appears with more than one country, the most frequent country is used.
+    If a city appears more than once, the most frequent country is used.
+    Values such as empty, unknown or Desconocido are ignored when possible.
     """
     mapping: dict[str, str] = {}
 
+    invalid_values = {"", "unknown", "desconocido", "nan", "none", "null"}
+
     for city, group in df.groupby("city"):
-        countries = group["country"].dropna()
+        countries = (
+            group["country"]
+            .dropna()
+            .astype(str)
+            .str.strip()
+        )
+
+        countries = countries[~countries.str.lower().isin(invalid_values)]
+
         if countries.empty:
             continue
 
         mode = countries.mode()
         mapping[str(city)] = str(mode.iloc[0] if not mode.empty else countries.iloc[0])
+
+    # Fallbacks for known cities in case the dataset has missing values.
+    fallback_mapping = {
+        "Seul": "South Korea",
+        "Seoul": "South Korea",
+        "Seúl": "South Korea",
+        "Los Angeles": "Estados Unidos",
+        "LosAngeles": "Estados Unidos",
+        "Bogota": "Colombia",
+        "Bogotá": "Colombia",
+        "Madrid": "España",
+        "CDMX": "Mexico",
+        "Guadalajara": "Mexico",
+        "Monterrey": "Mexico",
+        "Queretaro": "Mexico",
+        "Querétaro": "Mexico",
+        "Leon": "Mexico",
+        "León": "Mexico",
+        "Puebla": "Mexico",
+        "Toluca": "Mexico",
+    }
+
+    for city, country in fallback_mapping.items():
+        mapping.setdefault(city, country)
 
     return mapping
 
@@ -166,7 +195,10 @@ try:
     model = get_model()
 except Exception as error:
     st.error("No fue posible cargar el modelo entrenado.")
-    st.info("Verifica que exista el archivo model/model.pkl y que las versiones de requirements.txt sean compatibles.")
+    st.info(
+        "Verifica que exista model/model.pkl y que requirements.txt use "
+        "versiones compatibles con el modelo entrenado."
+    )
     st.exception(error)
     st.stop()
 
@@ -188,7 +220,8 @@ city_country_map = get_city_country_map(dataset)
 if LOGO_PATH.exists():
     st.image(str(LOGO_PATH), width=320)
 
-st.title("ConcertDemandAI")
+# Music icon restored in the title.
+st.title("🎵 ConcertDemandAI")
 st.caption("Predicción de demanda de conciertos usando Machine Learning")
 
 if metrics:
@@ -215,22 +248,32 @@ if not artist_options or not genre_options or not city_options or not venue_opti
 
 
 # ==============================
-# 7. Form
+# 7. City selector outside the form
 # ==============================
+# Important:
+# Widgets inside st.form only update when the submit button is pressed.
+# City is outside the form so the detected country changes immediately.
 st.subheader("Datos del concierto")
 
+city_col, country_col = st.columns(2)
+
+with city_col:
+    city = st.selectbox("Ciudad", city_options)
+
+with country_col:
+    country = city_country_map.get(city, "Desconocido")
+    st.info(f"País detectado: {country}")
+
+
+# ==============================
+# 8. Form
+# ==============================
 with st.form("prediction_form"):
     left, right = st.columns(2)
 
     with left:
         artist = st.selectbox("Artista", artist_options)
         genre = st.selectbox("Género", genre_options)
-        city = st.selectbox("Ciudad", city_options)
-
-        # Country is not typed manually. It is detected from the dataset.
-        country = city_country_map.get(city, "Unknown")
-        st.info(f"País detectado: {country}")
-
         venue_type = st.selectbox("Tipo de recinto", venue_options)
 
         capacity_min = max(1, int(numeric_min(dataset, "capacity", 1000)))
@@ -310,7 +353,7 @@ with st.form("prediction_form"):
 
 
 # ==============================
-# 8. Prediction
+# 9. Prediction
 # ==============================
 if submitted:
     event_data = {
@@ -374,7 +417,7 @@ if submitted:
 
 
 # ==============================
-# 9. Methodological note
+# 10. Methodological note
 # ==============================
 st.divider()
 st.caption(
