@@ -16,6 +16,7 @@ Complete version:
     * commercial risk
     * revenue / marketing ratio
 - Basic content-based concert recommendations using similar events from the dataset.
+- Basic NLP interpretation assistant based on keyword and intent detection.
 
 Methodological note:
 occupancy_pct and tickets_sold are NOT used as model inputs. They are only used
@@ -458,6 +459,142 @@ def format_currency(value: float) -> str:
 
 
 # ============================================================
+# 5. Basic NLP assistant helpers
+# ============================================================
+def normalize_question(text: str) -> str:
+    """
+    Normalize text for simple keyword-based intent detection.
+
+    This is a lightweight NLP approach for the MVP. It avoids additional
+    dependencies and can run directly in Streamlit Cloud.
+    """
+    replacements = {
+        "á": "a",
+        "é": "e",
+        "í": "i",
+        "ó": "o",
+        "ú": "u",
+        "ü": "u",
+        "ñ": "n",
+    }
+
+    normalized = text.lower().strip()
+
+    for original, replacement in replacements.items():
+        normalized = normalized.replace(original, replacement)
+
+    return normalized
+
+
+def answer_interpretation_question(
+    question: str,
+    prediction: str,
+    event_data: dict[str, Any],
+    business_metrics: dict[str, Any],
+) -> str:
+    """
+    Answer basic natural-language questions about the prediction result.
+
+    This assistant uses simple keyword and intent detection. It is a basic NLP
+    module for the MVP, focused on helping business users interpret the results.
+    """
+    normalized = normalize_question(question)
+
+    risk = business_metrics["risk_level"]
+    occupancy = business_metrics["estimated_occupancy"]
+    tickets = business_metrics["estimated_tickets"]
+    revenue = business_metrics["estimated_revenue"]
+    marketing_ratio = business_metrics["revenue_per_marketing"]
+
+    if any(word in normalized for word in ["demanda", "prediccion", "predijo", "resultado", "alta", "media", "baja"]):
+        if prediction == "alta":
+            return (
+                "La demanda fue clasificada como ALTA. Esto indica que el evento tiene "
+                "alto potencial de asistencia según variables como artista, ciudad, recinto, "
+                "precio, marketing y popularidad. Para la empresa, esto sugiere reforzar "
+                "logística, disponibilidad de boletos y campañas de conversión."
+            )
+
+        if prediction == "media":
+            return (
+                "La demanda fue clasificada como MEDIA. Esto indica que el evento tiene "
+                "potencial, pero requiere seguimiento. Conviene revisar precio, capacidad "
+                "del recinto, anticipación del evento y presupuesto de marketing."
+            )
+
+        return (
+            "La demanda fue clasificada como BAJA. Esto indica mayor riesgo comercial. "
+            "La empresa podría evaluar promociones, ajustar el precio, aumentar acciones "
+            "de marketing o considerar un recinto de menor capacidad."
+        )
+
+    if any(word in normalized for word in ["riesgo", "riesgoso", "comercial"]):
+        return (
+            f"El riesgo comercial estimado es {risk}. Este indicador resume qué tan "
+            "cautelosa debería ser la planeación del evento. Una demanda baja implica "
+            "mayor riesgo, una demanda media requiere seguimiento y una demanda alta "
+            "sugiere menor riesgo relativo."
+        )
+
+    if any(word in normalized for word in ["ingreso", "dinero", "venta", "ventas", "revenue", "ganancia", "utilidad"]):
+        return (
+            f"El ingreso estimado es {format_currency(revenue)} y representa ingreso bruto "
+            "potencial por venta de boletos. No es utilidad neta, porque no descuenta "
+            "costos de producción, renta del recinto, pago al artista, impuestos, "
+            "comisiones, seguridad ni otros gastos operativos."
+        )
+
+    if any(word in normalized for word in ["ocupacion", "asistencia", "aforo", "porcentaje"]):
+        return (
+            f"La ocupación estimada es {occupancy:.1%}. Esto significa que, con una capacidad "
+            f"de {event_data['capacity']:,} personas, se estiman aproximadamente "
+            f"{tickets:,} boletos vendidos para este escenario."
+        )
+
+    if any(word in normalized for word in ["boleto", "boletos", "tickets", "vendidos"]):
+        return (
+            f"El sistema estima aproximadamente {tickets:,} boletos vendidos. Esta cifra "
+            "se obtiene combinando la capacidad del recinto con la ocupación estimada "
+            "a partir de eventos similares del dataset."
+        )
+
+    if any(word in normalized for word in ["marketing", "campana", "campaña", "publicidad", "presupuesto"]):
+        return (
+            f"El indicador de ingreso bruto estimado sobre marketing es {marketing_ratio:.2f}x. "
+            "Esto significa que, por cada peso invertido en marketing, se estiman "
+            f"{marketing_ratio:.2f} pesos de ingreso bruto por boletos. No representa ganancia neta."
+        )
+
+    if any(word in normalized for word in ["recomienda", "recomendacion", "recomendaciones", "similar", "similares"]):
+        return (
+            "Las recomendaciones se generan comparando el evento con otros conciertos del dataset. "
+            "El sistema considera género, ciudad, país, tipo de recinto, precio, capacidad "
+            "y popularidad del artista para encontrar eventos similares."
+        )
+
+    if any(word in normalized for word in ["modelo", "accuracy", "f1", "metrica", "metricas", "precision"]):
+        return (
+            "El modelo final usado por la app es Logistic Regression. Se seleccionó porque "
+            "obtuvo el mejor desempeño general en la comparación realizada, con accuracy "
+            "aproximada de 0.85 y F1 macro aproximado de 0.8512."
+        )
+
+    if any(word in normalized for word in ["fuga", "occupancy", "tickets_sold", "datos", "variable", "variables"]):
+        return (
+            "Para evitar fuga de información, las variables occupancy_pct y tickets_sold "
+            "no se usan como entradas del modelo de predicción. Solo se utilizan después "
+            "de la predicción como referencia histórica o simulada para estimar ocupación, "
+            "boletos e ingresos."
+        )
+
+    return (
+        "Puedo ayudarte a interpretar la demanda, el riesgo comercial, la ocupación estimada, "
+        "los boletos estimados, el ingreso bruto, el marketing o las recomendaciones. "
+        "Prueba con: '¿Qué significa riesgo moderado?' o '¿El ingreso estimado es ganancia neta?'."
+    )
+
+
+# ============================================================
 # 5. Load resources
 # ============================================================
 try:
@@ -732,7 +869,7 @@ if submitted:
 
         with detail_col1:
             st.metric(
-                "Ingreso bruto estimado / marketing",
+                "Ingreso por cada peso invertido en marketing",
                 f"{business_metrics['revenue_per_marketing']:.2f}x",
             )
 
@@ -745,10 +882,7 @@ if submitted:
         st.caption(
             "La evaluación se calcula de forma dinámica usando eventos similares del dataset. "
             "Las variables occupancy_pct y tickets_sold no se usan como entradas del modelo; "
-            "solo se utilizan después de la predicción como referencia histórica/simulada. "
-            "El ingreso estimado representa ingreso bruto potencial por venta de boletos, "
-            "no utilidad neta, ya que no considera costos operativos, producción, comisiones, "
-            "impuestos ni otros gastos del evento."
+            "solo se utilizan después de la predicción como referencia histórica/simulada."
         )
 
     st.subheader("Conciertos similares recomendados")
@@ -768,6 +902,45 @@ if submitted:
         )
         st.dataframe(similar_events, use_container_width=True)
 
+    st.subheader("Asistente básico de interpretación")
+    st.write(
+        "Este asistente utiliza una estrategia simple de PLN basada en detección "
+        "de palabras clave para explicar los resultados del evento."
+    )
+
+    suggested_questions = [
+        "¿Qué significa la demanda media?",
+        "¿Qué significa el riesgo comercial?",
+        "¿El ingreso estimado es ganancia neta?",
+        "¿Cómo se calcula la ocupación estimada?",
+        "¿Cómo puedo mejorar la demanda?",
+        "¿Cómo se generan las recomendaciones?",
+    ]
+
+    selected_question = st.selectbox(
+        "Pregunta sugerida",
+        suggested_questions,
+        key="suggested_nlp_question",
+    )
+
+    custom_question = st.text_input(
+        "O escribe tu propia pregunta",
+        placeholder="Ejemplo: ¿Qué significa el ingreso estimado?",
+        key="custom_nlp_question",
+    )
+
+    question_to_answer = custom_question.strip() if custom_question.strip() else selected_question
+
+    if st.button("Consultar asistente", key="ask_nlp_assistant"):
+        assistant_response = answer_interpretation_question(
+            question_to_answer,
+            prediction,
+            event_data,
+            business_metrics,
+        )
+
+        st.info(assistant_response)
+
     with st.expander("Ver variables enviadas al modelo"):
         input_features = result.get("input_features", event_data)
         st.dataframe(pd.DataFrame([input_features]), use_container_width=True)
@@ -782,5 +955,5 @@ st.caption(
     "data/dataset.csv. El modelo predice demanda baja, media o alta. La evaluación "
     "de ocupación, boletos e ingresos se calcula después de la predicción usando "
     "eventos similares como referencia. Esto evita fuga de información porque "
-    "occupancy_pct y tickets_sold no son entradas del modelo."
+    "occupancy_pct y tickets_sold no son entradas del modelo. Además, se incluye un asistente básico de interpretación con PLN por palabras clave."
 )
