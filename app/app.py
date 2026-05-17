@@ -655,7 +655,20 @@ if not artist_options or not city_options or not venue_options or not event_day_
 
 
 # ============================================================
-# 8. Selectors outside the form
+# 8. Session state
+# ============================================================
+if "last_prediction_data" not in st.session_state:
+    st.session_state.last_prediction_data = None
+
+if "assistant_response" not in st.session_state:
+    st.session_state.assistant_response = None
+
+if "assistant_question" not in st.session_state:
+    st.session_state.assistant_question = ""
+
+
+# ============================================================
+# 9. Selectors outside the form
 # ============================================================
 # Widgets inside st.form only update after pressing the submit button.
 # City and artist are outside the form so country and genre update immediately.
@@ -681,7 +694,7 @@ with genre_col:
 
 
 # ============================================================
-# 9. Prediction form
+# 10. Prediction form
 # ============================================================
 with st.form("prediction_form"):
     left, right = st.columns(2)
@@ -787,7 +800,7 @@ with st.form("prediction_form"):
 
 
 # ============================================================
-# 10. Prediction, business evaluation and recommendations
+# 11. Prediction, business evaluation and recommendations
 # ============================================================
 if submitted:
     event_data = {
@@ -810,6 +823,41 @@ if submitted:
     prediction = result["prediction"]
     probabilities = result.get("probabilities", {})
 
+    business_metrics = estimate_event_business_metrics(
+        dataset,
+        event_data,
+        prediction,
+    )
+
+    similar_events = recommend_similar_events(
+        dataset,
+        event_data,
+        top_n=5,
+    )
+
+    st.session_state.last_prediction_data = {
+        "event_data": event_data,
+        "result": result,
+        "prediction": prediction,
+        "probabilities": probabilities,
+        "business_metrics": business_metrics,
+        "similar_events": similar_events,
+    }
+
+    st.session_state.assistant_response = None
+    st.session_state.assistant_question = ""
+
+
+if st.session_state.last_prediction_data is not None:
+    saved_data = st.session_state.last_prediction_data
+
+    event_data = saved_data["event_data"]
+    result = saved_data["result"]
+    prediction = saved_data["prediction"]
+    probabilities = saved_data["probabilities"]
+    business_metrics = saved_data["business_metrics"]
+    similar_events = saved_data["similar_events"]
+
     st.divider()
     st.subheader("Resultado de predicción")
 
@@ -831,12 +879,6 @@ if submitted:
         st.write("Probabilidades por clase")
         st.dataframe(probability_df, use_container_width=True)
         st.bar_chart(probability_df.set_index("Clase"))
-
-    business_metrics = estimate_event_business_metrics(
-        dataset,
-        event_data,
-        prediction,
-    )
 
     st.subheader("Evaluación estimada del evento")
 
@@ -869,7 +911,7 @@ if submitted:
 
         with detail_col1:
             st.metric(
-                "Ingreso por cada peso invertido en marketing",
+                "Ingreso bruto estimado / marketing",
                 f"{business_metrics['revenue_per_marketing']:.2f}x",
             )
 
@@ -882,16 +924,13 @@ if submitted:
         st.caption(
             "La evaluación se calcula de forma dinámica usando eventos similares del dataset. "
             "Las variables occupancy_pct y tickets_sold no se usan como entradas del modelo; "
-            "solo se utilizan después de la predicción como referencia histórica/simulada."
+            "solo se utilizan después de la predicción como referencia histórica/simulada. "
+            "El ingreso estimado representa ingreso bruto potencial por venta de boletos, "
+            "no utilidad neta, ya que no considera costos operativos, producción, comisiones, "
+            "impuestos ni otros gastos del evento."
         )
 
     st.subheader("Conciertos similares recomendados")
-
-    similar_events = recommend_similar_events(
-        dataset,
-        event_data,
-        top_n=5,
-    )
 
     if similar_events.empty:
         st.info("No se encontraron conciertos similares en el dataset.")
@@ -932,14 +971,17 @@ if submitted:
     question_to_answer = custom_question.strip() if custom_question.strip() else selected_question
 
     if st.button("Consultar asistente", key="ask_nlp_assistant"):
-        assistant_response = answer_interpretation_question(
+        st.session_state.assistant_question = question_to_answer
+        st.session_state.assistant_response = answer_interpretation_question(
             question_to_answer,
             prediction,
             event_data,
             business_metrics,
         )
 
-        st.info(assistant_response)
+    if st.session_state.assistant_response:
+        st.markdown(f"**Pregunta:** {st.session_state.assistant_question}")
+        st.info(st.session_state.assistant_response)
 
     with st.expander("Ver variables enviadas al modelo"):
         input_features = result.get("input_features", event_data)
@@ -947,7 +989,7 @@ if submitted:
 
 
 # ============================================================
-# 11. Methodological note
+# 12. Methodological note
 # ============================================================
 st.divider()
 st.caption(
