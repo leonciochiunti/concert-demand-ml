@@ -7,6 +7,7 @@ Complete version:
 - Music app icon.
 - Dynamic form options loaded from data/dataset.csv.
 - Automatic country detection when the selected city changes.
+- Automatic genre detection when the selected artist changes.
 - Demand prediction using the trained model.
 - Dynamic business evaluation after prediction:
     * estimated occupancy
@@ -69,6 +70,7 @@ def load_dataset(path: Path = DATA_PATH) -> pd.DataFrame:
     The dataset is used for:
     - Dynamic form options.
     - City-to-country detection.
+    - Artist-to-genre detection.
     - Similar event recommendations.
     - Business metric estimation after prediction.
     """
@@ -192,11 +194,10 @@ def get_city_country_map(df: pd.DataFrame) -> dict[str, str]:
         mode = countries.mode()
         mapping[str(city)] = str(mode.iloc[0] if not mode.empty else countries.iloc[0])
 
-    # Fallbacks for known cities in case the dataset has missing/unknown values.
     fallback_mapping = {
-        "Seul": "South Korea",
-        "Seoul": "South Korea",
-        "Seúl": "South Korea",
+        "Seul": "Corea del Sur",
+        "Seoul": "Corea del Sur",
+        "Seúl": "Corea del Sur",
         "Los Angeles": "Estados Unidos",
         "LosAngeles": "Estados Unidos",
         "Bogota": "Colombia",
@@ -215,6 +216,37 @@ def get_city_country_map(df: pd.DataFrame) -> dict[str, str]:
 
     for city, country in fallback_mapping.items():
         mapping.setdefault(city, country)
+
+    return mapping
+
+
+@st.cache_data
+def get_artist_genre_map(df: pd.DataFrame) -> dict[str, str]:
+    """
+    Build a dynamic artist-to-genre map from the dataset.
+
+    If an artist appears with multiple genres, the most frequent genre is used.
+    This prevents incoherent combinations such as aespa + banda when
+    the dataset associates aespa mainly with kpop.
+    """
+    mapping: dict[str, str] = {}
+    invalid_values = {"", "unknown", "desconocido", "nan", "none", "null"}
+
+    for artist, group in df.groupby("artist"):
+        genres = (
+            group["genre"]
+            .dropna()
+            .astype(str)
+            .str.strip()
+        )
+
+        genres = genres[~genres.str.lower().isin(invalid_values)]
+
+        if genres.empty:
+            continue
+
+        mode = genres.mode()
+        mapping[str(artist)] = str(mode.iloc[0] if not mode.empty else genres.iloc[0])
 
     return mapping
 
@@ -449,6 +481,7 @@ except Exception as error:
 
 metrics = load_metrics()
 city_country_map = get_city_country_map(dataset)
+artist_genre_map = get_artist_genre_map(dataset)
 
 
 # ============================================================
@@ -475,29 +508,39 @@ st.divider()
 # 7. Dynamic form options
 # ============================================================
 artist_options = sorted_unique(dataset, "artist")
-genre_options = sorted_unique(dataset, "genre")
 city_options = sorted_unique(dataset, "city")
 venue_options = sorted_unique(dataset, "venue_type")
 event_day_options = sorted_unique(dataset, "event_day")
 
-if not artist_options or not genre_options or not city_options or not venue_options or not event_day_options:
+if not artist_options or not city_options or not venue_options or not event_day_options:
     st.error("El dataset no tiene suficientes valores para construir el formulario.")
     st.stop()
 
 
 # ============================================================
-# 8. City selector outside the form
+# 8. Selectors outside the form
 # ============================================================
+# Widgets inside st.form only update after pressing the submit button.
+# City and artist are outside the form so country and genre update immediately.
 st.subheader("Datos del concierto")
 
-city_col, country_col = st.columns(2)
+selector_col1, selector_col2 = st.columns(2)
 
-with city_col:
+with selector_col1:
     city = st.selectbox("Ciudad", city_options)
 
-with country_col:
+with selector_col2:
     country = city_country_map.get(city, "Desconocido")
     st.info(f"País detectado: {country}")
+
+artist_col, genre_col = st.columns(2)
+
+with artist_col:
+    artist = st.selectbox("Artista", artist_options)
+
+with genre_col:
+    genre = artist_genre_map.get(artist, "Desconocido")
+    st.info(f"Género detectado: {genre}")
 
 
 # ============================================================
@@ -507,8 +550,6 @@ with st.form("prediction_form"):
     left, right = st.columns(2)
 
     with left:
-        artist = st.selectbox("Artista", artist_options)
-        genre = st.selectbox("Género", genre_options)
         venue_type = st.selectbox("Tipo de recinto", venue_options)
 
         capacity_min = max(1, int(numeric_min(dataset, "capacity", 1000)))
@@ -524,6 +565,21 @@ with st.form("prediction_form"):
             max_value=capacity_max,
             value=capacity_value,
             step=1000,
+        )
+
+        price_min = max(1, int(numeric_min(dataset, "ticket_price", 100)))
+        price_max = max(price_min, int(numeric_max(dataset, "ticket_price", 10000)))
+        price_value = min(
+            max(int(numeric_default(dataset, "ticket_price", 1800)), price_min),
+            price_max,
+        )
+
+        ticket_price = st.number_input(
+            "Precio del boleto",
+            min_value=price_min,
+            max_value=price_max,
+            value=price_value,
+            step=100,
         )
 
     with right:
@@ -574,21 +630,6 @@ with st.form("prediction_form"):
             max_value=marketing_max,
             value=marketing_value,
             step=10000,
-        )
-
-        price_min = max(1, int(numeric_min(dataset, "ticket_price", 100)))
-        price_max = max(price_min, int(numeric_max(dataset, "ticket_price", 10000)))
-        price_value = min(
-            max(int(numeric_default(dataset, "ticket_price", 1800)), price_min),
-            price_max,
-        )
-
-        ticket_price = st.number_input(
-            "Precio del boleto",
-            min_value=price_min,
-            max_value=price_max,
-            value=price_value,
-            step=100,
         )
 
         popularity_min = max(0, int(numeric_min(dataset, "artist_popularity", 0)))

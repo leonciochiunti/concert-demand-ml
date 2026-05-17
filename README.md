@@ -91,7 +91,7 @@ El dataset contiene:
 ## Modelo
 Se usa un pipeline con:
 - `OneHotEncoder` para variables categóricas
-- `RandomForestClassifier` como modelo principal
+- `Logistic Regression` como modelo principal
 
 ## Equipo sugerido
 - Persona 1: datos, features, entrenamiento, evaluación
