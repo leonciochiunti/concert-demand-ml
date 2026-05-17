@@ -102,3 +102,9 @@ Se usa un pipeline con:
 - Agregar gráficos de distribución
 - Mejorar explicaciones del modelo
 - Guardar predicciones en SQLite
+
+## Interpretación de resultados
+
+La aplicación predice la demanda esperada de un concierto como baja, media o alta. Además, muestra una evaluación estimada del evento con indicadores como ocupación estimada, boletos estimados, ingreso estimado y riesgo comercial.
+
+El ingreso estimado representa el ingreso bruto potencial por venta de boletos, calculado a partir de los boletos estimados y el precio del boleto. No representa utilidad neta, ya que no considera costos de producción, renta del recinto, pago al artista, personal, seguridad, impuestos, comisiones ni otros gastos operativos.
