@@ -732,7 +732,7 @@ if submitted:
 
         with detail_col1:
             st.metric(
-                "Ingreso por cada peso invertido en marketing",
+                "Ingreso bruto estimado / marketing",
                 f"{business_metrics['revenue_per_marketing']:.2f}x",
             )
 
@@ -745,7 +745,10 @@ if submitted:
         st.caption(
             "La evaluación se calcula de forma dinámica usando eventos similares del dataset. "
             "Las variables occupancy_pct y tickets_sold no se usan como entradas del modelo; "
-            "solo se utilizan después de la predicción como referencia histórica/simulada."
+            "solo se utilizan después de la predicción como referencia histórica/simulada. "
+            "El ingreso estimado representa ingreso bruto potencial por venta de boletos, "
+            "no utilidad neta, ya que no considera costos operativos, producción, comisiones, "
+            "impuestos ni otros gastos del evento."
         )
 
     st.subheader("Conciertos similares recomendados")
